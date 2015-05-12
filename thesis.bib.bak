@@ -1,0 +1,607 @@
+% This file was created with JabRef 2.10.
+% Encoding: MS950
+
+
+@Article{allahverdi2008survey,
+  Title                    = {A survey of scheduling problems with setup times or costs },
+  Author                   = {Ali Allahverdi and C T. Ng and T C E. Cheng and Mikhail Y. Kovalyov},
+  Journal                  = {European Journal of Operational Research },
+  Year                     = {2008},
+  Number                   = {3},
+  Pages                    = {985 - 1032},
+  Volume                   = {187},
+
+  Doi                      = {http://dx.doi.org/10.1016/j.ejor.2006.06.060},
+  ISSN                     = {0377-2217},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0377221706008174}
+}
+
+@Article{audibert2009exploration,
+  Title                    = {Exploration--exploitation tradeoff using variance estimates in multi-armed bandits},
+  Author                   = {Audibert, Jean-Yves and Munos, R{\'e}mi and Szepesv{\'a}ri, Csaba},
+  Journal                  = {Theoretical Computer Science},
+  Year                     = {2009},
+  Number                   = {19},
+  Pages                    = {1876--1902},
+  Volume                   = {410},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{Auer2002ucb,
+  Title                    = {Using confidence bounds for exploitation-exploration trade-offs},
+  Author                   = {Auer, Peter},
+  Journal                  = {The Journal of Machine Learning Research},
+  Year                     = {2003},
+  Pages                    = {397--422},
+  Volume                   = {3},
+
+  Publisher                = {JMLR. org}
+}
+
+@Article{Auer2002,
+  Title                    = {Finite-time analysis of the multiarmed bandit problem},
+  Author                   = {Auer, Peter and Cesa-Bianchi, Nicolo and Fischer, Paul},
+  Journal                  = {Machine learning},
+  Year                     = {2002},
+  Number                   = {2-3},
+  Pages                    = {235--256},
+  Volume                   = {47},
+
+  Publisher                = {Springer}
+}
+
+@InProceedings{barbosa2000adaptive,
+  Title                    = {On adaptive operator probabilities in real coded genetic algorithms},
+  Author                   = {Barbosa, Helio JC and A M S{\'a}},
+  Booktitle                = {Workshop on Advances and Trends in Artificial Intelligence for Problem Solving (SCCC'00)},
+  Year                     = {2000}
+}
+
+@InProceedings{bosman2001crossing,
+  Title                    = {Crossing the road to efficient IDEAs for permutation problems},
+  Author                   = {Bosman, Peter AN and Thierens, Dirk},
+  Booktitle                = {Proc. of the Genetic and Evolutionary Computation Conf.--GECCO},
+  Year                     = {2001},
+  Pages                    = {219--226}
+}
+
+@InProceedings{brownlee2008application,
+  Title                    = {An application of a multivariate estimation of distribution algorithm to cancer chemotherapy},
+  Author                   = {Brownlee, Alexander EI and Pelikan, Martin and McCall, John AW and Petrovski, Andrei},
+  Booktitle                = {Proceedings of the 10th annual conference on Genetic and evolutionary computation},
+  Year                     = {2008},
+  Organization             = {ACM},
+  Pages                    = {463--464}
+}
+
+@Article{ceberio2012review,
+  Title                    = {A review on estimation of distribution algorithms in permutation-based combinatorial optimization problems},
+  Author                   = {Ceberio, Josu and Irurozki, Ekhine and Mendiburu, Alexander and Lozano, Jose A},
+  Journal                  = {Progress in Artificial Intelligence},
+  Year                     = {2012},
+  Number                   = {1},
+  Pages                    = {103--117},
+  Volume                   = {1},
+
+  Publisher                = {Springer}
+}
+
+@InProceedings{ceberio2013plackett,
+  Title                    = {The Plackett-Luce ranking model on permutation-based optimization problems},
+  Author                   = {Ceberio, Josu and Mendiburu, Alexander and Lozano, Jose Antonio},
+  Booktitle                = {2013 IEEE Congress on Evolutionary Computation (CEC) },
+  Year                     = {2013},
+  Organization             = {IEEE},
+  Pages                    = {494--501}
+}
+
+@InProceedings{ceberio2011introducing,
+  Title                    = {Introducing the mallows model on estimation of distribution algorithms},
+  Author                   = {Ceberio, Josu and Mendiburu, Alexander and Lozano, Jose A},
+  Booktitle                = {Neural Information Processing},
+  Year                     = {2011},
+  Organization             = {Springer},
+  Pages                    = {461--470}
+}
+
+@InProceedings{Davis:1989:AOP:93126.93146,
+  Title                    = {Adapting Operator Probabilities in Genetic Algorithms},
+  Author                   = {Davis, Lawrence},
+  Booktitle                = {Proceedings of the Third International Conference on Genetic Algorithms},
+  Year                     = {1989},
+
+  Address                  = {San Francisco, CA, USA},
+  Pages                    = {61--69},
+  Publisher                = {Morgan Kaufmann Publishers Inc.},
+
+  Acmid                    = {93146},
+  ISBN                     = {1-55860-006-3},
+  Location                 = {George Mason University, USA},
+  Numpages                 = {9},
+  Url                      = {http://dl.acm.org/citation.cfm?id=93126.93146}
+}
+
+@InProceedings{DeRainville:2013:SCC:2463372.2463556,
+  Title                    = {Sustainable Cooperative Coevolution with a Multi-armed Bandit},
+  Author                   = {De Rainville, Fran\c{c}ois-Michel and Sebag, Mich\`{e}le and Gagn{\'e}, Christian and Schoenauer, Marc and Laurendeau, Denis},
+  Booktitle                = {Proceedings of the 15th Annual Conference on Genetic and Evolutionary Computation},
+  Year                     = {2013},
+  Pages                    = {1517--1524},
+  Series                   = {GECCO '13},
+
+  Acmid                    = {2463556},
+  Doi                      = {10.1145/2463372.2463556},
+  ISBN                     = {978-1-4503-1963-8},
+  Location                 = {Amsterdam, The Netherlands},
+  Numpages                 = {8},
+  Url                      = {http://doi.acm.org/10.1145/2463372.2463556}
+}
+
+@Article{fialho2010analyzing,
+  Title                    = {Analyzing bandit-based adaptive operator selection mechanisms},
+  Author                   = {Fialho, {\'A}lvaro and Da Costa, Luis and Schoenauer, Marc and Sebag, Mich{\`e}le},
+  Journal                  = {Annals of Mathematics and Artificial Intelligence},
+  Year                     = {2010},
+  Number                   = {1-2},
+  Pages                    = {25--64},
+  Volume                   = {60},
+
+  Publisher                = {Springer}
+}
+
+@InCollection{fialho2008extreme,
+  Title                    = {Extreme value based adaptive operator selection},
+  Author                   = {Fialho, {\'A}lvaro and Da Costa, Luis and Schoenauer, Marc and Sebag, Mich{\`e}le},
+  Booktitle                = {Parallel Problem Solving from Nature--PPSN X},
+  Publisher                = {Springer},
+  Year                     = {2008},
+  Pages                    = {175--184}
+}
+
+@InProceedings{fialho2009analysis,
+  Title                    = {Analysis of adaptive operator selection techniques on the royal road and long k-path problems},
+  Author                   = {Fialho, {\'A}lvaro and Schoenauer, Marc and Sebag, Mich{\`e}le},
+  Booktitle                = {Proceedings of the 11th Annual conference on Genetic and evolutionary computation},
+  Year                     = {2009},
+  Organization             = {ACM},
+  Pages                    = {779--786}
+}
+
+@Book{french1982sequencing,
+  Title                    = {Sequencing and scheduling: an introduction to the mathematics of the job-shop},
+  Author                   = {French, Simon},
+  Publisher                = {Ellis Horwood Chichester},
+  Year                     = {1982},
+  Volume                   = {683}
+}
+
+@InProceedings{Gelly2008,
+  Title                    = {On the parallelization of Monte-Carlo planning},
+  Author                   = {Gelly, Sylvain and Hoock, Jean-Baptiste and Rimmel, Arpad and Teytaud, Olivier and Kalemkarian, Yann and others},
+  Booktitle                = {ICINCO},
+  Year                     = {2008}
+}
+
+@InProceedings{Gelly2007,
+  Title                    = {Combining online and offline knowledge in UCT},
+  Author                   = {Gelly, Sylvain and Silver, David},
+  Booktitle                = {Proceedings of the 24th international conference on Machine learning},
+  Year                     = {2007},
+  Organization             = {ACM},
+  Pages                    = {273--280}
+}
+
+@Book{Goldberg:1989:GAS:534133,
+  Title                    = {Genetic Algorithms in Search, Optimization and Machine Learning},
+  Author                   = {Goldberg, David E.},
+  Publisher                = {Addison-Wesley Longman Publishing Co., Inc.},
+  Year                     = {1989},
+
+  Address                  = {Boston, MA, USA},
+  Edition                  = {1st},
+
+  ISBN                     = {0201157675}
+}
+
+@InProceedings{goldberg1985alleles,
+  Title                    = {Alleles, loci, and the traveling salesman problem},
+  Author                   = {Goldberg, David E and Lingle, Robert},
+  Booktitle                = {Proceedings of an International Conference on Genetic Algorithms and Their Applications},
+  Year                     = {1985},
+  Organization             = {Lawrence Erlbaum, Hillsdale, NJ},
+  Volume                   = {154}
+}
+
+@Article{gupta2006flowshop,
+  Title                    = {Flowshop scheduling research after five decades},
+  Author                   = {Gupta, Jatinder ND and Stafford Jr, Edward F},
+  Journal                  = {European Journal of Operational Research},
+  Year                     = {2006},
+  Number                   = {3},
+  Pages                    = {699--711},
+  Volume                   = {169},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{Harik1999,
+  Title                    = {Linkage learning via probabilistic modeling in the ECGA},
+  Author                   = {Harik, Georges},
+  Journal                  = {Urbana},
+  Year                     = {1999},
+  Number                   = {61},
+  Pages                    = {801},
+  Volume                   = {51}
+}
+
+@Article{Hauschild2011,
+  Title                    = {An introduction and survey of estimation of distribution algorithms},
+  Author                   = {Hauschild, Mark and Pelikan, Martin},
+  Journal                  = {Swarm and Evolutionary Computation},
+  Year                     = {2011},
+  Number                   = {3},
+  Pages                    = {111--128},
+  Volume                   = {1},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{hunter2004mm,
+  Title                    = {MM algorithms for generalized Bradley-Terry models},
+  Author                   = {Hunter, David R},
+  Journal                  = {Annals of Statistics},
+  Year                     = {2004},
+  Pages                    = {384--406},
+
+  Publisher                = {JSTOR}
+}
+
+@Article{jiang2006estimation,
+  Title                    = {Estimation of distribution algorithms for nuclear reactor fuel management optimisation},
+  Author                   = {Jiang, S and Ziver, AK and Carter, JN and Pain, CC and Goddard, AJH and Franklin, S and Phillips, HJ},
+  Journal                  = {Annals of Nuclear Energy},
+  Year                     = {2006},
+  Number                   = {11},
+  Pages                    = {1039--1057},
+  Volume                   = {33},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{johnson1954optimal,
+  Title                    = {Optimal two-and three-stage production schedules with setup times included},
+  Author                   = {Johnson, Selmer Martin},
+  Journal                  = {Naval research logistics quarterly},
+  Year                     = {1954},
+  Number                   = {1},
+  Pages                    = {61--68},
+  Volume                   = {1},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@InProceedings{Julstrom:1995:YDM:645514.657934,
+  Title                    = {What Have You Done for Me Lately? {A}dapting Operator Probabilities in a Steady-State Genetic Algorithm},
+  Author                   = {Julstrom, Bryant A.},
+  Booktitle                = {Proceedings of the 6th International Conference on Genetic Algorithms},
+  Year                     = {1995},
+
+  Address                  = {San Francisco, CA, USA},
+  Pages                    = {81--87},
+  Publisher                = {Morgan Kaufmann Publishers Inc.},
+
+  Acmid                    = {657934},
+  ISBN                     = {1-55860-370-0},
+  Numpages                 = {7},
+  Url                      = {http://dl.acm.org/citation.cfm?id=645514.657934}
+}
+
+@Book{Kocsis2006,
+  Title                    = {Bandit based monte-carlo planning},
+  Author                   = {Kocsis, Levente and Szepesv{\'a}ri, Csaba},
+  Publisher                = {Springer},
+  Year                     = {2006},
+
+  Address                  = {New York, NY},
+
+  Booktitle                = {Machine Learning: ECML 2006},
+  Pages                    = {282--293}
+}
+
+@Article{koopmans1957assignment,
+  Title                    = {Assignment problems and the location of economic activities},
+  Author                   = {Koopmans, Tjalling C and Beckmann, Martin},
+  Journal                  = {Econometrica: journal of the Econometric Society},
+  Year                     = {1957},
+  Pages                    = {53--76},
+
+  Publisher                = {JSTOR}
+}
+
+@Article{Kuleshov2000,
+  Title                    = {Algorithms for multi-armed bandit problems},
+  Author                   = {Kuleshov, Volodymyr and Precup, Doina},
+  Journal                  = {arXiv preprint arXiv:1402.6028},
+  Year                     = {2014}
+}
+
+@Article{lai1985asymptotically,
+  Title                    = {Asymptotically efficient adaptive allocation rules},
+  Author                   = {Lai, Tze Leung and Robbins, Herbert},
+  Journal                  = {Advances in applied mathematics},
+  Year                     = {1985},
+  Number                   = {1},
+  Pages                    = {4--22},
+  Volume                   = {6},
+
+  Publisher                = {Elsevier}
+}
+
+@Book{larranaga2002estimation,
+  Title                    = {Estimation of distribution algorithms: A new tool for evolutionary computation},
+  Author                   = {Larra{\~n}aga, Pedro and Lozano, Jose A},
+  Publisher                = {Springer},
+  Year                     = {2002},
+  Volume                   = {2}
+}
+
+@Book{lee2012bayesian,
+  Title                    = {Bayesian statistics: an introduction},
+  Author                   = {Lee, Peter M},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {2012},
+
+  Address                  = {New York, NY}
+}
+
+@InProceedings{lobo1997decision,
+  Title                    = {Decision making in a hybrid genetic algorithm},
+  Author                   = {Lobo, Fernando G and Goldberg, David E},
+  Booktitle                = {Evolutionary Computation, 1997., IEEE International Conference on},
+  Year                     = {1997},
+  Organization             = {IEEE},
+  Pages                    = {121--125}
+}
+
+@Book{lozano2006towards,
+  Title                    = {Towards a new evolutionary computation: Advances on estimation of distribution algorithms},
+  Author                   = {Lozano, Jose A},
+  Publisher                = {Springer},
+  Year                     = {2006},
+
+  Address                  = {New York, NY},
+  Volume                   = {192}
+}
+
+@Book{luce2005individual,
+  Title                    = {Individual choice behavior: A theoretical analysis},
+  Author                   = {Luce, R Duncan},
+  Publisher                = {Courier Dover Publications},
+  Year                     = {2005},
+
+  Address                  = {Mineola, New York}
+}
+
+@InCollection{muhlenbein1996recombination,
+  Title                    = {From recombination of genes to the estimation of distributions II. Continuous parameters},
+  Author                   = {M{\"u}hlenbein, Heinz and Bendisch, J{\"u}rgen and Voigt, H-M},
+  Booktitle                = {Parallel Problem Solving from Nature?”PPSN IV},
+  Publisher                = {Springer},
+  Year                     = {1996},
+  Pages                    = {188--197}
+}
+
+@Book{marden1996analyzing,
+  Title                    = {Analyzing and modeling rank data},
+  Author                   = {Marden, John I},
+  Publisher                = {CRC Press},
+  Year                     = {1996},
+
+  Address                  = {Boca Raton, Florida}
+}
+
+@Book{marti2011linear,
+  Title                    = {The linear ordering problem: exact and heuristic methods in combinatorial optimization},
+  Author                   = {Mart{\'\i}, Rafael and Reinelt, Gerhard},
+  Publisher                = {Springer},
+  Year                     = {2011},
+
+  Address                  = {New York, NY},
+  Volume                   = {175}
+}
+
+@Article{mendiburu2006parallel,
+  Title                    = {Parallel EDAs to create multivariate calibration models for quantitative chemical applications},
+  Author                   = {Mendiburu, Alexander and Miguel-Alonso, Jos{\'e} and Lozano, Jose Antonio and Ostra, Miren and Ubide, Carlos},
+  Journal                  = {Journal of Parallel and Distributed Computing},
+  Year                     = {2006},
+  Number                   = {8},
+  Pages                    = {1002--1013},
+  Volume                   = {66},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{Mohri2005,
+  Title                    = {{Multi-armed Bandit Algorithms and Empirical Evaluation}},
+  Author                   = {Mohri, Mehryar},
+  Year                     = {2005},
+  Pages                    = {437--448},
+
+  File                     = {:D$\backslash$:/Dropbox/PAPER ESSAY/LAB/2005 - Multi-armed Bandit Algorithms and Empirical Evaluation.pdf:pdf}
+}
+
+@Book{pelikan2005hierarchical,
+  Title                    = {Hierarchical Bayesian optimization algorithm},
+  Author                   = {Pelikan, Martin},
+  Publisher                = {Springer},
+  Year                     = {2005},
+
+  Address                  = {New York, NY}
+}
+
+@Article{pelikan2002survey,
+  Title                    = {A survey of optimization by building and using probabilistic models},
+  Author                   = {Pelikan, Martin and Goldberg, David E and Lobo, Fernando G},
+  Journal                  = {Computational optimization and applications},
+  Year                     = {2002},
+  Number                   = {1},
+  Pages                    = {5--20},
+  Volume                   = {21},
+
+  Publisher                = {Springer}
+}
+
+@InProceedings{pelikan2007dependency,
+  Title                    = {Dependency trees, permutations, and quadratic assignment problem},
+  Author                   = {Pelikan, Martin and Tsutsui, Shigeyoshi and Kalapala, Rajiv},
+  Booktitle                = {Genetic And Evolutionary Computation Conference: Proceedings of the 9 th annual conference on Genetic and evolutionary computation},
+  Year                     = {2007},
+  Number                   = {11},
+  Pages                    = {629--629},
+  Volume                   = {7}
+}
+
+@Article{plackett1975analysis,
+  Title                    = {The analysis of permutations},
+  Author                   = {Plackett, Robin L},
+  Journal                  = {Applied Statistics},
+  Year                     = {1975},
+  Pages                    = {193--202},
+
+  Publisher                = {JSTOR}
+}
+
+@InCollection{robbins1985some,
+  Title                    = {Some aspects of the sequential design of experiments},
+  Author                   = {Robbins, Herbert},
+  Booktitle                = {Herbert Robbins Selected Papers},
+  Publisher                = {Springer},
+  Year                     = {1985},
+  Pages                    = {169--177}
+}
+
+@Article{santana2008protein,
+  Title                    = {Protein folding in simplified models with estimation of distribution algorithms},
+  Author                   = {Santana, Roberto and Larra{\~n}aga, Pedro and Lozano, Jose Antonio},
+  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Year                     = {2008},
+  Number                   = {4},
+  Pages                    = {418--438},
+  Volume                   = {12},
+
+  Publisher                = {IEEE}
+}
+
+@Article{schiavinotto2004linear,
+  Title                    = {The linear ordering problem: Instances, search space analysis and algorithms},
+  Author                   = {Schiavinotto, Tommaso and St{\"u}tzle, Thomas},
+  Journal                  = {Journal of Mathematical Modelling and Algorithms},
+  Year                     = {2004},
+  Number                   = {4},
+  Pages                    = {367--402},
+  Volume                   = {3},
+
+  Publisher                = {Springer}
+}
+
+@Article{taillard1993benchmarks,
+  Title                    = {Benchmarks for basic scheduling problems},
+  Author                   = {Taillard, Eric},
+  Journal                  = {European Journal of Operational Research},
+  Year                     = {1993},
+  Number                   = {2},
+  Pages                    = {278--285},
+  Volume                   = {64},
+
+  Publisher                = {Elsevier}
+}
+
+@Book{toth2001vehicle,
+  Title                    = {The vehicle routing problem},
+  Author                   = {Toth, Paolo and Vigo, Daniele},
+  Publisher                = {Siam},
+  Year                     = {2001}
+}
+
+@InProceedings{tsutsui2006comparative,
+  Title                    = {A comparative study of sampling methods in node histogram models with probabilistic model-building genetic algorithms},
+  Author                   = {Tsutsui, Shigeyoshi},
+  Booktitle                = {Systems, Man and Cybernetics, 2006. SMC'06. IEEE International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {3132--3137},
+  Volume                   = {4}
+}
+
+@InCollection{tsutsui2002probabilistic,
+  Title                    = {Probabilistic model-building genetic algorithms in permutation representation domain using edge histogram},
+  Author                   = {Tsutsui, Shigeyoshi},
+  Booktitle                = {Parallel Problem Solving from Nature?”PPSN VII},
+  Publisher                = {Springer},
+  Year                     = {2002},
+  Pages                    = {224--233}
+}
+
+@Article{tsutsui2006edge,
+  Title                    = {Edge histogram based sampling with local search for solving permutation problems},
+  Author                   = {Tsutsui, Shigeyoshi and Pelikan, Martin and Ghosh, Ashish},
+  Journal                  = {International Journal of Hybrid Intelligent Systems},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {11--22},
+  Volume                   = {3},
+
+  Publisher                = {IOS Press}
+}
+
+@Article{tsutsui2006node,
+  Title                    = {Node histogram vs. edge histogram: A comparison of pmbgas in permutation domains},
+  Author                   = {Tsutsui, Shigeyoshi and Pelikan, Martin and Goldberg, David E},
+  Journal                  = {MEDAL Report},
+  Year                     = {2006},
+  Number                   = {2006009}
+}
+
+@InProceedings{tsutsui2004solving,
+  Title                    = {Solving capacitated vehicle routing problems using edge histogram based sampling algorithms},
+  Author                   = {Tsutsui, Shigeyoshi and Wilson, Gordon},
+  Booktitle                = {IEEE Congress on Evolutionary Computation(CEC), 2004.},
+  Year                     = {2004},
+  Organization             = {IEEE},
+  Pages                    = {1150--1157},
+  Volume                   = {1}
+}
+
+@Article{tuson1998adapting,
+  Title                    = {Adapting operator settings in genetic algorithms},
+  Author                   = {Tuson, Andrew and Ross, Peter},
+  Journal                  = {Evolutionary computation},
+  Year                     = {1998},
+  Number                   = {2},
+  Pages                    = {161--184},
+  Volume                   = {6},
+
+  Publisher                = {MIT Press}
+}
+
+@Article{Yu2009,
+  Title                    = {{Dependency structure matrix, genetic algorithms, and effective recombination.}},
+  Author                   = {Yu, Tian-Li and Goldberg, David E and Sastry, Kumara and Lima, Claudio F and Pelikan, Martin},
+  Journal                  = {Evolutionary computation},
+  Year                     = {2009},
+
+  Month                    = jan,
+  Number                   = {4},
+  Pages                    = {595--626},
+  Volume                   = {17},
+
+  Doi                      = {10.1162/evco.2009.17.4.17409},
+  File                     = {:C$\backslash$:/Users/Riohsu/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Yu et al. - 2009 - Dependency structure matrix, genetic algorithms, and effective recombination.pdf:pdf},
+  ISSN                     = {1530-9304},
+  Keywords                 = {Algorithms,Problem Solving},
+  Pmid                     = {19916779},
+  Url                      = {http://www.ncbi.nlm.nih.gov/pubmed/19916779}
+}
+

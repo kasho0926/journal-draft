@@ -1,0 +1,84 @@
+\section{Existing Semantic Models For Permutation Problems }
+\label{ch:related_works}
+
+This chapter give brief introductions of the existing semantic models for permutation problems. The semantic models are probabilistic models for solving permutation problems.  The semantic models can describe the semantics of the specific permutation problems. Many semantic models, including the edge histogram matrix (EHM), the node histogram matrix (NHM), the Plackett-Luce (PL) model and mallows model  ~\citep{ceberio2012review, bosman2001crossing, tsutsui2002probabilistic, tsutsui2006node, ceberio2011introducing, ceberio2013plackett, pelikan2007dependency}, have been proposed. We introduce three of these models as representative models. The first model is EHM proposed in~\citep{tsutsui2002probabilistic} which learns the adjacency of the indices. The second model is NHM~\citep{tsutsui2006node} which learns the absolute position of the indices. The third model is the PL model introduced to EDA literature in~\citep{ceberio2013plackett} which learns the probability model of the ordering of the permutation sequence.
+
+
+\subsection{The Edge Histogram Matrix}
+In~\citep{tsutsui2002probabilistic} a new type of EDA for permutation problems called the edge histogram based sampling algorithm (EHBSA) is introduced. The algorithm estimates a probabilistic model that learns the adjacency of the indices in the selected individuals at each generation, which is named EHM. For an $L$-dimensional problem, the model is given by a matrix $E=[e_{ij}]$ where $e_{ij} = P(\pi_{k+1}=j|\pi_k=i)$ and $i, j \in \{1,2,...,L\}$ and $k \in \{1,2,...,L-1\}$. Each $e_{ij}$ is added a $\epsilon$ value in order to control the pressure in sampling and avoid individuals with probability $\Theta$ or $1$. $\epsilon$ is denoted as
+\begin{equation*}
+    \epsilon = \frac{2N}{L-1}B_{ratio} \text{,}
+\end{equation*}
+where $N$ is the size of the set of the selected individuals and $B_{ratio}$ ($B_{ratio} >
+0$) is a constant defined by the authors.
+
+
+%{\LinesNumbered
+%\begin{algorithm}[t]
+%    Set the position counter $k \leftarrow 1$\;
+%    Obtain first node $\pi_1$ uniformly at random from $\{1,2,...,n%\}$\;
+%    Sample index $k$\;
+%    Set to $0$ previously sampled variables in row $\pi_{k+1}$ of %EHM\;
+%    Normalize non-sampled variables in row $\pi_{k+1}$ of EHM\;
+%    Sample next variable $\pi_{k+1}$\;
+%    Update the position counter $k \leftarrow k+1$\;
+%    If $k<n$, go to Step 3\;
+%    \caption{Edge Histogram Based Sampling Algorithm}
+%    \label{alg:ehbsa_sampling}
+%\end{algorithm}}
+
+In order to sample the probabilistic model, the authors use an algorithm that samples the positions of the permutation ordered, starting with position 1. Once position $i$-th has been sampled, position $(i+1)$-th is sampled using the row of matrix $E$ corresponding to the index sampled at position $i$-th. This row is modified by setting to $0$ those values which previously appeared and normalizing the rest of the values. A pseudo-code for the sampling algorithm can be seen in Algorithm \ref{alg:ehbsa_sampling}.
+
+In addition to this sampling, the authors propose another sampling strategy that extends the one introduced by using an individual of the previous generation to sample a new individual. The new sampling strategy consists of the following steps. A parent individual is selected from the previous generation at random and $c>2$ crossover points in the individual are selected uniformly at random, dividing the parent into $c$ segments of variable length. Randomly selected $c-1$ segments of the parent are copied to the new individual and the remaining non-sampled segment in the individual is simulated by sampling the probabilistic model with the previously introduced strategy. This sampling procedure leads to new individuals that differ from their parents on average on the positions of $L/c$ indices.
+
+According to the authors, the introduced sampling strategies are called sampling without template (EHBSAWO) and sampling with template (EHBSAWT) respectively. 
+
+
+
+\subsection{The Node Histogram Matrix}
+In~\citep{tsutsui2006node} the node histogram based sampling algorithm (NHBSA) is introduced. NHBSA builds a first order marginals matrix that represents the distribution of the indices across the (absolute) positions of the individuals in the set of the selected individuals. The model of a $L$-dimensional problem is given by a matrix $H=[h_{ij}]$ where $h_{ij} =P(\pi_i =j)$ and $i, j \in \{1,2,...,L\}$. Hence, $h_{ij}$ represents the probability of the index $j$ to be in the $i$-th position in the selected individuals.
+
+As in EHBSA, a $\epsilon$ is added to each $h_{ij}$ in order to control the pressure in sampling, where $N$ represents the size of the set of the selected individuals and
+$B_{ratio}$ is a positive constant ratio set by the authors. $\epsilon$ is denoted as
+
+
+\begin{equation*}
+    \epsilon = \frac{N}{L}B_{ratio} \text{,}
+\end{equation*}
+
+The design of NHBSA focuses particularly on those problems where the main contribution to the objective function is given by the absolute position of the indices in the permutation. As regards the sampling method, two strategies are proposed to simulate new individuals. A first proposal introduced by the authors uses a sampling strategy that samples the positions of the permutation randomly. Similarly to EHBSAWO, at each step, the sampling algorithm sets to $0$ the probabilities in $H$ of the variables sampled in the individual and normalizes the probabilities of the remaining variables to sum $1$. %A pseudo-code for the sampling algorithm can be seen in Algorithm \ref{alg:nhbsa_sampling}.
+%{\LinesNumbered
+%\begin{algorithm}[t]
+%    
+%    Generate a random permutation \textit{pos[]} of $1,...,n$\;
+%    Generate a candidate node list $C=1,...,n$\;
+%    Set the position counter $k \leftarrow 1$\;
+%    Sample index $pos[k]$\;
+%    \Begin{
+%     Set to $0$ those probabilities of variables already sampled in %$pos[k]$ in $NHH$\;
+%     Normalize remaining probabilities to sum $1$\;
+%     Sample node $x$\;
+%     }
+%    Set $\pi_{pos[k]} \leftarrow x$and remove node $x$ from $C$\;
+%    Update the position counter $k \leftarrow k+1$\;
+%    If $k<n$, go to Step 4\;
+%    \caption{Node Histogram Based Sampling Algorithm}
+%    \label{alg:nhbsa_sampling}
+%\end{algorithm}}
+
+The second sampling algorithm uses a parent individual from the previous generation to create the new individual. A random individual is picked up from the previous generation and $c$ random single positions are copied to the new individual. The remaining empty positions are filled by sampling the probabilistic model. The authors denote as NHBSAWT and NHBSAWO,  NHBSA that use the sampling with template and sampling without template respectively.
+
+\subsection{The Plackett-Luce Model}
+The Plackett-Luce (PL) model~\citep{marden1996analyzing} is the probabilistic model used in the EDA proposed in~\citep{ceberio2013plackett}, which is called Plackett-Luce EDA. It is belongs to the family of Thurstone order statistics models. It takes its name from the combination of two works which are proposed by Plackett~\citep{plackett1975analysis} and Luce~\citep{luce2005individual}\citep{plackett1975analysis}. 
+
+Formally, the PL model is given by
+\begin{equation}
+    P(\pi|W) = \prod_{i=1}^{n-1}\frac{w_{\pi_i}}{\sum_{j=i}^{n}{w_{\pi_j}}} \text{,}
+    \label{eq:pl_mdoel}
+\end{equation}
+where $W=\lbrace w_1,w_2,...,w_n\rbrace$ is a parameter vector. Comparing the parameters $w_i$ and $w_j$,$i\neqj$, the larger parameter $w_i$ has the higher probability that item $i$ appears in the front of item $j$ on the permutation. The typical way to fit a PL model is by maximum likelihood estimation (MLE) of the parameters $w$. Hunter~\citep{hunter2004mm} describes a way to do this using a Minorization-Maximization (MM) algorithm.
+
+Once the parameter vector \W is known, we can sample new individual as following procedure. First, we sample the first position of the individual with the probability $P(\pi(1)=j)=w_j$. The following positions are sampled by sampling the remaining $w$ which are normalized to sum 1. Repeating the process until all positions are sampled.
+
+
+

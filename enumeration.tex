@@ -1,0 +1,92 @@
+\section{The Enumeration Method}
+
+At the first attempt, we use enumeration method to choose model. This chapter shows the algorithm of enumeration method. Besides, we test enumeration method on different permutation problems, and this experiments shows advantages and disadvantages of enumeration method.
+
+For the highest fitness solution, every type of problems needs a most expressive semantic model to express. Although the literature has deep knowledge about some of permutation problems, new problems are still formatted into permutation problems consistently, to which the existing models cannot precisely capture. When the semantics is beyond the capability of existing models, another new expressive  semantic model for the specific problem from new problems is needed. Unfortunately, designing new semantic models is not a trivial work. In the second experiment of the previous section, the result shows the potential of mixing different models. The experiment also shows that with limited semantic models, through incorporating different semantic models, the hybridization of EHM and NHM solve the specific problems without the expressive semantic model more efficiently than algorithms with single model. Although we can find the best parameter setting through sweeping each mixing ratio thoroughly, it is impractical when the number of used semantic models grows.
+
+
+{\LinesNumbered
+\begin{algorithm}[htbp]
+     \KwIn{The initial population $P$,\newline
+    The semantic model set $\mathbb{M}$
+    }
+    \KwOut{The offspring population $O$}
+
+        build every semantic model for $P$\;
+        
+        randomly chose $p \in P$\ as template\; 
+        initialize an individual set $C$ \;
+        \For {$m \in \mathbb{M} $ }{
+        generate a new individual c by model $m$\;
+        $C \leftarrow C\cup\lbrace c \rbrace$$ \;
+        }
+        $c$ \leftarrow the best solution $\in C$\;
+        $O$ \leftarrow $P \cup \{c\} - \{p\}$\;
+        return $O$\;
+    \caption{The Enumeration Model}
+    \label{alg:enumeration_method}
+\end{algorithm}}
+
+In the enumeration method, multiple semantic models generate new solution candidates, and the best one is chosen. This chapter shows that the strategy of generating new individuals from multiple models at once and keeping the best descendant in population outperform in some problems. 
+
+The enumeration method acts almost similarly to EHBSA or NHBSA except for multiple models. In each generation, the enumeration method randomly picks one individual from the population as template and then generates new individuals from each models with the picked template if need. Next, the population keeps the best individual among the newly generated individuals and the template, and discards the rest. Finally, the enumeration updates each semantic models with the new population, and continues the evolution until the terminal criterion is met. The pseudo-code is in Algorithm \ref{alg:enumeration_method}. 
+
+
+In our experiments, we perform enumeration method with the population size $N = 2 \times L$ and the NFE limit $E_{max} = L \times 40000$. And template technique is used, NHM and EHM are used semantic models. The cut-point number is 3 for template.
+
+%In the experiments of the enumeration method, the EHM and the NHM %are used. The experiment settings are as follows:
+%\begin{itemize}
+    %\item repeat 10 times,
+   % \item the NHM and the EHM are used,
+   % \item population size $N = 2 \times L$ ($L$ is the problem size),
+   % \item the bias ratio $B_{ratio} = 0.0000$,
+   % \item the NFE $E_{max} = L \times 40000$,
+   % \item template technique is used,
+   % \item the cut-point number is 3 for template.
+%\end{itemize}
+
+\begin{table}[t]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|l|l|l|}
+    \hline
+    \textbf{}         & \textbf{EHBSA}    & \textbf{Enum2} & \textbf{NHBSA} & \textbf{}         & \textbf{EHBSA}    & \textbf{Enum2} & \textbf{NHBSA} \\ \hline
+    \multicolumn{4}{|c|}{\textbf{LOP}}                              & \multicolumn{4}{c|}{\textbf{TSP}}                                \\ \hline
+    \textbf{t65b11xx} & 1              & 2              & 3         & \textbf{burma14}   & 2              & 2              & 2         \\ \hline
+    \textbf{t65d11xx} & 3              & 1              & 2         & \textbf{bayg29}    & 2              & 3              & 1         \\ \hline
+    \textbf{t65f11xx} & 2              & 1              & 3         & \textbf{dantzig42} & 2              & 3              & 1         \\ \hline
+    \textbf{t65n11xx} & 2              & 1              & 3         & \textbf{eil51}     & 1              & 3              & 2         \\ \hline
+    \textbf{t65w11xx} & 3              & 1              & 2         & \textbf{berlin52}  & 2              & 3              & 1         \\ \hline
+    \textbf{t69r11xx} & 2              & 1              & 3         & \textbf{eil76}     & 1              & 3              & 2         \\ \hline
+    \textbf{t75i11xx} & 3              & 2              & 1         & \textbf{eil101}    & 1              & 3              & 2         \\ \hline
+    \multicolumn{4}{|c|}{\textbf{PFSP}}                                      & \multicolumn{4}{c|}{\textbf{QAP}}                                         \\ \hline
+    \textbf{ta001}    & 1              & 2              & 3         & \textbf{nug17}     & 3              & 1              & 2         \\ \hline
+    \textbf{ta021}    & 3              & 1              & 2         & \textbf{nug18}     & 3              & 2              & 1         \\ \hline
+    \textbf{ta031}    & 1.5            & 1.5            & 3         & \textbf{nug20}     & 3              & 2              & 1         \\ \hline
+    \textbf{ta041}    & 2              & 1              & 3         & \textbf{nug21}     & 3              & 2              & 1         \\ \hline
+    \textbf{ta051}    & 3              & 1              & 2         & \textbf{tai10a}    & 2              & 3              & 1         \\ \hline
+    \textbf{ta061}    & 1.5            & 1.5            & 3         & \textbf{bur26a}    & 3              & 2              & 1         \\ \hline
+    \textbf{ta071}    & 2              & 1              & 3         & \textbf{bur26b}    & 3              & 2              & 1         \\ \hline
+    \end{tabular}
+
+\caption{Rank of algorithms, comparison for the 2-model enumeration method}
+\label{tb:enumeration_case1}
+\end{table}
+
+
+
+The results are in Table \ref{tb:enumeration_case1}. Four problems are tested in the experiment. In our experiments, we use the fractional ranking system as the index of the performance. Then rank is sorted by the average fitness of each algorithm. The lower the rank is, the better the performance. Items that compare equal receive the same ranking number, which is the mean of what they would have under ordinal rankings. Equivalently, the ranking number of 1 plus the number of items ranked above it plus half the number of items equal to it. This strategy has the property that the sum of the ranking numbers is the same as under ordinal ranking. Table \ref{tb:enumeration_case1} shows that the enumeration outperformed the other algorithms on LOP and PFSP. On the contrary, the enumeration method underperformed on TSP and QAP. In this experiments, the enumeration method performs better on the problems without a existing expressive semantic model for the specific problem from the problems.
+
+
+In spite of the higher fitness solution on the problems without a existing expressive semantic model for the specific problem from the problems, the enumeration method shows worse performance on problems which have the expressive semantic models for the problems. Furthermore, adding new models into the system makes the situation even worse. Since the enumeration method iterates all of models in system, it wastes lots of resources on unexpressive models, instead of only focusing on the models which can generating competitive solutions. Thus, we attempt to develop another method in the follow chapter.
+
+% \begin{table}
+% \label{fig:enumeration_case2}
+% \caption{The Three Model Enumeration Method}
+% \end{table}
+
+
+% For scaling up and generalizing the enumeration method, the second experiment investigates the performance of adding the third model, the Plackett-Luce ranking model. The experiment setting remains the same as the first experiment ,besides the Plackett-Luce model is used. In second experiment, the Plackett-Luce model follows the evolutionary framework proposed by Tsutsui~\citep{tsutsui2002probabilistic}, instead of the original framework proposed by Ceberio \emph{et~al.} in~\citep{ceberio2013plackett}, to compare the algorithms purely evolving with semantic models. 
+
+% The result of second experiment is listed in Figure \ref{fig:enumeration_case2}. Although the enumeration method outperformed the other algorithms on PFSP, the other algorithms outperformed the enumeration method on the three other problems. On LOP, the Plackett-Luce model outperforms the enumeration model, because it can describes the relative ordering semantics well. 
+
+% Remarkably, after the Plackett-Luce model was added into the system, the overall performance of each problems reduces. The performance difference is shown in Table \ref{}.  

@@ -1,0 +1,244 @@
+\begin{thebibliography}{}
+
+\bibitem[Allahverdi et~al., 2008]{allahverdi2008survey}
+Allahverdi, A., Ng, C.~T., Cheng, T. C.~E., and Kovalyov, M.~Y. (2008).
+\newblock A survey of scheduling problems with setup times or costs.
+\newblock {\em European Journal of Operational Research}, 187(3):985 -- 1032.
+
+\bibitem[Audibert et~al., 2009]{audibert2009exploration}
+Audibert, J.-Y., Munos, R., and Szepesv{\'a}ri, C. (2009).
+\newblock Exploration--exploitation tradeoff using variance estimates in
+  multi-armed bandits.
+\newblock {\em Theoretical Computer Science}, 410(19):1876--1902.
+
+\bibitem[Auer, 2003]{Auer2002ucb}
+Auer, P. (2003).
+\newblock Using confidence bounds for exploitation-exploration trade-offs.
+\newblock {\em The Journal of Machine Learning Research}, 3:397--422.
+
+\bibitem[Auer et~al., 2002]{Auer2002}
+Auer, P., Cesa-Bianchi, N., and Fischer, P. (2002).
+\newblock Finite-time analysis of the multiarmed bandit problem.
+\newblock {\em Machine learning}, 47(2-3):235--256.
+
+\bibitem[Barbosa and S{\'a}, 2000]{barbosa2000adaptive}
+Barbosa, H.~J. and S{\'a}, A.~M. (2000).
+\newblock On adaptive operator probabilities in real coded genetic algorithms.
+\newblock In {\em Workshop on Advances and Trends in Artificial Intelligence
+  for Problem Solving (SCCC'00)}.
+
+\bibitem[Bosman and Thierens, 2001]{bosman2001crossing}
+Bosman, P.~A. and Thierens, D. (2001).
+\newblock Crossing the road to efficient ideas for permutation problems.
+\newblock In {\em Proc. of the Genetic and Evolutionary Computation
+  Conf.--GECCO}, pages 219--226.
+
+\bibitem[Ceberio et~al., 2012]{ceberio2012review}
+Ceberio, J., Irurozki, E., Mendiburu, A., and Lozano, J.~A. (2012).
+\newblock A review on estimation of distribution algorithms in
+  permutation-based combinatorial optimization problems.
+\newblock {\em Progress in Artificial Intelligence}, 1(1):103--117.
+
+\bibitem[Ceberio et~al., 2011]{ceberio2011introducing}
+Ceberio, J., Mendiburu, A., and Lozano, J.~A. (2011).
+\newblock Introducing the mallows model on estimation of distribution
+  algorithms.
+\newblock In {\em Neural Information Processing}, pages 461--470. Springer.
+
+\bibitem[Ceberio et~al., 2013]{ceberio2013plackett}
+Ceberio, J., Mendiburu, A., and Lozano, J.~A. (2013).
+\newblock The plackett-luce ranking model on permutation-based optimization
+  problems.
+\newblock In {\em 2013 IEEE Congress on Evolutionary Computation (CEC)}, pages
+  494--501. IEEE.
+
+\bibitem[Davis, 1989]{Davis:1989:AOP:93126.93146}
+Davis, L. (1989).
+\newblock Adapting operator probabilities in genetic algorithms.
+\newblock In {\em Proceedings of the Third International Conference on Genetic
+  Algorithms}, pages 61--69, San Francisco, CA, USA. Morgan Kaufmann Publishers
+  Inc.
+
+\bibitem[De~Rainville et~al., 2013]{DeRainville:2013:SCC:2463372.2463556}
+De~Rainville, F.-M., Sebag, M., Gagn{\'e}, C., Schoenauer, M., and Laurendeau,
+  D. (2013).
+\newblock Sustainable cooperative coevolution with a multi-armed bandit.
+\newblock In {\em Proceedings of the 15th Annual Conference on Genetic and
+  Evolutionary Computation}, GECCO '13, pages 1517--1524.
+
+\bibitem[Fialho et~al., 2008]{fialho2008extreme}
+Fialho, {\'A}., Da~Costa, L., Schoenauer, M., and Sebag, M. (2008).
+\newblock Extreme value based adaptive operator selection.
+\newblock In {\em Parallel Problem Solving from Nature--PPSN X}, pages
+  175--184. Springer.
+
+\bibitem[Fialho et~al., 2010]{fialho2010analyzing}
+Fialho, {\'A}., Da~Costa, L., Schoenauer, M., and Sebag, M. (2010).
+\newblock Analyzing bandit-based adaptive operator selection mechanisms.
+\newblock {\em Annals of Mathematics and Artificial Intelligence},
+  60(1-2):25--64.
+
+\bibitem[Fialho et~al., 2009]{fialho2009analysis}
+Fialho, {\'A}., Schoenauer, M., and Sebag, M. (2009).
+\newblock Analysis of adaptive operator selection techniques on the royal road
+  and long k-path problems.
+\newblock In {\em Proceedings of the 11th Annual conference on Genetic and
+  evolutionary computation}, pages 779--786. ACM.
+
+\bibitem[French, 1982]{french1982sequencing}
+French, S. (1982).
+\newblock {\em Sequencing and scheduling: an introduction to the mathematics of
+  the job-shop}, volume 683.
+\newblock Ellis Horwood Chichester.
+
+\bibitem[Gelly et~al., 2008]{Gelly2008}
+Gelly, S., Hoock, J.-B., Rimmel, A., Teytaud, O., Kalemkarian, Y., et~al.
+  (2008).
+\newblock On the parallelization of monte-carlo planning.
+\newblock In {\em ICINCO}.
+
+\bibitem[Gelly and Silver, 2007]{Gelly2007}
+Gelly, S. and Silver, D. (2007).
+\newblock Combining online and offline knowledge in uct.
+\newblock In {\em Proceedings of the 24th international conference on Machine
+  learning}, pages 273--280. ACM.
+
+\bibitem[Goldberg and Lingle, 1985]{goldberg1985alleles}
+Goldberg, D.~E. and Lingle, R. (1985).
+\newblock Alleles, loci, and the traveling salesman problem.
+\newblock In {\em Proceedings of an International Conference on Genetic
+  Algorithms and Their Applications}, volume 154. Lawrence Erlbaum, Hillsdale,
+  NJ.
+
+\bibitem[Gupta and Stafford~Jr, 2006]{gupta2006flowshop}
+Gupta, J.~N. and Stafford~Jr, E.~F. (2006).
+\newblock Flowshop scheduling research after five decades.
+\newblock {\em European Journal of Operational Research}, 169(3):699--711.
+
+\bibitem[Harik, 1995]{harik1995rts}
+Harik, G.~R. (1995).
+\newblock Finding multimodal solutions using restricted tournament seletion.
+\newblock pages 24--31.
+
+\bibitem[Hunter, 2004]{hunter2004mm}
+Hunter, D.~R. (2004).
+\newblock Mm algorithms for generalized bradley-terry models.
+\newblock {\em Annals of Statistics}, pages 384--406.
+
+\bibitem[Julstrom, 1995]{Julstrom:1995:YDM:645514.657934}
+Julstrom, B.~A. (1995).
+\newblock What have you done for me lately? {A}dapting operator probabilities
+  in a steady-state genetic algorithm.
+\newblock In {\em Proceedings of the 6th International Conference on Genetic
+  Algorithms}, pages 81--87, San Francisco, CA, USA. Morgan Kaufmann Publishers
+  Inc.
+
+\bibitem[Kocsis and Szepesv{\'a}ri, 2006]{Kocsis2006}
+Kocsis, L. and Szepesv{\'a}ri, C. (2006).
+\newblock {\em Bandit based monte-carlo planning}.
+\newblock Springer, New York, NY.
+
+\bibitem[Koopmans and Beckmann, 1957]{koopmans1957assignment}
+Koopmans, T.~C. and Beckmann, M. (1957).
+\newblock Assignment problems and the location of economic activities.
+\newblock {\em Econometrica: journal of the Econometric Society}, pages 53--76.
+
+\bibitem[Kuleshov and Precup, 2000]{Kuleshov2000}
+Kuleshov, V. and Precup, D. (2000).
+\newblock Algorithms for multi-armed bandit problems.
+\newblock {\em arXiv preprint arXiv:1402.6028}.
+
+\bibitem[Lai and Robbins, 1985]{lai1985asymptotically}
+Lai, T.~L. and Robbins, H. (1985).
+\newblock Asymptotically efficient adaptive allocation rules.
+\newblock {\em Advances in applied mathematics}, 6(1):4--22.
+
+\bibitem[Lee, 2012]{lee2012bayesian}
+Lee, P.~M. (2012).
+\newblock {\em Bayesian statistics: an introduction}.
+\newblock John Wiley \& Sons, New York, NY.
+
+\bibitem[Lobo and Goldberg, 1997]{lobo1997decision}
+Lobo, F.~G. and Goldberg, D.~E. (1997).
+\newblock Decision making in a hybrid genetic algorithm.
+\newblock In {\em Evolutionary Computation, 1997., IEEE International
+  Conference on}, pages 121--125. IEEE.
+
+\bibitem[Luce, 2005]{luce2005individual}
+Luce, R.~D. (2005).
+\newblock {\em Individual choice behavior: A theoretical analysis}.
+\newblock Courier Dover Publications, Mineola, New York.
+
+\bibitem[Marden, 1996]{marden1996analyzing}
+Marden, J.~I. (1996).
+\newblock {\em Analyzing and modeling rank data}.
+\newblock CRC Press, Boca Raton, Florida.
+
+\bibitem[Mart{\'\i} and Reinelt, 2011]{marti2011linear}
+Mart{\'\i}, R. and Reinelt, G. (2011).
+\newblock {\em The linear ordering problem: exact and heuristic methods in
+  combinatorial optimization}, volume 175.
+\newblock Springer, New York, NY.
+
+\bibitem[Mohri, 2005]{Mohri2005}
+Mohri, M. (2005).
+\newblock {Multi-armed Bandit Algorithms and Empirical Evaluation}.
+\newblock pages 437--448.
+
+\bibitem[Pelikan et~al., 2007]{pelikan2007dependency}
+Pelikan, M., Tsutsui, S., and Kalapala, R. (2007).
+\newblock Dependency trees, permutations, and quadratic assignment problem.
+\newblock In {\em Genetic And Evolutionary Computation Conference: Proceedings
+  of the 9 th annual conference on Genetic and evolutionary computation},
+  volume~7, pages 629--629.
+
+\bibitem[Plackett, 1975]{plackett1975analysis}
+Plackett, R.~L. (1975).
+\newblock The analysis of permutations.
+\newblock {\em Applied Statistics}, pages 193--202.
+
+\bibitem[Schiavinotto and St{\"u}tzle, 2004]{schiavinotto2004linear}
+Schiavinotto, T. and St{\"u}tzle, T. (2004).
+\newblock The linear ordering problem: Instances, search space analysis and
+  algorithms.
+\newblock {\em Journal of Mathematical Modelling and Algorithms},
+  3(4):367--402.
+
+\bibitem[Toth and Vigo, 2001]{toth2001vehicle}
+Toth, P. and Vigo, D. (2001).
+\newblock {\em The vehicle routing problem}.
+\newblock Siam, Philadelphia, PA.
+
+\bibitem[Tsutsui, 2002]{tsutsui2002probabilistic}
+Tsutsui, S. (2002).
+\newblock Probabilistic model-building genetic algorithms in permutation
+  representation domain using edge histogram.
+\newblock In {\em Parallel Problem Solving from Nature?”PPSN VII}, pages
+  224--233. Springer.
+
+\bibitem[Tsutsui, 2006]{tsutsui2006comparative}
+Tsutsui, S. (2006).
+\newblock A comparative study of sampling methods in node histogram models with
+  probabilistic model-building genetic algorithms.
+\newblock In {\em Systems, Man and Cybernetics, 2006. SMC'06. IEEE
+  International Conference on}, volume~4, pages 3132--3137. IEEE.
+
+\bibitem[Tsutsui et~al., 2006]{tsutsui2006node}
+Tsutsui, S., Pelikan, M., and Goldberg, D.~E. (2006).
+\newblock Node histogram vs. edge histogram: A comparison of pmbgas in
+  permutation domains.
+\newblock {\em MEDAL Report}, (2006009).
+
+\bibitem[Tsutsui and Wilson, 2004]{tsutsui2004solving}
+Tsutsui, S. and Wilson, G. (2004).
+\newblock Solving capacitated vehicle routing problems using edge histogram
+  based sampling algorithms.
+\newblock In {\em IEEE Congress on Evolutionary Computation(CEC), 2004.},
+  volume~1, pages 1150--1157. IEEE.
+
+\bibitem[Tuson and Ross, 1998]{tuson1998adapting}
+Tuson, A. and Ross, P. (1998).
+\newblock Adapting operator settings in genetic algorithms.
+\newblock {\em Evolutionary computation}, 6(2):161--184.
+
+\end{thebibliography}

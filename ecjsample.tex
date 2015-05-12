@@ -1,0 +1,69 @@
+\documentclass[twoside]{article}
+\usepackage{ecj,palatino,epsfig,latexsym,natbib}
+%\usepackage[fleqn]{amsmath}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage[noend]{algpseudocode}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage[super]{nth}
+\usepackage{graphicx}
+\graphicspath{{./img/}}
+\DeclareGraphicsExtensions{.eps,.jpeg,.png}
+
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+
+%% do not add any other page- or text-size instruction here
+
+\parskip=0.00in
+
+\begin{document}
+
+\ecjHeader{x}{x}{xxx-xxx}{200X}{Multi-armed Bandit Based Evolutionary Model Adaptation}{CY Hsu, TL Yu and JH Wu}
+\title{\bf Multi-armed Bandit Based Evolutionary Model Adaptation for Permutation Problems}  
+
+
+\author{\name{\bf Chu-Yu Hsu} \hfill \addr{r01921096@ntu.edu.tw}\\ 
+        \addr{Department of Electrical Engineering, National Taiwan University, 
+         Taipei, Taiwan}
+\AND
+       \name{\bf Tian-Li Yu} \hfill \addr{tianliyu@ntu.edu.tw}\\
+        \addr{Department of Electrical Engineering, National Taiwan University, 
+         Taipei, Taiwan}
+\AND
+       \name{\bf Jia-Hui Wu} \hfill \addr{r02921074@ntu.edu.tw}\\
+        \addr{Department of Electrical Engineering, National Taiwan University, 
+         Taipei, Taiwan}         
+}
+
+\maketitle
+
+%\input{abstract}
+%\input{introduction}
+\begin{abstract}
+\end{abstract}
+\section{Introdution}
+%\section{Permutation Problems}
+%\section{Existing Semantic Models For Permutation Problems}
+\input{permutation_problems}
+\input{related_works}
+\input{essence_of_adaptation}
+\input{enumeration}
+\input{bayesian}
+\input{mabma}
+%\input{replacement_strategy}
+\input{rs}
+\section{Conclusion}
+%\input{conclusion}
+%\input{acknowledge}
+
+
+\small
+%\bibliographystyle{bstutf8}
+
+\bibliographystyle{apalike}
+\bibliography{thesis}
+
+
+\end{document}
