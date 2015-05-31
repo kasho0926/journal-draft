@@ -1,16 +1,23 @@
 \section{Permutation Problems}
 \label{ch:permutation_problems}
 
-Many optimization problems find a natural representation of the solution as permutations. In combinatorics, a permutation can be understood as a vector $\pi = (\pi_1, \pi_2,...,\pi_n)$ of indices $(1,2,...,n)$ such that $\pi_i \neq \pi_j$ for all $i \neq j$. We say that the index $j$ is in position $i$ in $\pi$ when $\pi_i = j$.
+%%%% YU: You should tell reader why we want to introduce permutation problems!!!
 
-Although the solution of many combinatorial optimization problems can be encoded as permutations, the way that information is represented by the indices in the permutation  differ from one problem to another. It is importation when solving these problems with EDAs. Therefore, the permutation models EDAs using should take the semantics of the permutation into account. Since the permutation model aims to learn the semantics of the set of selected solutions, the performance of the algorithm is closely related to the encoding of the individuals and to the ability of the permutation model to exploit the information given by those individuals.
+Many real-world optimization problems find a natural representation of the solution as permutations. In combinatorics, a permutation can be understood as a vector $\pi = (\pi_1, \pi_2,...,\pi_n)$ of indices $(1,2,...,n)$ such that $\pi_i \neq \pi_j$ for all $i \neq j$. We say that the index $j$ is in position $i$ in $\pi$ when $\pi_i = j$.
 
-In some problems, solution quality depends mainly on the relative ordering of pairs of indices in the permutation and the task is to find a permutation to fulfil a set of relative-ordering constraints. For instance, an example of this type of problem is job-shop scheduling. Sometimes solution quality depends mainly on the pairs of indices that are located next to each other, which is a typical feature of the traveling salesman problem. In some permutation problems, the quality of solution mainly depends on the absolute positions of indices in the permutation. For example, the quadratic assignment problem is this type of problem.
+%%%% YU: Why are we talking about the semantics here?
+Although permutational representations are commonly used, the information carried in permutations differs from one problem to another. Therefore, model building in EDAs should consider  the semantics of permutations. Since the permutation model aims to learn the semantics of the set of selected solutions, the performance of the algorithm is closely related to the encoding of the individuals and to the ability of the permutation model to exploit the information given by those individuals.
 
+%%%% YU: Why are we talking about the semantics here?
+In some problems, solution quality depends mainly on the relative ordering of pairs of indices in the permutation and the task is to find a permutation to fulfill a set of relative-ordering constraints. For instance, an example of this type of problem is job-shop scheduling. Sometimes solution quality depends mainly on the pairs of indices that are located next to each other, which is a typical feature of the traveling salesman problem. In some permutation problems, the quality of solution mainly depends on the absolute positions of indices in the permutation. For example, the quadratic assignment problem is this type of problem.
+
+%%%% YU: Why are we talking about the semantics here?
 As the semantics of the permutation problems differs, the understanding of the permutation problem  help understand for what the permutation model is designed for and the difficulty that EDAs for permutation problem are facing. In the following section, we introduce some typical examples of permutation problems with different semantics.
 
 \subsection{Traveling Salesman Problem}
-The Traveling Salesman Problem (TSP)~\citep{goldberg1985alleles} consists of looking for the shortest path, in terms of time, distance, or any similar criterion, to go over $n$ different cities visiting each city only once and returning to the city of departure. A solution is usually given by a sequence of cities which is represented as a permutation. The search space is denoted as
+
+%%%% 縮寫倒底要不要大寫，統一一下，上面有時大寫有時小寫
+The traveling salesman problem (TSP)~\citep{goldberg1985alleles} looks for the shortest path, in terms of time, distance, or any similar criterion, to go over $n$ different cities visiting each city only once and returning to the city of departure. A solution is usually given by a sequence of cities represented as a permutation. The search space is denoted as
 \begin{equation*}
 	\Pi = \{ (\pi_1, \pi_2,...,\pi_n) | \pi_i \in \{ 1,2,...,n \}, \pi_i \neq \pi_j, \forall i \neq j \}\text{.}
 \end{equation*}
