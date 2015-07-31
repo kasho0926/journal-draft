@@ -1,30 +1,11 @@
 \section{Permutation Problems}
 \label{ch:permutation_problems}
 
-%%%% YU: You should tell reader why we want to introduce permutation problems!!!
-
-Many real-world optimization problems find a natural representation of the solution as permutations. In combinatorics, a permutation can be understood as a vector $\pi = (\pi_1, \pi_2,...,\pi_n)$ of indices $(1,2,...,n)$ such that $\pi_i \neq \pi_j$ for all $i \neq j$. We say that the index $j$ is in position $i$ in $\pi$ when $\pi_i = j$.
-
-%%%% YU: Why are we talking about the semantics here?
-Although permutational representations are commonly used, the information carried in permutations differs from one problem to another. Therefore, model building in EDAs should consider  the semantics of permutations. Since the permutation model aims to learn the semantics of the set of selected solutions, the performance of the algorithm is closely related to the encoding of the individuals and to the ability of the permutation model to exploit the information given by those individuals.
-
-%%%% YU: Why are we talking about the semantics here?
-In some problems, solution quality depends mainly on the relative ordering of pairs of indices in the permutation and the task is to find a permutation to fulfill a set of relative-ordering constraints. For instance, an example of this type of problem is job-shop scheduling. Sometimes solution quality depends mainly on the pairs of indices that are located next to each other, which is a typical feature of the traveling salesman problem. In some permutation problems, the quality of solution mainly depends on the absolute positions of indices in the permutation. For example, the quadratic assignment problem is this type of problem.
-
-%%%% YU: Why are we talking about the semantics here?
-As the semantics of the permutation problems differs, the understanding of the permutation problem  help understand for what the permutation model is designed for and the difficulty that EDAs for permutation problem are facing. In the following section, we introduce some typical examples of permutation problems with different semantics.
+Because of different semantics of permutation problems, the understanding of the permutation problem is helpful for designing the model for solving the permutation problem and learning the difficulty that EDAs for the permutation problem encounter. In the following sections, we give an brief introduction to five typical examples of permutation problems, where although the encoding of the solution is given by permutations, the semantics in each case is different.
 
 \subsection{Traveling Salesman Problem}
-<<<<<<< HEAD
 
-%%%% 縮寫倒底要不要大寫，統一一下，上面有時大寫有時小寫
-The traveling salesman problem (TSP)~\citep{goldberg1985alleles} looks for the shortest path, in terms of time, distance, or any similar criterion, to go over $n$ different cities visiting each city only once and returning to the city of departure. A solution is usually given by a sequence of cities represented as a permutation. The search space is denoted as
-=======
-The Traveling Salesman Problem (TSP)~\citep{goldberg1985alleles} consists of looking for the shortest path, in terms of time, distance, or any similar criterion, to go over $n$ different cities visiting each city only once and returning to the city of departure. A solution is given by a sequence of cities represented as a permutation. The search space is denoted as
->>>>>>> f0b3726ff706def03b360491d4965f56469bf864
-\begin{equation*}
-	\Pi = \{ (\pi_1, \pi_2,...,\pi_n) | \pi_i \in \{ 1,2,...,n \}, \pi_i \neq \pi_j, \forall i \neq j \}\text{.}
-\end{equation*}
+The traveling salesman problem (TSP)~\citep{goldberg1985alleles} which is a well-known NP-Complete problem. looks for the shortest path, in terms of time, distance, or any similar criterion, to go over $n$ different cities visiting each city only once and returning to the city of departure. A solution is usually given by a sequence of cities represented as a permutation. The search space is denoted as a permutation.
 In a TSP instance of 4 cities, $\pi = (3,2,4,1)$ would be a possible solution, indicating that the initial city is 3, then 2, 4, 1, finally coming back to 3. As we assume that the first city of the path is not fixed, TSP is a problem with cyclic solutions, and each solution can be represented by $2n$ different permutations for symmetric instances and $n$ for asymmetric instances. For instance, the solution ${\pi}'=(1,3,2,4)$ represents the same city-tour that $\pi$ does, while the permutations are different.
 
 The objective function $F$, is defined as the sum of the distances of going from city $i-1$ to $i$, denoted as $d_{ij}$, through all cities in the order specified by the permutation:
@@ -36,7 +17,8 @@ In TSP we note that the relevant information for the calculation of the fitness 
 
 \subsection{Capacitated Vehicle Routing Problem}
 \label{section:cvrp}
-The capacitated vehicle routing problem (CVRP)~\citep{toth2001vehicle} is a most generalized version of TSP. CVRP involves a fleet of vehicles which supply customers with parcels. The vehicles are based at a depot, or hub, from where they must begin and end their route. Customers are located at given points on a map. Each vehicle has a given capacity and each customer has a given demand. The delivery must be accomplished by finding optimal routes which result in a minimal total distance.
+The Vehicle Routing Problem (VRP) is an NP-hard combinatorial optimization problem which is introduced in~\cite{dantzig1959}. VRP involves a fleet of vehicles which supply customers with parcels.
+Besides, VRP is a most generalized version of TSP. The capacitated vehicle routing problem (CVRP)~\cite{toth2001vehicle} is the most basic variant of the standard VRP. In this variant, the vehicles have a maximum capacity. The vehicles are based at a depot, or hub, from where they must begin and end their route. Customers are located at given points on a map. Each vehicle has a given capacity and each customer has a given demand. The delivery must be accomplished by finding optimal routes which result in a minimal total distance.
 
 Let $C$ be delivery capacity of each vehicle, $L_i$ be the length of the route of vehicle $i$, $W_i$ be the total weight of the parcels assigned to vehicle $i$, and $N_v$ be the number of vehicles. Then the capacitated vehicle routing problem can be formulated as follows:
 \begin{eqnarray*}
