@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.15)  31 JUL 2015 18:26
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.6.10)  4 AUG 2015 22:03
 entering extended mode
 **ecjsample.tex
 (ecjsample.tex
@@ -9,14 +9,14 @@ Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -49,18 +49,11 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: xetex.def on input line 94.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetex-def\xetex.def"
+File: xetex.def 2015/03/25 v4.04 LaTeX color/graphics driver for XeTeX (TeX Liv
+e/RRM/JK)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -82,6 +75,8 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count88
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 414 replaced by U+FFFD.
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count89
 
@@ -253,6 +248,9 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 Package: nth 2002/02/27
 ) (ecjsample.aux
 
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
 LaTeX Warning: Label `tb:mabma_result' multiply defined.
 
 )
@@ -272,20 +270,6 @@ LaTeX Font Info:    Try loading font information for OT1+ppl on input line 21.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
-\scratchdimen=\dimen129
-\scratchbox=\box36
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count118
-\MPscratchDim=\dimen130
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
-\everyMPtoPDFconversion=\toks22
-)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
@@ -293,8 +277,25 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 44.
- (permutation_problems.tex
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 45.
+File: ./img/ehm+edge.eps Graphic file (type eps)
+
+<./img/ehm+edge.eps>
+File: ./img/nhm+node.eps Graphic file (type eps)
+ <./img/nhm+node.eps>
+File: ./img/enum2+order.eps Graphic file (type eps)
+ <./img/enum2+order.eps>
+(permutation_problems.tex
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 5.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+ [1
+
+]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 6.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 8.
@@ -312,42 +313,20 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 17.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
- [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 Package natbib Warning: Citation `dantzig1959' on page 2 undefined on input lin
 e 20.
 
+[2]
+File: ./img/cvrp_encoding.eps Graphic file (type eps)
+ <./img/cvrp_encoding.eps> [3] [4]
+Missing character: There is no â€“ in font pplr7t!
+ [5]) (related_works.tex
 
-! LaTeX Error: Unknown graphics extension: .eps.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...cs[width=0.5\textwidth]{cvrp_encoding.eps}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[2] [3]
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no “ in font pplr7t!
-) (related_works.tex [4]
-
-LaTeX Warning: Reference `alg:ehbsa_sampling' on page 5 undefined on input line
+LaTeX Warning: Reference `alg:ehbsa_sampling' on page 6 undefined on input line
  30.
 
-[5]
+[6]
 ! Undefined control sequence.
 l.79 ...ing the parameters $w_i$ and $w_j$,$i\neqj
                                                   $, the larger parameter $w...
@@ -366,7 +345,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) (essence_of_adaptation.tex [6]
+[7]) (essence_of_adaptation.tex
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -384,20 +363,9 @@ Overfull \hbox (10.34329pt too wide) in paragraph at lines 33--42
  [][] 
  []
 
-[7]
-
-! LaTeX Error: Unknown graphics extension: .eps.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 ...s[width=1.0\textwidth]{img/sweep_lop.eps}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (enumeration.tex [8]
+[8]
+File: img/sweep_lop.eps Graphic file (type eps)
+ <img/sweep_lop.eps>) (enumeration.tex [9]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 15.
 
@@ -463,101 +431,56 @@ l.24         $O$ \leftarrow $P \cup
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
+[10]
 Overfull \hbox (9.7117pt too wide) in paragraph at lines 50--70
  [][] 
  []
 
-[9]) (bayesian.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-[11]
+Underfull \vbox (badness 1975) has occurred while \output is active []
 
-! LaTeX Error: Unknown graphics extension: .eps.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...ics[width=1.0\textwidth]{bayesian_tsp.eps}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
+ [11])
+(bayesian.tex [12]
+File: ./img/bayesian_tsp.eps Graphic file (type eps)
+ <./img/bayesian_tsp.eps>
 Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
-
-! LaTeX Error: Unknown graphics extension: .eps.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 ...cs[width=1.0\textwidth]{bayesian_flat.eps}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (mabma.tex [12]
+File: ./img/bayesian_flat.eps Graphic file (type eps)
+<./img/bayesian_flat.eps> [13]) (mabma.tex [14]
 Underfull \hbox (badness 1199) in paragraph at lines 21--23
 \OT1/ppl/m/n/10 and are as-so-ci-ated to prob-a-bil-ity dis-tri-bu-tions $\OT1/
 cmr/m/n/10 (\OML/cmm/m/it/10 D[]; D[]; :::; D[]\OT1/cmr/m/n/10 )$ \OT1/ppl/m/n/
 10 with ex-pec-ta-tions
  []
 
-[13]
-
-! LaTeX Error: Unknown graphics extension: .eps.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 ...=0.8\textwidth]{model_adaptation_flow.eps}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[15]
+File: ./img/model_adaptation_flow.eps Graphic file (type eps)
+ <./img/model_adaptation_flow.eps>
 ! Too many }'s.
 l.105 \end{algorithm}}}
                        
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-[14] [15]) (rs.tex
-Underfull \vbox (badness 7685) has occurred while \output is active []
+[16] [17]) (rs.tex
+Underfull \vbox (badness 1931) has occurred while \output is active []
 
- [16]
-[17] <./img/EHM+edge.png, id=72, 428.35031pt x 292.84406pt>
-File: ./img/EHM+edge.png Graphic file (type png)
+ [18]
+[19]
+File: ./img/EHM+edge.png Graphic file (type QTm)
+ <use  "./img/EHM+edge.png" >
 
-<use ./img/EHM+edge.png>
-Package pdftex.def Info: ./img/EHM+edge.png used on input line 45.
-(pdftex.def)             Requested size: 190.63338pt x 130.32635pt.
+LaTeX Warning: Reference `alg:smbsa' on page 20 undefined on input line 50.
 
+[20]
+File: ./img/NHM+node.png Graphic file (type QTm)
+ <use  "./img/NHM+node.png" >
+File: ./img/ENUM2+ORDER.png Graphic file (type QTm)
+ <use  "./img/ENUM2+ORDER.png" >
 
-LaTeX Warning: Reference `alg:smbsa' on page 18 undefined on input line 50.
-
-<./img/NHM+node.png, id=73, 428.35031pt x 350.81062pt>
-File: ./img/NHM+node.png Graphic file (type png)
-
-<use ./img/NHM+node.png>
-Package pdftex.def Info: ./img/NHM+node.png used on input line 66.
-(pdftex.def)             Requested size: 190.63338pt x 156.12361pt.
- [18 <./img/EHM+edge.png>]
-<./img/ENUM2+ORDER.png, id=77, 429.10312pt x 295.85532pt>
-File: ./img/ENUM2+ORDER.png Graphic file (type png)
-
-<use ./img/ENUM2+ORDER.png>
-Package pdftex.def Info: ./img/ENUM2+ORDER.png used on input line 85.
-(pdftex.def)             Requested size: 190.63338pt x 131.43625pt.
-
-
-Package natbib Warning: Citation `riohsu2014' on page 19 undefined on input lin
+Package natbib Warning: Citation `riohsu2014' on page 21 undefined on input lin
 e 91.
 
 
@@ -566,36 +489,18 @@ Underfull \hbox (badness 1546) in paragraph at lines 91--92
 e, we test Enum2 and
  []
 
-[19 <./img/NHM+node.png>]
-<./img/essenceTSP.png, id=82, 429.10312pt x 165.61874pt>
-File: ./img/essenceTSP.png Graphic file (type png)
+[21]
+File: ./img/essenceTSP.png Graphic file (type QTm)
+ <use  "./img/essenceTSP.png" >
+File: ./img/essenceQAP.png Graphic file (type QTm)
+ <use  "./img/essenceQAP.png" >
+File: ./img/essence.png Graphic file (type QTm)
 
-<use ./img/essenceTSP.png>
-Package pdftex.def Info: ./img/essenceTSP.png used on input line 103.
-(pdftex.def)             Requested size: 381.26675pt x 147.15761pt.
+<use  "./img/essence.png" > [22] [23]
+File: ./img/ENUM2+model.png Graphic file (type QTm)
+ <use  "./img/ENUM2+model.png" >
 
-<./img/essenceQAP.png, id=83, 429.10312pt x 165.61874pt>
-File: ./img/essenceQAP.png Graphic file (type png)
-
-<use ./img/essenceQAP.png>
-Package pdftex.def Info: ./img/essenceQAP.png used on input line 108.
-(pdftex.def)             Requested size: 381.26675pt x 147.15761pt.
-
-<./img/essence.png, id=84, 429.85594pt x 286.06876pt>
-File: ./img/essence.png Graphic file (type png)
- <use ./img/essence.png>
-Package pdftex.def Info: ./img/essence.png used on input line 123.
-(pdftex.def)             Requested size: 343.13774pt x 228.36206pt.
-
-<./img/ENUM2+model.png, id=85, 429.10312pt x 331.2375pt>
-File: ./img/ENUM2+model.png Graphic file (type png)
-
-<use ./img/ENUM2+model.png>
-Package pdftex.def Info: ./img/ENUM2+model.png used on input line 149.
-(pdftex.def)             Requested size: 190.63338pt x 147.15508pt.
-
-
-LaTeX Warning: Reference `ch:order_distance' on page 20 undefined on input line
+LaTeX Warning: Reference `ch:order_distance' on page 24 undefined on input line
  154.
 
 
@@ -604,11 +509,14 @@ Underfull \hbox (badness 3333) in paragraph at lines 154--155
 ethod, we test
  []
 
-[20 <./img/ENUM2+ORDER.png>] [21 <./img/essenceTSP.png> <./img/essenceQAP.png>]
-[22 <./img/essence.png> <./img/ENUM2+model.png>]
+
+Underfull \vbox (badness 1648) has occurred while \output is active []
+
+ [24]
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
 
+[25]
 Underfull \hbox (badness 1783) in paragraph at lines 190--191
 []\OT1/ppl/m/n/10 LOP:$\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 75\OML/cmm/m/it/10 i\O
 T1/cmr/m/n/10 11\OML/cmm/m/it/10 xx$\OT1/ppl/m/n/10 , $\OML/cmm/m/it/10 t\OT1/c
@@ -623,39 +531,24 @@ m/m/it/10 t\OT1/cmr/m/n/10 65\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 11\OML/cmm/m/it/
 m/n/10 ,
  []
 
-[23] <./img/EHMSize.png, id=98, 428.35031pt x 311.66437pt>
-File: ./img/EHMSize.png Graphic file (type png)
-
-<use ./img/EHMSize.png>
-Package pdftex.def Info: ./img/EHMSize.png used on input line 196.
-(pdftex.def)             Requested size: 381.26675pt x 277.40895pt.
- [24 <./img/EHMSize.png>]
-<./img/NHMSize.png, id=102, 429.10312pt x 331.99031pt>
-File: ./img/NHMSize.png Graphic file (type png)
- <use ./img/NHMSize.png>
-Package pdftex.def Info: ./img/NHMSize.png used on input line 218.
-(pdftex.def)             Requested size: 190.63338pt x 147.48952pt.
-
-[25 <./img/NHMSize.png>]
+File: ./img/EHMSize.png Graphic file (type QTm)
+<use  "./img/EHMSize.png" > [26]
+File: ./img/NHMSize.png Graphic file (type QTm)
+ <use  "./img/NHMSize.png" > [27]
 Underfull \hbox (badness 10000) in paragraph at lines 236--237
 []\OT1/ppl/m/n/10 and the bench-mark in-stances of FSSP :$\OT1/cmr/m/n/10 20[]5
 []01[]\OML/cmm/m/it/10 ta\OT1/cmr/m/n/10 001$\OT1/ppl/m/n/10 , $\OT1/cmr/m/n/10
  20[]10[]01[]\OML/cmm/m/it/10 ta\OT1/cmr/m/n/10 011$\OT1/ppl/m/n/10 ,
  []
 
-<./img/arpdi.png, id=107, 428.35031pt x 275.52937pt>
-File: ./img/arpdi.png Graphic file (type png)
- <use ./img/arpdi.png>
-Package pdftex.def Info: ./img/arpdi.png used on input line 244.
-(pdftex.def)             Requested size: 381.26675pt x 245.24557pt.
-)
-(ecjsample.bbl [26 <./img/arpdi.png>] [27]
-Missing character: There is no ” in font pplri7t!
+File: ./img/arpdi.png Graphic file (type QTm)
+<use  "./img/arpdi.png" >) (ecjsample.bbl [28] [29]
+Missing character: There is no ^^94 in font pplri7t!
 )
 
 Package natbib Warning: There were undefined citations.
 
-[28] (ecjsample.aux)
+[30] (ecjsample.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -664,32 +557,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5750 strings out of 493671
- 82746 string characters out of 3143865
- 177063 words of memory out of 3000000
- 8980 multiletter control sequences out of 15000+200000
- 24486 words of font info for 73 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
+ 5176 strings out of 428760
+ 72506 string characters out of 3164296
+ 169081 words of memory out of 3000000
+ 8418 multiletter control sequences out of 15000+200000
+ 16754 words of font info for 61 fonts, out of 3000000 for 9000
+ 1096 hyphenation exceptions out of 8191
  42i,14n,40p,1215b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/upl
-b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ecjsample.pdf (28 pages, 387385 bytes).
-PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Output written on ecjsample.pdf (30 pages).
