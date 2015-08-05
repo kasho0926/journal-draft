@@ -102,7 +102,7 @@ In this paper, the model adaptation framework incorporates with the UCB algorith
         return $O$\;
     \caption{Multi-armed Bandit Based Model Adaptation}
     \label{alg:model_adaptation}
-\end{algorithm}}}
+\end{algorithm}}
 
 
 Algorithm \ref{alg:model_adaptation} introduces a details pseudo-code of the proposed multi-armed bandit based model adaptation (MABMA). Lines 10 and 11 replace $p$ with the newly generated individual $c$. To improve performance, we will introduce a new methodology to choose replaced individual in next chapter. As we treat the semantic models as arms in the MAB problem, at the initialization stage of the algorithm, the UCB algorithms needs initial value of the semantic models. Thus, each model $m_j$ have to generate one new individual by a randomly picked template for the initialization of UCB.

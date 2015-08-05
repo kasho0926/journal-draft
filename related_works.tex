@@ -76,9 +76,9 @@ Formally, the PL model is given by
     P(\pi|W) = \prod_{i=1}^{n-1}\frac{w_{\pi_i}}{\sum_{j=i}^{n}{w_{\pi_j}}} \text{,}
     \label{eq:pl_mdoel}
 \end{equation}
-where $W=\lbrace w_1,w_2,...,w_n\rbrace$ is a parameter vector. Comparing the parameters $w_i$ and $w_j$,$i\neqj$, the larger parameter $w_i$ has the higher probability that item $i$ appears in the front of item $j$ on the permutation. The typical way to fit a PL model is by maximum likelihood estimation (MLE) of the parameters $w$. Hunter~\citep{hunter2004mm} describes a way to do this using a Minorization-Maximization (MM) algorithm.
+where $W=\lbrace w_1,w_2,...,w_n\rbrace$ is a parameter vector. Comparing the parameters $w_i$ and $w_j$, $i\neq j$, the larger parameter $w_i$ has the higher probability that item $i$ appears in the front of item $j$ on the permutation. The typical way to fit a PL model is by maximum likelihood estimation (MLE) of the parameters $w$. Hunter~\citep{hunter2004mm} describes a way to do this using a Minorization-Maximization (MM) algorithm.
 
-Once the parameter vector \W is known, we can sample new individual as following procedure. First, we sample the first position of the individual with the probability $P(\pi(1)=j)=w_j$. The following positions are sampled by sampling the remaining $w$ which are normalized to sum 1. Repeating the process until all positions are sampled.
+Once the parameter vector $W$ is known, we can sample new individual as following procedure. First, we sample the first position of the individual with the probability $P(\pi(1)=j)=w_j$. The following positions are sampled by sampling the remaining $w$ which are normalized to sum 1. Repeating the process until all positions are sampled.
 
 
 
