@@ -3,7 +3,7 @@
 \bibitem[Allahverdi et~al., 2008]{allahverdi2008survey}
 Allahverdi, A., Ng, C.~T., Cheng, T. C.~E., and Kovalyov, M.~Y. (2008).
 \newblock A survey of scheduling problems with setup times or costs.
-\newblock {\em European Journal of Operational Research}, 187(3):985 -- 1032.
+\newblock {\em European Journal of Operational Research}, 187(3):985--1032.
 
 \bibitem[Audibert et~al., 2009]{audibert2009exploration}
 Audibert, J.-Y., Munos, R., and Szepesv{\'a}ri, C. (2009).
@@ -19,7 +19,7 @@ Auer, P. (2003).
 \bibitem[Auer et~al., 2002]{Auer2002}
 Auer, P., Cesa-Bianchi, N., and Fischer, P. (2002).
 \newblock Finite-time analysis of the multiarmed bandit problem.
-\newblock {\em Machine learning}, 47(2-3):235--256.
+\newblock {\em Machine Learning}, 47(2-3):235--256.
 
 \bibitem[Barbosa and S{\'a}, 2000]{barbosa2000adaptive}
 Barbosa, H.~J. and S{\'a}, A.~M. (2000).
@@ -43,14 +43,20 @@ Ceberio, J., Irurozki, E., Mendiburu, A., and Lozano, J.~A. (2012).
 Ceberio, J., Mendiburu, A., and Lozano, J.~A. (2011).
 \newblock Introducing the mallows model on estimation of distribution
   algorithms.
-\newblock In {\em Neural Information Processing}, pages 461--470. Springer.
+\newblock {\em Proceedings of 18th International Conference on Neural
+  Information Processing}, pages 461--470.
 
 \bibitem[Ceberio et~al., 2013]{ceberio2013plackett}
 Ceberio, J., Mendiburu, A., and Lozano, J.~A. (2013).
 \newblock The plackett-luce ranking model on permutation-based optimization
   problems.
-\newblock In {\em 2013 IEEE Congress on Evolutionary Computation (CEC)}, pages
-  494--501. IEEE.
+\newblock {\em Proceedings of the 2013 IEEE Congress on Evolutionary
+  Computation}, pages 494--501.
+
+\bibitem[Dantzig and Ramser, 1959]{dantzig1959}
+Dantzig, G.~B. and Ramser, J.~H. (1959).
+\newblock The truck dispatching problem.
+\newblock {\em Management Science}, 6(1):80--91.
 
 \bibitem[Davis, 1989]{Davis:1989:AOP:93126.93146}
 Davis, L. (1989).
@@ -87,43 +93,44 @@ Fialho, {\'A}., Schoenauer, M., and Sebag, M. (2009).
 
 \bibitem[French, 1982]{french1982sequencing}
 French, S. (1982).
-\newblock {\em Sequencing and scheduling: an introduction to the mathematics of
-  the job-shop}, volume 683.
-\newblock Ellis Horwood Chichester.
+\newblock {\em Sequencing and scheduling: An introduction to the mathematics of
+  the job-shop}.
+\newblock Ellis Horwood Chichester, Chichester, England.
 
 \bibitem[Gelly et~al., 2008]{Gelly2008}
-Gelly, S., Hoock, J.-B., Rimmel, A., Teytaud, O., Kalemkarian, Y., et~al.
-  (2008).
+Gelly, S., Hoock, J.-B., Rimmel, A., Teytaud, O., and Kalemkarian, Y. (2008).
 \newblock On the parallelization of monte-carlo planning.
-\newblock In {\em ICINCO}.
+\newblock {\em Proceedings of the Fifth International Conference on Informatics
+  in Control, Automation and Robotics, Intelligent Control Systems and
+  Optimization}, pages 244--249.
 
 \bibitem[Gelly and Silver, 2007]{Gelly2007}
 Gelly, S. and Silver, D. (2007).
-\newblock Combining online and offline knowledge in uct.
-\newblock In {\em Proceedings of the 24th international conference on Machine
-  learning}, pages 273--280. ACM.
+\newblock Combining online and offline knowledge in {UCT}.
+\newblock {\em Proceedings of the 24th International Conference on Machine
+  Learning}, pages 273--280.
 
 \bibitem[Goldberg and Lingle, 1985]{goldberg1985alleles}
 Goldberg, D.~E. and Lingle, R. (1985).
 \newblock Alleles, loci, and the traveling salesman problem.
-\newblock In {\em Proceedings of an International Conference on Genetic
-  Algorithms and Their Applications}, volume 154. Lawrence Erlbaum, Hillsdale,
-  NJ.
+\newblock {\em Proceedings of the First International Conference on Genetic
+  Algorithms}, pages 154--159.
 
 \bibitem[Gupta and Stafford~Jr, 2006]{gupta2006flowshop}
 Gupta, J.~N. and Stafford~Jr, E.~F. (2006).
 \newblock Flowshop scheduling research after five decades.
 \newblock {\em European Journal of Operational Research}, 169(3):699--711.
 
-\bibitem[Harik, 1995]{harik1995rts}
+\bibitem[Harik, 1995]{Harik1995}
 Harik, G.~R. (1995).
-\newblock Finding multimodal solutions using restricted tournament seletion.
-\newblock pages 24--31.
+\newblock Finding multimodal solutions using restricted tournament selection.
+\newblock {\em Proceedings of the Sixth International Conference on Genetic
+  Algorithms}, pages 24--31.
 
 \bibitem[Hunter, 2004]{hunter2004mm}
 Hunter, D.~R. (2004).
 \newblock Mm algorithms for generalized bradley-terry models.
-\newblock {\em Annals of Statistics}, pages 384--406.
+\newblock {\em Annals of Statistics}, 32:384--406.
 
 \bibitem[Julstrom, 1995]{Julstrom:1995:YDM:645514.657934}
 Julstrom, B.~A. (1995).
@@ -141,17 +148,17 @@ Kocsis, L. and Szepesv{\'a}ri, C. (2006).
 \bibitem[Koopmans and Beckmann, 1957]{koopmans1957assignment}
 Koopmans, T.~C. and Beckmann, M. (1957).
 \newblock Assignment problems and the location of economic activities.
-\newblock {\em Econometrica: journal of the Econometric Society}, pages 53--76.
+\newblock {\em Econometrica}, 25:53--76.
 
-\bibitem[Kuleshov and Precup, 2000]{Kuleshov2000}
-Kuleshov, V. and Precup, D. (2000).
+\bibitem[Kuleshov and Doina, 2000]{Kuleshov2000}
+Kuleshov, V. and Doina, P. (2000).
 \newblock Algorithms for multi-armed bandit problems.
-\newblock {\em arXiv preprint arXiv:1402.6028}.
+\newblock {\em Journal of Machine Learning Research}, 1:1--48.
 
 \bibitem[Lai and Robbins, 1985]{lai1985asymptotically}
 Lai, T.~L. and Robbins, H. (1985).
 \newblock Asymptotically efficient adaptive allocation rules.
-\newblock {\em Advances in applied mathematics}, 6(1):4--22.
+\newblock {\em Advances in Applied Mathematics}, 6(1):4--22.
 
 \bibitem[Lee, 2012]{lee2012bayesian}
 Lee, P.~M. (2012).
@@ -176,14 +183,15 @@ Marden, J.~I. (1996).
 
 \bibitem[Mart{\'\i} and Reinelt, 2011]{marti2011linear}
 Mart{\'\i}, R. and Reinelt, G. (2011).
-\newblock {\em The linear ordering problem: exact and heuristic methods in
+\newblock {\em The linear ordering problem: Exact and heuristic methods in
   combinatorial optimization}, volume 175.
 \newblock Springer, New York, NY.
 
 \bibitem[Mohri, 2005]{Mohri2005}
 Mohri, M. (2005).
 \newblock {Multi-armed Bandit Algorithms and Empirical Evaluation}.
-\newblock pages 437--448.
+\newblock {\em Proceedings of the 16th European Conference on Machine
+  Learning}, pages 437--448.
 
 \bibitem[Pelikan et~al., 2007]{pelikan2007dependency}
 Pelikan, M., Tsutsui, S., and Kalapala, R. (2007).
@@ -195,11 +203,11 @@ Pelikan, M., Tsutsui, S., and Kalapala, R. (2007).
 \bibitem[Plackett, 1975]{plackett1975analysis}
 Plackett, R.~L. (1975).
 \newblock The analysis of permutations.
-\newblock {\em Applied Statistics}, pages 193--202.
+\newblock {\em Applied Statistics}, 24:193--202.
 
-\bibitem[Schiavinotto and St{\"u}tzle, 2004]{schiavinotto2004linear}
+\bibitem[Schiavinotto and St{\"u}tzle, 2004]{schiavinotto2004}
 Schiavinotto, T. and St{\"u}tzle, T. (2004).
-\newblock The linear ordering problem: Instances, search space analysis and
+\newblock The linear ordering problem: instances, search space analysis and
   algorithms.
 \newblock {\em Journal of Mathematical Modelling and Algorithms},
   3(4):367--402.
@@ -213,28 +221,29 @@ Toth, P. and Vigo, D. (2001).
 Tsutsui, S. (2002).
 \newblock Probabilistic model-building genetic algorithms in permutation
   representation domain using edge histogram.
-\newblock In {\em Parallel Problem Solving from Nature?”PPSN VII}, pages
-  224--233. Springer.
+\newblock {\em Proceedings of the Seventh International Conference on Parallel
+  Problem Solving from Nature}, pages 224--233.
 
 \bibitem[Tsutsui, 2006]{tsutsui2006comparative}
 Tsutsui, S. (2006).
 \newblock A comparative study of sampling methods in node histogram models with
   probabilistic model-building genetic algorithms.
-\newblock In {\em Systems, Man and Cybernetics, 2006. SMC'06. IEEE
-  International Conference on}, volume~4, pages 3132--3137. IEEE.
+\newblock {\em Proceedings of the Sixth Annual IEEE Systems, Man and
+  Cybernetics}, pages 3132--3137.
 
 \bibitem[Tsutsui et~al., 2006]{tsutsui2006node}
 Tsutsui, S., Pelikan, M., and Goldberg, D.~E. (2006).
-\newblock Node histogram vs. edge histogram: A comparison of pmbgas in
+\newblock Node histogram vs. edge histogram: A comparison of {PMBGA}s in
   permutation domains.
-\newblock {\em MEDAL Report}, (2006009).
+\newblock {\em Proceedings of the 2006 IEEE Congress on Evolutionary
+  Computation}, (1939--1946).
 
 \bibitem[Tsutsui and Wilson, 2004]{tsutsui2004solving}
 Tsutsui, S. and Wilson, G. (2004).
 \newblock Solving capacitated vehicle routing problems using edge histogram
   based sampling algorithms.
-\newblock In {\em IEEE Congress on Evolutionary Computation(CEC), 2004.},
-  volume~1, pages 1150--1157. IEEE.
+\newblock {\em Proceedings of the 2004 IEEE Congress on Evolutionary
+  Computation}, 1:1150--1157.
 
 \bibitem[Tuson and Ross, 1998]{tuson1998adapting}
 Tuson, A. and Ross, P. (1998).

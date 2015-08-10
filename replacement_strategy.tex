@@ -7,7 +7,7 @@ In the previous section, we introduce three semantics of permutation problems, t
 
 
 \subsection{Restricted Tournament Replacement}
-The restricted tournament replacement (RTR) is a commonly used niching technique in the field of EDAs. RTR is also known as restricted tournament selection (RTS) which is first proposed in \citep{harik1995rts}. RTR uses the tournament strategy to decide the part which get to move on to the next generation. We present the process of RTR in algorithm \ref{alg:RTR_algorithm}, where the $Distance$ function is usually the Hamming distance in binary problems. However, Hamming distance is not suitable for permutation problems. Thus, we define new distance for permutation problems by characteristics of permutation problems. The settings of window size $w$ are suggested in the following section.
+The restricted tournament replacement (RTR) is a commonly used niching technique in the field of EDAs. RTR is also known as restricted tournament selection (RTS) which is first proposed in \citep{Harik1995}. RTR uses the tournament strategy to decide the part which get to move on to the next generation. We present the process of RTR in algorithm \ref{alg:RTR_algorithm}, where the $Distance$ function is usually the Hamming distance in binary problems. However, Hamming distance is not suitable for permutation problems. Thus, we define new distance for permutation problems by characteristics of permutation problems. The settings of window size $w$ are suggested in the following section.
 
 
 \begin{algorithm}[htbp]
@@ -47,7 +47,7 @@ An edge is connection between two nodes. The edge distance is calculated by diff
         \label{fig:ehbsa_imp}
 \end{figure}
 
-For investigating the efficiency of the edge distance, we test EHM and EHM+RTR which uses the edge distance on TSP with the minimum required population size which is the minimum size for solving the objective problem, maximum NFE $E_{max} = \ell\times 40000$ and the number of cut points which is 3, and repeat 20 times respectively. Algorithm \ref{alg:smbsa} shows the used algorithm in our work, which is similar to EHBSA with template~\cite{tsutsui2002probabilistic}. Figure \ref{fig:ehbsa_imp} shows NFE reduced by RTR with the edge distance. 
+For investigating the efficiency of the edge distance, we test EHM and EHM+RTR which uses the edge distance on TSP with the minimum required population size which is the minimum size for solving the objective problem, maximum NFE $E_{max} = \ell\times 40000$ and the number of cut points which is 3, and repeat 20 times respectively. Figure \ref{fig:ehbsa_imp} shows NFE reduced by RTR with the edge distance. 
 The results indicate that RTR with the edge distance is able to improve the performance of EHM on TSP. Besides, as the difficulty of permutation problem growing up, the improvement increases. By the way, the problem size of $pr76$ is larger than $eil51$, but the minimum required population size of $pr76$ is smaller than $eil51$. This means that $eil51$ is more difficult problem than $pr76$. 
 
 \subsection*{Node Distance}
@@ -151,7 +151,7 @@ In this section, we introduce the model-associated method. The model-associated 
         \label{fig:enum2_model}
 \end{figure}
 
-To investigate the performance of the model-associated method, we test EHM+NHM and EHM+NHM with the model-associated method on LOP with the minimum required population size, maximum NFE $E_{max} = \ell\times 40000$ and the number of cut points which is 3, and repeat 20 times respectively. In this experiment, we use enumeration method to choose EHM or NHM. The results are shown in Figure \ref{fig:enum2_model}. The results shows that RTR with the model-associated method is able to improve the performance of EHM+NHM on LOP. Comparing with the experimental results in Section \ref{ch:order_distance}, the performance of RTR with the model-associated method is close to that with the order distance. 
+To investigate the performance of the model-associated method, we test EHM+NHM and EHM+NHM with the model-associated method on LOP with the minimum required population size, maximum NFE $E_{max} = \ell\times 40000$ and the number of cut points which is 3, and repeat 20 times respectively. In this experiment, we use enumeration method to choose EHM or NHM. The results are shown in Figure \ref{fig:enum2_model}. The results shows that RTR with the model-associated method is able to improve the performance of EHM+NHM on LOP. Comparing with the experimental results of the order distance, the performance of RTR with the model-associated method is close to that with the order distance. 
 
 \subsection*{Reward Policy}
 

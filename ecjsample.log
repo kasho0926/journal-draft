@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.6.10)  5 AUG 2015 12:50
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.6.10)  9 AUG 2015 14:37
 entering extended mode
 **ecjsample.tex
 (ecjsample.tex
@@ -302,19 +302,12 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
  [1
 
 ]
-
-Package natbib Warning: Citation `dantzig1959' on page 2 undefined on input lin
-e 20.
-
 File: ./img/cvrp_encoding.eps Graphic file (type eps)
+
 <./img/cvrp_encoding.eps> [2] [3]
 Missing character: There is no – in font pplr7t!
- [4]) (related_works.tex
-
-LaTeX Warning: Reference `alg:ehbsa_sampling' on page 5 undefined on input line
- 30.
-
-[5] [6]) (essence_of_adaptation.tex
+ [4]) (related_works.tex [5] [6])
+(essence_of_adaptation.tex
 Overfull \hbox (10.34329pt too wide) in paragraph at lines 33--42
  [][] 
  []
@@ -359,13 +352,10 @@ Underfull \vbox (badness 1931) has occurred while \output is active []
  [17])
 (replacement_strategy.tex [18]
 File: ./img/EHM+edge.png Graphic file (type QTm)
- <use  "./img/EHM+edge.png" >
-
-LaTeX Warning: Reference `alg:smbsa' on page 19 undefined on input line 50.
-
-[19]
+ <use  "./img/EHM+edge.png" > [19]
 File: ./img/NHM+node.png Graphic file (type QTm)
- <use  "./img/NHM+node.png" > [20]
+
+<use  "./img/NHM+node.png" > [20]
 File: ./img/ENUM2+ORDER.png Graphic file (type QTm)
  <use  "./img/ENUM2+ORDER.png" >
 Underfull \hbox (badness 1546) in paragraph at lines 91--92
@@ -382,11 +372,6 @@ File: ./img/essence.png Graphic file (type QTm)
 <use  "./img/essence.png" > [21] [22]
 File: ./img/ENUM2+model.png Graphic file (type QTm)
  <use  "./img/ENUM2+model.png" >
-
-LaTeX Warning: Reference `ch:order_distance' on page 23 undefined on input line
- 154.
-
-
 Underfull \hbox (badness 3333) in paragraph at lines 154--155
 []\OT1/ppl/m/n/10 To in-ves-ti-gate the per-for-mance of the model-associated m
 ethod, we test
@@ -394,9 +379,9 @@ ethod, we test
 
 [23]
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 186.
 
-Underfull \hbox (badness 1783) in paragraph at lines 190--191
+Underfull \hbox (badness 1783) in paragraph at lines 188--189
 []\OT1/ppl/m/n/10 LOP:$\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 75\OML/cmm/m/it/10 i\O
 T1/cmr/m/n/10 11\OML/cmm/m/it/10 xx$\OT1/ppl/m/n/10 , $\OML/cmm/m/it/10 t\OT1/c
 mr/m/n/10 65\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 11\OML/cmm/m/it/10 xx$\OT1/ppl/m/
@@ -415,32 +400,23 @@ File: ./img/window_size.png Graphic file (type QTm)
 File: ./img/include_template.png Graphic file (type QTm)
  <use  "./img/include_template.png" >
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 []\OT1/ppl/m/n/10 and the bench-mark in-stances of FSSP :$\OT1/cmr/m/n/10 20[]5
 []01[]\OML/cmm/m/it/10 ta\OT1/cmr/m/n/10 001$\OT1/ppl/m/n/10 , $\OT1/cmr/m/n/10
  20[]10[]01[]\OML/cmm/m/it/10 ta\OT1/cmr/m/n/10 011$\OT1/ppl/m/n/10 ,
  []
 
 File: ./img/arpdi.png Graphic file (type QTm)
-<use  "./img/arpdi.png" >) (ecjsample.bbl [27] [28]
-Missing character: There is no ^^94 in font pplri7t!
-)
-
-Package natbib Warning: There were undefined citations.
-
-[29] (ecjsample.aux)
-
-LaTeX Warning: There were undefined references.
-
+<use  "./img/arpdi.png" >) (ecjsample.bbl [27] [28]) [29] (ecjsample.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5168 strings out of 428760
- 72468 string characters out of 3164296
+ 5167 strings out of 428760
+ 72435 string characters out of 3164296
  168081 words of memory out of 3000000
- 8413 multiletter control sequences out of 15000+200000
+ 8412 multiletter control sequences out of 15000+200000
  16754 words of font info for 61 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  42i,14n,40p,1215b,439s stack positions out of 5000i,500n,10000p,200000b,50000s

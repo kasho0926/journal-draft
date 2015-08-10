@@ -1,19 +1,164 @@
 % This file was created with JabRef 2.10.
-% Encoding: MS950
+% Encoding: UTF8
 
+
+@InProceedings{RadeticP10,
+  Title                    = {Spurious dependencies and EDA scalability.},
+  Author                   = {Radetic, Elizabeth and Pelikan, Martin},
+  Booktitle                = {GECCO},
+  Year                     = {2010},
+  Editor                   = {Pelikan, Martin and Branke, J�rgen},
+  Pages                    = {303-310},
+  Publisher                = {ACM},
+
+  Added-at                 = {2010-07-08T00:00:00.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/2de3f1856afea3c251af52b806001d8ea/dblp},
+  Crossref                 = {conf/gecco/2010},
+  Ee                       = {http://doi.acm.org/10.1145/1830483.1830543},
+  Interhash                = {c88f116c2aefebf02e633f78a09050da},
+  Intrahash                = {de3f1856afea3c251af52b806001d8ea},
+  ISBN                     = {978-1-4503-0072-8},
+  Keywords                 = {dblp},
+  Timestamp                = {2013-11-20T11:34:11.000+0100},
+  Url                      = {http://dblp.uni-trier.de/db/conf/gecco/gecco2010.html#RadeticP10}
+}
+
+@Book{Abramowitz:1970,
+  Title                    = {Handbook of Mathematical Functions},
+  Author                   = {Abramowitz, M. and Stegun, L.},
+  Publisher                = {Dover},
+  Year                     = {1970},
+
+  Address                  = {New York},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Ackley:1987,
+  Title                    = {An Empirical Study of Bit Vector Function Optimization},
+  Author                   = {David H. Ackley},
+  Journal                  = {Genetic Algorithms ans Simulated Annealing},
+  Year                     = {1987},
+  Pages                    = {170--204},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2012.11.28}
+}
+
+@Book{Ackley:87,
+  Title                    = {A connectionist machine for genetic hill climbing},
+  Author                   = {Ackley, D. H.},
+  Publisher                = {Kluwer Academic},
+  Year                     = {1987},
+
+  Address                  = {Boston},
+
+  Owner                    = {Fish},
+  Tcga                     = {B00006},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{adusumilli2008,
+  Title                    = {A Genetic Algorithm for the Two Machine Flow Shop Problem.},
+  Author                   = {Adusumilli, Kumar and Bein, Doina and Bein, Wolfgang W.},
+  Journal                  = {Proceedings of the 41st Hawaii International International Conference on Systems Science},
+  Year                     = {2008},
+  Pages                    = {64}
+}
+
+@PhdThesis{Ahn:2005:rboa,
+  Title                    = {Theory, Design, and Application of Efficient Genetic and Evolutionary Algorithms},
+  Author                   = {Chang Wook Ahn},
+  School                   = {Gwangju Institude of Science and Technology},
+  Year                     = {2005},
+  Type                     = {Doctoral Dissertation},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Ahuja:1993,
+  Title                    = {Network Flows: Theory, Algorithms, and Applications},
+  Author                   = {Ahuja, Ravindra K. and Magnanti, Thomas L. and Orlin, James B.},
+  Publisher                = {Prentice Hall},
+  Year                     = {1993},
+
+  Address                  = {Englewood Cliffs, NJ},
+
+  Added-at                 = {2006-09-13T17:44:28.000+0200},
+  Description              = {JMM master bibtex},
+  Interhash                = {189993fc2ab4eb35653e712945fa8801},
+  Intrahash                = {17efd97c5b8db5e7da552eafa3f659c9},
+  Keywords                 = {imported},
+  Owner                    = {singerlibra},
+  Timestamp                = {2011.12.19}
+}
+
+@Article{Aickelin:2007,
+  Title                    = {An Estimation of Distribution Algorithm with Intelligent Local Search for Rule-based Nurse Rostering},
+  Author                   = {Aickelin, Uwe and Burke, Edmund K. and Jingpeng Li},
+  Journal                  = {Journal of the Operational Research Society},
+  Year                     = {2007},
+  Number                   = {12},
+  Pages                    = {1574--1585},
+  Volume                   = {58}
+}
+
+@Book{Alexander:1964,
+  Title                    = {Notes on the Synthesis of Form},
+  Author                   = {Alexander, C.},
+  Publisher                = {Harvard Press},
+  Year                     = {1964},
+
+  Address                  = {Boston, MA},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
 
 @Article{allahverdi2008survey,
-  Title                    = {A survey of scheduling problems with setup times or costs },
+  Title                    = {A survey of scheduling problems with setup times or costs},
   Author                   = {Ali Allahverdi and C T. Ng and T C E. Cheng and Mikhail Y. Kovalyov},
-  Journal                  = {European Journal of Operational Research },
+  Journal                  = {European Journal of Operational Research},
   Year                     = {2008},
   Number                   = {3},
-  Pages                    = {985 - 1032},
-  Volume                   = {187},
+  Pages                    = {985--1032},
+  Volume                   = {187}
+}
 
-  Doi                      = {http://dx.doi.org/10.1016/j.ejor.2006.06.060},
-  ISSN                     = {0377-2217},
-  Url                      = {http://www.sciencedirect.com/science/article/pii/S0377221706008174}
+@Book{Anderberg:1973,
+  Title                    = {Cluster Analysis for Applications},
+  Author                   = {Anderberg, M.},
+  Publisher                = {Academic Press},
+  Year                     = {1973},
+
+  Address                  = {New York, NY},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Aporntewan:2003,
+  Title                    = {Building-Block Identification by Simultaneity Matrix},
+  Author                   = {Chatchawit Aporntewan and Prabhas Chongstitvatana},
+  Journal                  = {Proceedings of the {G}enetic and {E}volutionary {C}omputation {C}onference},
+  Year                     = {2003},
+  Pages                    = {1566--1567},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Aporntewan2003,
+  Title                    = {Building-block identification by simultaneity matrix},
+  Author                   = {C. Aporntewan and P. Chongstitvatana},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2003)},
+  Year                     = {2003},
+  Pages                    = {1566--1567},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
 }
 
 @Article{audibert2009exploration,
@@ -23,9 +168,7 @@
   Year                     = {2009},
   Number                   = {19},
   Pages                    = {1876--1902},
-  Volume                   = {410},
-
-  Publisher                = {Elsevier}
+  Volume                   = {410}
 }
 
 @Article{Auer2002ucb,
@@ -34,21 +177,59 @@
   Journal                  = {The Journal of Machine Learning Research},
   Year                     = {2003},
   Pages                    = {397--422},
-  Volume                   = {3},
-
-  Publisher                = {JMLR. org}
+  Volume                   = {3}
 }
 
 @Article{Auer2002,
   Title                    = {Finite-time analysis of the multiarmed bandit problem},
   Author                   = {Auer, Peter and Cesa-Bianchi, Nicolo and Fischer, Paul},
-  Journal                  = {Machine learning},
+  Journal                  = {Machine Learning},
   Year                     = {2002},
   Number                   = {2-3},
   Pages                    = {235--256},
-  Volume                   = {47},
+  Volume                   = {47}
+}
 
-  Publisher                = {Springer}
+@InProceedings{Back1995,
+  Title                    = {Generalized Convergence Models for Tournament- and (mu, lambda)-Selection},
+  Author                   = {Thomas B{\"a}ck},
+  Booktitle                = {ICGA},
+  Year                     = {1995},
+  Pages                    = {2-8}
+}
+
+@Article{Back:1995,
+  Title                    = {Generalized convergence models for tournament and ($\mu$;$\lambda$) selection},
+  Author                   = {B\"{a}ck, T.},
+  Journal                  = {Proceedings of the Sixth International Conference on Genetic Algorithms (ICGA 1995)},
+  Year                     = {1995},
+  Pages                    = {2--8},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Bacardit07,
+  Title                    = {Automated Alphabet Reduction Method with Evolutionary Algorithms for Protein Structure Prediction},
+  Author                   = {Jaume Bacardit and Michael Stout and Jonathan D. Hirst and Kumara Sastry and Xavier Llor\`{a} and Natalio Krasnogor},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2007)},
+  Year                     = {2007},
+  Pages                    = {346--353},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013.04.26}
+}
+
+@Book{Baldwin:2000,
+  Title                    = {Design Rules: The Power of Modularity},
+  Author                   = {Baldwin, C. and Clark, K.},
+  Publisher                = {The {MIT} Press},
+  Year                     = {2000},
+
+  Address                  = {Cambridge, MA},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
 }
 
 @InProceedings{barbosa2000adaptive,
@@ -56,6 +237,64 @@
   Author                   = {Barbosa, Helio JC and A M S{\'a}},
   Booktitle                = {Workshop on Advances and Trends in Artificial Intelligence for Problem Solving (SCCC'00)},
   Year                     = {2000}
+}
+
+@Article{Barron:1998,
+  Title                    = {The {MDL} Principle in Coding and Modeling},
+  Author                   = {Barron, A. and Rissenen, J. and Yu, B.},
+  Journal                  = {{IEEE} Transactions on Information Theory},
+  Year                     = {1998},
+  Number                   = {6},
+  Pages                    = {2743--2760},
+  Volume                   = {44},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Barron1998,
+  Title                    = {The {MDL} principle in coding and modeling},
+  Author                   = {A. Barron and J. Rissenen and B. Yu},
+  Journal                  = {IEEE Transactions on Information Theory},
+  Year                     = {1998},
+  Volume                   = {vol. 44, no.6, pp. 2743--2760},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@Article{Bean:1994:random-key,
+  Title                    = {Genetic algorithms and random keys for sequencing and optimization},
+  Author                   = {Bean, J.C.},
+  Journal                  = {ORSA Journal on Computing},
+  Year                     = {1994},
+  Number                   = {2},
+  Pages                    = {154--160},
+  Volume                   = {6},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Blickle:1995,
+  Title                    = {A mathematical analysis of tournament selection},
+  Author                   = {T. Blickle and L. Thiele},
+  Journal                  = {Proceedings of the Sixth International Conference on Genetic Algorithms (ICGA'95)},
+  Year                     = {1995},
+  Pages                    = {9--16},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Bosman:2011,
+  Title                    = {The roles of local search, model building and optimal mixing in evolutionary algorithms from a bbo perspective},
+  Author                   = {Bosman, Peter A.N. and Thierens, Dirk},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2011)},
+  Year                     = {2011},
+  Pages                    = {663--670},
+
+  Address                  = {New York, NY, USA}
 }
 
 @InProceedings{bosman2001crossing,
@@ -66,13 +305,79 @@
   Pages                    = {219--226}
 }
 
-@InProceedings{brownlee2008application,
+@Article{Bosman:1999:idea,
+  Title                    = {Linkage information processing in distribution estimation algorithms},
+  Author                   = {Bosman, P. A. N. and Thierens, D.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-1999)},
+  Year                     = {1999},
+  Pages                    = {60--67},
+  Volume                   = {I},
+
+  Owner                    = {Fish},
+  Tcga                     = {07865},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{brownlee2008application,
   Title                    = {An application of a multivariate estimation of distribution algorithm to cancer chemotherapy},
   Author                   = {Brownlee, Alexander EI and Pelikan, Martin and McCall, John AW and Petrovski, Andrei},
-  Booktitle                = {Proceedings of the 10th annual conference on Genetic and evolutionary computation},
+  Journal                  = {Proceedings of the 10th Annual Conference on Genetic and Evolutionary Computation},
   Year                     = {2008},
-  Organization             = {ACM},
-  Pages                    = {463--464}
+  Pages                    = {463--464},
+
+  Organization             = {ACM}
+}
+
+@Article{Broyden:1965,
+  Title                    = {A Class of Methods for Solving Nonlinear Simultaneous Equations},
+  Author                   = {Broyden, C.G.},
+  Journal                  = {Mathematics of Computation},
+  Year                     = {1965},
+  Number                   = {92},
+  Pages                    = {577--5930},
+  Volume                   = {19},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Bui:1996,
+  Title                    = {Genetic Algorithm and Graph Partitioning},
+  Author                   = {Bui, T. and Moon, B.},
+  Journal                  = {{IEEE} Transactions on Computers},
+  Year                     = {1996},
+  Number                   = {7},
+  Pages                    = {841--855},
+  Volume                   = {45},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@TechReport{RB96,
+  Title                    = {{QAPLIB}--A Quadratic Assignment Problem Library},
+  Author                   = {Burkard, R. E. and Karisch, S. E. and Rendl, F.},
+  Institution              = {Department of Mathematics, Graz University of Technology},
+  Year                     = {1996},
+
+  Address                  = {Graz, Austria},
+
+  Citeulike-article-id     = {9640414},
+  Keywords                 = {cj-bib},
+  Posted-at                = {2011-08-11 01:40:06},
+  Priority                 = {2}
+}
+
+@Book{CantuPaz:2000:parallel,
+  Title                    = {Efficient and accurate parallel genetic algorithms},
+  Author                   = {Cant\'{u}-Paz, E.},
+  Publisher                = {Kluwer},
+  Year                     = {2000},
+
+  Address                  = {Boston, MA},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
 }
 
 @Article{ceberio2012review,
@@ -87,22 +392,192 @@
   Publisher                = {Springer}
 }
 
-@InProceedings{ceberio2013plackett,
+@Article{ceberio2013plackett,
   Title                    = {The Plackett-Luce ranking model on permutation-based optimization problems},
   Author                   = {Ceberio, Josu and Mendiburu, Alexander and Lozano, Jose Antonio},
-  Booktitle                = {2013 IEEE Congress on Evolutionary Computation (CEC) },
+  Journal                  = {Proceedings of the 2013 IEEE Congress on Evolutionary Computation},
   Year                     = {2013},
-  Organization             = {IEEE},
-  Pages                    = {494--501}
+  Pages                    = {494--501},
+
+  Organization             = {IEEE}
 }
 
-@InProceedings{ceberio2011introducing,
+@Article{ceberio2011introducing,
   Title                    = {Introducing the mallows model on estimation of distribution algorithms},
   Author                   = {Ceberio, Josu and Mendiburu, Alexander and Lozano, Jose A},
-  Booktitle                = {Neural Information Processing},
+  Journal                  = {Proceedings of 18th International Conference on Neural Information Processing},
   Year                     = {2011},
-  Organization             = {Springer},
   Pages                    = {461--470}
+}
+
+@InProceedings{Chang:2011,
+  Title                    = {A test function with full controllability over overlapping: estimation of distribution algorithms.},
+  Author                   = {Chang, Jen-Hao and Hsueh, Chung-Hsiang and Lee, Hsuan and Yu, Tian-Li and Ho, Tsung-Yu},
+  Booktitle                = {GECCO (Companion)},
+  Year                     = {2011},
+  Pages                    = {61-62},
+  Publisher                = {ACM},
+
+  Owner                    = {singerlibra},
+  Timestamp                = {2011.12.18}
+}
+
+@TechReport{Chang:2011:conflict,
+  Title                    = {A Test Function with Full Controllability over Overlapping and Confliction between Sub-Problems},
+  Author                   = {Jen-Hao Chang and Chung-Hsiang Hsueh and Hsuan Lee and Tian-Li Yu and Tsung-Yu Ho},
+  Institution              = {National {T}aiwan {U}niversity},
+  Year                     = {2011},
+
+  Address                  = {Taipei, {T}aiwan},
+  Month                    = {July},
+  Number                   = {2011003},
+  Type                     = {{TEIL} {R}eport {N}o.},
+
+  Owner                    = {singerlibra},
+  Timestamp                = {2011.12.23}
+}
+
+@Article{chanon2007,
+  Title                    = {A survey on the linear ordering problem for weighted or unweighted tournaments},
+  Author                   = {Charon, Ir鈩e and Hudry, Olivier},
+  Journal                  = {4OR},
+  Year                     = {2007},
+  Number                   = {1},
+  Pages                    = {5-60},
+  Volume                   = {5},
+
+  Doi                      = {10.1007/s10288-007-0036-6},
+  ISSN                     = {1619-4500},
+  Language                 = {English},
+  Publisher                = {Springer-Verlag},
+  Url                      = {http://dx.doi.org/10.1007/s10288-007-0036-6}
+}
+
+@Article{Chen2009,
+  Title                    = {Difficulty of linkage learning in estimation of distribution algorithms},
+  Author                   = {Si-Cheng Chen and Tian-Li Yu},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2009)},
+  Year                     = {2009},
+  Pages                    = {397--404}
+}
+
+@Book{Chen:2005:llga-book,
+  Title                    = {Extending the scalability of linkage learning genetic algorithms: Theory and practice},
+  Author                   = {Chen, Y.-p.},
+  Publisher                = {Springer},
+  Year                     = {2005},
+
+  Address                  = {Berlin},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{chenery1958,
+  Title                    = {International Comparisons of the Structure of Production},
+  Author                   = {Chenery, Hollis B. and Watanabe, Tsunehiko},
+  Journal                  = {Econometrica},
+  Year                     = {1958},
+  Number                   = {4},
+  Pages                    = {487--521},
+  Volume                   = {26},
+
+  Added-at                 = {2012-12-27T14:33:54.000+0100},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/2adc8046fb107934470fe44354b204ba8/vivion},
+  Copyright                = {Copyright ｩ 1958 The Econometric Society},
+  Description              = {JSTOR: Econometrica, Vol. 26, No. 4 (Oct., 1958), pp. 487-521},
+  Interhash                = {78a9714124ee8b654b590c11b34d1649},
+  Intrahash                = {adc8046fb107934470fe44354b204ba8},
+  ISSN                     = {00129682},
+  Jstor_articletype        = {research-article},
+  Jstor_formatteddate      = {Oct., 1958},
+  Keywords                 = {econometrics economics economy input-output international},
+  Language                 = {English},
+  Publisher                = {The Econometric Society},
+  Timestamp                = {2012-12-27T14:33:54.000+0100}
+}
+
+@InProceedings{Chuang2007,
+  Title                    = {Likage identification by perturbation and decision tree induction},
+  Author                   = {Chung-Yao Chuang and Ying-Ping Chen},
+  Booktitle                = {{IEEE} Congress on Evolutionary Computation},
+  Year                     = {2007},
+  Pages                    = {357-363}
+}
+
+@Book{algorithms:2001,
+  Title                    = {Introduction to Algorithms},
+  Author                   = {Thomas H. Cormen and Charles E. Leiserson and Ronald L. Rivest and Clifford Stein},
+  Publisher                = {The {MIT} Press},
+  Year                     = {2001},
+
+  Address                  = {Cambridge, MA},
+  Edition                  = {Second},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@InCollection{Cormen:1990:divide-and-conquer,
+  Title                    = {The devide-and-conquer appoarch},
+  Author                   = {Cormen, Thomas H. and Leiserson, Charles, E. and Rivest, Ronald L.},
+  Booktitle                = {Introduction to Algorithms},
+  Publisher                = {The {MIT} Press},
+  Year                     = {1990},
+
+  Address                  = {Cambridge, MA},
+  Chapter                  = {1.3.1},
+  Pages                    = {12--14},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@InBook{Cover:1991:mi,
+  Title                    = {Elements of Information Theory},
+  Author                   = {Cover, T. M. and Thomas, J. A.},
+  Pages                    = {18--26},
+  Publisher                = {Wiley},
+  Year                     = {1991},
+
+  Address                  = {New York},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Cover1991,
+  Title                    = {Elements of Information Theory},
+  Author                   = {T. M. Cover and J. A. Thomas},
+  Publisher                = {Wiley, New York},
+  Year                     = {1991},
+
+  Owner                    = {TEIL-631},
+  Pages                    = {18--26},
+  Timestamp                = {2010.02.04}
+}
+
+@Article{dantzig1959,
+  Title                    = {The Truck Dispatching Problem},
+  Author                   = {G. B. Dantzig and J. H. Ramser},
+  Journal                  = {Management Science},
+  Year                     = {1959},
+  Number                   = {1},
+  Pages                    = {80--91},
+  Volume                   = {6},
+
+  Doi                      = {10.1287/mnsc.6.1.80}
+}
+
+@Article{das:1991,
+  Title                    = {The Only Challenging Problems Are Deceptive: Global Search by Solving Order-1 Hyperplanes},
+  Author                   = {Rajarshi Das and L. Darrell Whitley},
+  Journal                  = {Proceedings of the Fourth International Conference on Genetic Algorithms (ICGA'91)},
+  Year                     = {1991},
+  Pages                    = {166-173},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013.05.05}
 }
 
 @InProceedings{Davis:1989:AOP:93126.93146,
@@ -138,6 +613,170 @@
   Url                      = {http://doi.acm.org/10.1145/2463372.2463556}
 }
 
+@Article{Deb:1993:trap,
+  Title                    = {Analyzing deception in trap functions},
+  Author                   = {Deb, K. and Goldberg, D. E.},
+  Journal                  = {Foundations of Genetic Algorithms 2},
+  Year                     = {1993},
+  Pages                    = {93--108},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Deb:1993:trapfun,
+  Title                    = {Sufficient Conditions for Deceptive and Easy Binary Functions},
+  Author                   = {Kalyanmoy Deb and David E. Goldberg},
+  Journal                  = {Annals of Mathematics and Artificial Intelligence},
+  Year                     = {1993},
+  Number                   = {4},
+  Pages                    = {385--408},
+  Volume                   = {10}
+}
+
+@Article{Deb:1993,
+  Title                    = {Multimodal deceptive functions},
+  Author                   = {Deb, K. and Horn, J. and Goldberg, D. E.},
+  Journal                  = {Complex Systems},
+  Year                     = {1993},
+  Number                   = {2},
+  Pages                    = {131--153},
+  Volume                   = {7},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@PhdThesis{DeJong:75,
+  Title                    = {An analysis of the behavior of a class of genetic adaptive systems},
+  Author                   = {{DeJong}, K. A.},
+  School                   = {University of Michigan},
+  Year                     = {1975},
+
+  Address                  = {Ann Arbor}
+}
+
+@InCollection{Descartes:1994,
+  Title                    = {A discourse on the method of rightly conducting the reason, and seeking truth in the sciences [{V}eitch, {J}. (trans.)]},
+  Author                   = {Descartes, R.},
+  Booktitle                = {A discourse on method: Meditations and principles},
+  Publisher                = {Everyman},
+  Year                     = {1994},
+
+  Address                  = {London, UK},
+  Editor                   = {Sorell, T.},
+  Note                     = {Original work published 1637},
+  Pages                    = {3--57},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@InBook{Ducheyne:2004,
+  Title                    = {Probabilistic models for linkage learning in forest management},
+  Author                   = {Ducheyne, Els and De Baets, Bernard and De Wulf, Robert},
+  Editor                   = {Jin, Y},
+  Pages                    = {177--214},
+  Publisher                = {Springer},
+  Year                     = {2004},
+  Series                   = {Knowledge Incorporation in Evolutionary Computation},
+  Volume                   = {167},
+
+  ISBN                     = {9783540229025},
+  Language                 = {eng},
+  Owner                    = {gloompisces},
+  Timestamp                = {2013.04.26}
+}
+
+@Article{Eppinger:2001,
+  Title                    = {Innovation at the Speed of Information},
+  Author                   = {Eppinger, S. D.},
+  Journal                  = {Harvard Business Review},
+  Year                     = {2001},
+  Number                   = {1},
+  Pages                    = {149--158},
+  Volume                   = {79},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Eppinger:1994,
+  Title                    = {A Model-based Method for Organizing Tasks in Product Development},
+  Author                   = {Eppinger, S. D. and Whitney, D. E. and Smith, R. P. and Gebala, D. A.},
+  Journal                  = {Research in Engineering Design},
+  Year                     = {1994},
+  Number                   = {1},
+  Pages                    = {1--13},
+  Volume                   = {6},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Etxeberria:1999:ebna,
+  Title                    = {Global optimization using Bayesian networks},
+  Author                   = {R. Etxeberria and P. Larra{\~{n}}aga},
+  Journal                  = {Proceedings of the Second Symposium on Artificial Intelligence Adaptive Systems},
+  Year                     = {1999},
+  Pages                    = {332--339},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Etxeberria1999,
+  Title                    = {Global optimization using bayesian networks},
+  Author                   = {R. Etxeberria and P. Larra\H{n}aga},
+  Journal                  = {Proceedings of the Second Symposium on Artificial Intelligence Adaptive Systems},
+  Year                     = {1999},
+  Pages                    = {332-339},
+
+  Owner                    = {TEIL-631},
+  Timestamp                = {2010.02.04}
+}
+
+@TechReport{Fan2011,
+  Title                    = {Linkage Identification by NFE Estimation},
+  Author                   = {Kai-Chun Fan},
+  Year                     = {2011},
+
+  Owner                    = {zyxwing},
+  Timestamp                = {2011.07.02}
+}
+
+@Conference{Fan2010,
+  Title                    = {Interaction-detection metric with differential mutual complement for dependency structure matrix genetic algorithm},
+  Author                   = {Kai-Chun Fan and Jui-Ting Lee and Tian-Li Yu and Tsung-Yu Ho},
+  Booktitle                = {{IEEE} Congress on Evolutionary Computation},
+  Year                     = {2010},
+  Pages                    = {3010-3017}
+}
+
+@Book{Feller:1966:clt,
+  Title                    = {An Introduction to Probability Theory},
+  Author                   = {W. Feller},
+  Publisher                = {Wiley},
+  Year                     = {1966},
+
+  Address                  = {New York},
+  Volume                   = {2},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@MastersThesis{Fernandez:1998,
+  Title                    = {Integration Analysis of Product Architecture to Support Effective Team Co-location},
+  Author                   = {Fernandez, C.},
+  School                   = {Massachusetts Institute of Technology},
+  Year                     = {1998},
+  Type                     = {Master Thesis},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
 @Article{fialho2010analyzing,
   Title                    = {Analyzing bandit-based adaptive operator selection mechanisms},
   Author                   = {Fialho, {\'A}lvaro and Da Costa, Luis and Schoenauer, Marc and Sebag, Mich{\`e}le},
@@ -168,32 +807,182 @@
   Pages                    = {779--786}
 }
 
+@Book{Fischer:1991,
+  Title                    = {Spin Glasses},
+  Author                   = {K. H. Fischer and J. A. Hertz},
+  Publisher                = {Cambridge University Press},
+  Year                     = {1991},
+
+  Address                  = {New York, NY},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
 @Book{french1982sequencing,
-  Title                    = {Sequencing and scheduling: an introduction to the mathematics of the job-shop},
+  Title                    = {Sequencing and scheduling: An introduction to the mathematics of the job-shop},
   Author                   = {French, Simon},
   Publisher                = {Ellis Horwood Chichester},
   Year                     = {1982},
-  Volume                   = {683}
+
+  Address                  = {Chichester, England}
 }
 
-@InProceedings{Gelly2008,
+@MastersThesis{Gaertler:2002,
+  Title                    = {Clustering with Spectral Methods},
+  Author                   = {Gaertler, M.},
+  School                   = {Universitat Konstanz},
+  Year                     = {2002},
+
+  Address                  = {Germany},
+  Type                     = {Master Thesis},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Galluccio:1999a,
+  Title                    = {A Theory of Pfaffian orientations. {I}. Perfect matchings and permunents.},
+  Author                   = {Galluccio, A. and Loebi, M.},
+  Journal                  = {Electronic Journal of Combinatorics},
+  Year                     = {1999},
+  Number                   = {1},
+  Pages                    = {Research Paper 6},
+  Volume                   = {6},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Galluccio:1999b,
+  Title                    = {A Theory of Pfaffian orientations. {II}. T-joins, k-cuts, and duality of enumeration.},
+  Author                   = {Galluccio, A. and Loebi, M.},
+  Journal                  = {Electronic Journal of Combinatorics},
+  Year                     = {1999},
+  Number                   = {1},
+  Pages                    = {Research Paper 7},
+  Volume                   = {6},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Garey:1976,
+  Title                    = {Some Simplified {NP}-complete Graph Problems},
+  Author                   = {Garey, M. and Johnson, D. and Stockmeyer, L.},
+  Journal                  = {Theoretical Computer Science},
+  Year                     = {1976},
+  Number                   = {3},
+  Pages                    = {237--267},
+  Volume                   = {1},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Gelly2008,
   Title                    = {On the parallelization of Monte-Carlo planning},
-  Author                   = {Gelly, Sylvain and Hoock, Jean-Baptiste and Rimmel, Arpad and Teytaud, Olivier and Kalemkarian, Yann and others},
-  Booktitle                = {ICINCO},
-  Year                     = {2008}
+  Author                   = {Gelly, Sylvain and Hoock, Jean-Baptiste and Rimmel, Arpad and Teytaud, Olivier and Kalemkarian, Y.},
+  Journal                  = {Proceedings of the Fifth International Conference on Informatics in Control, Automation and Robotics, Intelligent Control Systems and Optimization},
+  Year                     = {2008},
+  Pages                    = {244--249}
 }
 
-@InProceedings{Gelly2007,
-  Title                    = {Combining online and offline knowledge in UCT},
+@Article{Gelly2007,
+  Title                    = {Combining online and offline knowledge in {UCT}},
   Author                   = {Gelly, Sylvain and Silver, David},
-  Booktitle                = {Proceedings of the 24th international conference on Machine learning},
+  Journal                  = {Proceedings of the 24th International Conference on Machine Learning},
   Year                     = {2007},
-  Organization             = {ACM},
-  Pages                    = {273--280}
+  Pages                    = {273--280},
+
+  Organization             = {ACM}
+}
+
+@Article{Glover:1990,
+  Title                    = {Tabu Search--Part {II}},
+  Author                   = {Glover, F.},
+  Journal                  = {Operations Research Society of America ({ORSA}) Journal of Computing},
+  Year                     = {1990},
+  Number                   = {1},
+  Pages                    = {4--32},
+  Volume                   = {2},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Glover:1989,
+  Title                    = {Tabu Search--Part {I}},
+  Author                   = {Glover, F.},
+  Journal                  = {Operations Research Society of America ({ORSA}) Journal of Computing},
+  Year                     = {1989},
+  Number                   = {3},
+  Pages                    = {190--206},
+  Volume                   = {1},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Goldberg:2002:Design,
+  Title                    = {The Design of Innovation: Lessons from and for Competent Genetic Algorithms},
+  Author                   = {David E. Goldberg},
+  Publisher                = {Kluwer Academic Publishers},
+  Year                     = {2002},
+
+  Address                  = {Boston, MA},
+
+  Added-at                 = {2009-04-07T10:59:16.000+0200},
+  Timestamp                = {2009-04-07T10:59:16.000+0200}
+}
+
+@Book{Goldberg:2002:doi,
+  Title                    = {{The design of innovation: {L}essons from and for competent genetic algorithms}},
+  Author                   = {Goldberg, David E.},
+  Publisher                = {{K}luwer {A}cademic {P}ublishers},
+  Year                     = {2002},
+
+  Address                  = {Boston, MA},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Goldberg2002,
+  Title                    = {The Design of Innovation: Lessons from and for Competent Genetic Algorithms},
+  Author                   = {D. E. Goldberg},
+  Publisher                = {Kluwer Academic Publishers},
+  Year                     = {2002},
+
+  Address                  = {Norwell, MA, USA},
+
+  Owner                    = {tsung},
+  Timestamp                = {2010.01.31}
+}
+
+@Article{Goldberg:1999:time,
+  Title                    = {Using time efficiently: {G}enetic-evolutionary algorithms and the continuation problem},
+  Author                   = {Goldberg, D. E.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-1999)},
+  Year                     = {1999},
+  Pages                    = {212--219},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Goldberg:1998:tobacco,
+  Title                    = {Four keys to understanding building-block difficulty},
+  Author                   = {Goldberg, D. E.},
+  Year                     = {1998},
+
+  Joutnal                  = {Presented in Projet FRACTALES Seminar at I.N.R.I.A. Rpcqiencourt. LeChesnay, Cedex},
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
 }
 
 @Book{Goldberg:1989:GAS:534133,
-  Title                    = {Genetic Algorithms in Search, Optimization and Machine Learning},
+  Title                    = {Genetic algorithms in search, optimization and machine learning},
   Author                   = {Goldberg, David E.},
   Publisher                = {Addison-Wesley Longman Publishing Co., Inc.},
   Year                     = {1989},
@@ -204,13 +993,253 @@
   ISBN                     = {0201157675}
 }
 
-@InProceedings{goldberg1985alleles,
+@Article{Goldberg:1989:popsize,
+  Title                    = {Sizing populations for serial and parallel genetic algorithms},
+  Author                   = {David E. Goldberg},
+  Journal                  = {Proceedings of the Third International Conference on Genetic Algorithms},
+  Year                     = {1989},
+  Pages                    = {70--79},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Goldberg:1989:population-sizing,
+  Title                    = {Sizing populations for serial and parallel genetic algorithms.},
+  Author                   = {Goldberg, D. E.},
+  Journal                  = {Proceedings of the Third International Conference on Genetic Algorithms},
+  Year                     = {1989},
+  Pages                    = {70--79},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Goldberg:1989:walsh,
+  Title                    = {Genetic algorithms and {W}alsh functions: {P}art {II}, deception and its analysis},
+  Author                   = {Goldberg, D. E.},
+  Journal                  = {Complex Systems},
+  Year                     = {1989},
+  Pages                    = {153--171},
+  Volume                   = {3},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@InCollection{Goldberg:1987:trap,
+  Title                    = {Simple genetic algorithms and the minimal, deceptive problem},
+  Author                   = {Goldberg, D. E.},
+  Booktitle                = {Genetic Algorithms and Simulated Annealing},
+  Publisher                = {Pitman Publishing},
+  Year                     = {1987},
+
+  Address                  = {London},
+  Chapter                  = {6},
+  Pages                    = {74--88},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Goldberg1987,
+  Title                    = {Simple genetic algorithms and the minimal, deceptive problem},
+  Author                   = {D. E. Goldberg},
+  Journal                  = {Genetic Algorithms and Simulated Annealing},
+  Year                     = {1987},
+  Pages                    = {74--88},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@Article{Goldberg:1990,
+  Title                    = {An analysis of a reordering operator on a ga-hard problem},
+  Author                   = {Goldberg, D. E. and Bridges, C. L.},
+  Journal                  = {Biological Cybernetics},
+  Year                     = {1990},
+  Pages                    = {397--405},
+  Volume                   = {62},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@InProceedings{Goldberg:1991,
+  Title                    = {A comparative analysis of selection schemes used in genetic algorithms},
+  Author                   = {David E. Goldberg and Kalyanmoy Deb},
+  Booktitle                = {Foundations of Genetic Algorithms},
+  Year                     = {1991},
+  Pages                    = {69--93},
+  Publisher                = {Morgan Kaufmann},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013.05.21}
+}
+
+@Article{Goldberg:1992:ga-decomposition-decision-making,
+  Title                    = {Genetic Algorithms, Noise, and the Sizing of Populations},
+  Author                   = {Goldberg, D. E. and Deb, K. and Clark, J. H.},
+  Journal                  = {Complex {S}ystems},
+  Year                     = {1992},
+  Pages                    = {333-362},
+  Volume                   = {6},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Goldberg1992,
+  Title                    = {Genetic algorithms, noise, and the sizing of populations},
+  Author                   = {D. E. Goldberg and K. Deb and J. H. Clark},
+  Journal                  = {Complex Systems},
+  Year                     = {1992},
+  Pages                    = {333--362},
+  Volume                   = {vol. 6},
+
+  Owner                    = {zyxwing},
+  Timestamp                = {2010.12.27}
+}
+
+@Article{Goldberg1992a,
+  Title                    = {Massive Multimodality, Deception, and Genetic Algorithms},
+  Author                   = {David E. Goldberg and Kalyanmoy Deb and Jeffrey Horn},
+  Journal                  = {Parallel {P}roblem {S}olving fron {N}ature},
+  Year                     = {1992},
+  Pages                    = {37-48}
+}
+
+@Article{Goldberg:1993:fmga,
+  Title                    = {Rapid, accurate optimization of difficult problems using fast messy genetic algorithms},
+  Author                   = {Goldberg, D. E. and Deb, K. and Kargupta, H. and Harik, G.},
+  Journal                  = {Proceedings of the Fifth International Conference on Genetic Algorithms},
+  Year                     = {1993},
+  Pages                    = {56--64},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Goldberg:1989:mga,
+  Title                    = {Messy genetic algorithms: {M}otivation, analysis, and first results},
+  Author                   = {Goldberg, D. E. and Korb, B. and Deb, K.},
+  Journal                  = {Complex Systems},
+  Year                     = {1989},
+  Number                   = {5},
+  Pages                    = {493--530},
+  Volume                   = {3},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Goldberg1989a,
+  Title                    = {Messy genetic algorithms: motivation, analysis, and first results},
+  Author                   = {D. E. Goldberg and B. Korb and K. Deb},
+  Journal                  = {Complex Systems},
+  Year                     = {1989},
+  Pages                    = {493--530},
+  Volume                   = {vol. 3},
+
+  Owner                    = {zyxwing},
+  Timestamp                = {2010.12.27}
+}
+
+@Article{goldberg1985alleles,
   Title                    = {Alleles, loci, and the traveling salesman problem},
   Author                   = {Goldberg, David E and Lingle, Robert},
-  Booktitle                = {Proceedings of an International Conference on Genetic Algorithms and Their Applications},
+  Journal                  = {Proceedings of the First International Conference on Genetic Algorithms},
   Year                     = {1985},
-  Organization             = {Lawrence Erlbaum, Hillsdale, NJ},
-  Volume                   = {154}
+  Pages                    = {154--159},
+
+  Organization             = {Lawrence Erlbaum, Hillsdale, NJ}
+}
+
+@Article{goldberg1987s,
+  Title                    = {Genetic algorithms with sharing for multimodal function optimization},
+  Author                   = {D. E. Goldberg and J. Richardson},
+  Journal                  = {Proceedings of the Second International Conference on Genetic Algorithms and Their Applications},
+  Year                     = {1987},
+  Pages                    = {41--49},
+
+  Organization             = {Lawrence Erlbaum, Hillsdale, NJ}
+}
+
+@Article{Goldberg:2001:bb-supply,
+  Title                    = {On the supply of building blocks},
+  Author                   = {David E. Goldberg and Kumara Sastry and Thomas Latoza},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2001)},
+  Year                     = {2001},
+  Pages                    = {336--342},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Goldberg:2001:supply,
+  Title                    = {On the supply of building blocks},
+  Author                   = {Goldberg, D. E. and Sastry, K. and Latoza, T.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2001)},
+  Year                     = {2001},
+  Pages                    = {336--342},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Goldberg2001,
+  Title                    = {On the supply of building blocks},
+  Author                   = {D. E. Goldberg and K. Sastry and T. Latoza},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2001)},
+  Year                     = {2001},
+  Pages                    = {336--342},
+
+  Owner                    = {zyxwing},
+  Timestamp                = {2010.12.27}
+}
+
+@Article{Goldberg:1999:hybrid,
+  Title                    = {Optimizing global-local search hybrids},
+  Author                   = {Goldberg, D. E. and Voessner, S.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-1999)},
+  Year                     = {1999},
+  Pages                    = {220--228},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Gonzalez-Zugasti:2000,
+  Title                    = {A Method for Architecting Product Platforms},
+  Author                   = {Gonzalez-Zugasti, J. and Otto, K. and Baker, J.},
+  Journal                  = {Research in Engineering Design},
+  Year                     = {2000},
+  Number                   = {2},
+  Pages                    = {61--72},
+  Volume                   = {12},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Gordon1974,
+  Title                    = {Bernstein-B{\'e}zier Methods for the Computer-Aided Design of Free-Form Curves and Surfaces},
+  Author                   = {William J. Gordon and Richard F. Riesenfeld},
+  Journal                  = {J. ACM},
+  Year                     = {1974},
+  Number                   = {2},
+  Pages                    = {293-310},
+  Volume                   = {21},
+
+  Bibsource                = {DBLP, http://dblp.uni-trier.de},
+  Ee                       = {http://doi.acm.org/10.1145/321812.321824}
+}
+
+@PhdThesis{Grosso:1985:CSG,
+  Title                    = {Computer simulation of genetic adaptation: Parallel subcomponent interaction in a multilocus model},
+  Author                   = {P. B. Grosso},
+  School                   = {University of Michigan},
+  Year                     = {1985}
 }
 
 @Article{gupta2006flowshop,
@@ -225,7 +1254,34 @@
   Publisher                = {Elsevier}
 }
 
-@Article{Harik1999,
+@Article{Hansen:1997,
+  Title                    = {Cluster Analysis and Mathematical Programming},
+  Author                   = {Hansen, P. and Jaumard, B.},
+  Journal                  = {Mathematical Programming},
+  Year                     = {1997},
+  Pages                    = {191--215},
+  Volume                   = {79},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@TechReport{Harik:1999:ecga,
+  Title                    = {Linkage Learning via Probabilistic Modeling in the {ECGA}},
+  Author                   = {G. Harik},
+  Institution              = {University of {I}llinois at {U}rbana-{C}hampaign},
+  Year                     = {1999},
+
+  Address                  = {Urbana, {IL}},
+  Month                    = {February},
+  Number                   = {99010},
+  Type                     = {Illi{GAL} {R}eport {N}o.},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Harik1999l,
   Title                    = {Linkage learning via probabilistic modeling in the ECGA},
   Author                   = {Harik, Georges},
   Journal                  = {Urbana},
@@ -233,6 +1289,171 @@
   Number                   = {61},
   Pages                    = {801},
   Volume                   = {51}
+}
+
+@Article{Harik:1997:gambler,
+  Title                    = {The gambler's ruin problem, genetic algorithms, and the sizing of populations},
+  Author                   = {Harik, G. and Cant{\'{u}}-Paz, E. and Goldberg, D. E. and Miller, B. L.},
+  Journal                  = {Proceedings of the 1997 IEEE International Conference on Evolutionary Computation},
+  Year                     = {1997},
+  Pages                    = {7--12},
+
+  Address                  = {Piscataway, NJ},
+  Owner                    = {Fish},
+  Publisher                = {{IEEE}},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{HarikFebruary1999,
+  Title                    = {Linkage learning via probabilistic modeling in the ecga},
+  Author                   = {G. R. Harik},
+  Journal                  = {IlliGAL Report No. 99010},
+  Year                     = {February 1999},
+  Volume                   = {University of Illinois at Urbana-Champaign, Urbana, IL},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@PhdThesis{Harik:1997:llga,
+  Title                    = {Learning gene linkage to efficiently solve problems of bounded difficulty using genetic algorithms},
+  Author                   = {Harik, G. R.},
+  School                   = {University of Michigan},
+  Year                     = {1997},
+
+  Address                  = {Ann Arbor, ML},
+  Type                     = {Doctoral Dissertation},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Harik1997,
+  Title                    = {Learning gene linkage to efficiently solve problems of bounded difficulty using genetic algorithms},
+  Author                   = {G. R. Harik},
+  Publisher                = {Doctoral dissertation, University of Michigan, Ann Arbor, ML.},
+  Year                     = {1997},
+
+  Owner                    = {tsung},
+  Timestamp                = {2010.01.28}
+}
+
+@Article{Harik1996,
+  Title                    = {Learning Linkage},
+  Author                   = {G. R. Harik},
+  Journal                  = {Foundations of Genetic Algorithms 4},
+  Year                     = {1996},
+  Pages                    = {247--262},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@Article{Harik1995,
+  Title                    = {Finding Multimodal Solutions Using Restricted Tournament Selection},
+  Author                   = {Georges R. Harik},
+  Journal                  = {Proceedings of the Sixth International Conference on Genetic Algorithms},
+  Year                     = {1995},
+  Pages                    = {24--31},
+
+  Publisher                = {Morgan Kaufmann}
+}
+
+@TechReport{Harik:1994:rts,
+  Title                    = {Finding multiple solutions in problems of bounded difficulty},
+  Author                   = {Harik, G. R.},
+  Institution              = {{U}niversity of {I}llinois at {U}rbana-{C}hampaign, {I}llinois Genetic Algorithms Laboratory},
+  Year                     = {1994},
+
+  Address                  = {Urbana, IL},
+  Number                   = {94002},
+  Type                     = {Illi{GAL} Report No.},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Harik1997a,
+  Title                    = {The gambler's ruin problem, genetic algorithms, and the sizing of populations},
+  Author                   = {G. R. Harik and E. Cantu-Paz and D. E. Goldberg and B. L. Miller},
+  Journal                  = {Proceedings of the IEEE International Conference on Evolutionary Computation},
+  Year                     = {1997},
+  Pages                    = {7--12},
+
+  Owner                    = {zyxwing},
+  Timestamp                = {2010.12.27}
+}
+
+@Article{Harik:1998:cga,
+  Title                    = {The compact genetic algorithm},
+  Author                   = {Harik, G. R. and Lobo, F. G. and Goldberg, D. E.},
+  Journal                  = {Proceedings of {IEEE} {I}nternational {C}onference on {E}volutionary {C}omputation},
+  Year                     = {1998},
+  Pages                    = {523--528},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Harik1998,
+  Title                    = {The compact genetic algorithm},
+  Author                   = {G. R. Harik and F. G. Lobo and D. E. Goldberg},
+  Journal                  = {Proceedings of the IEEE International Conference on Evolutionary Computation},
+  Year                     = {1998},
+  Pages                    = {523--528},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@InCollection{Harik:2006:ecga,
+  Title                    = {Linkage Learning via Probabilistic Modeling in the Extended Compact Genetic Algorithm ({ECGA})},
+  Author                   = {Harik, Georges R. and Lobo, Fernando G. and Sastry, Kumara},
+  Booktitle                = {Scalable Optimization via Probabilistic Modeling},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2006},
+
+  Address                  = {Berlin},
+  Chapter                  = {3},
+  Pages                    = {39--61},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013.01.29}
+}
+
+@PhdThesis{Hart:1994,
+  Title                    = {Adaptive global optimization with local search},
+  Author                   = {Hart, William Eugene},
+  Year                     = {1994},
+
+  Address                  = {La Jolla, CA, USA},
+  Note                     = {UMI Order No. GAX94-32928},
+
+  Publisher                = {University of California at San Diego}
+}
+
+@Book{Hartigan:1975,
+  Title                    = {Clustering Algorithms},
+  Author                   = {Hartigan, J.},
+  Publisher                = {John Wiley and Sons},
+  Year                     = {1975},
+
+  Address                  = {New York, NY},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Hartigen:1979,
+  Title                    = {A $k$-means Clustering Algorithm},
+  Author                   = {Hartigen, J. A. and Wong, M. A.},
+  Journal                  = {Applied Statistics},
+  Year                     = {1979},
+  Pages                    = {10--108},
+  Volume                   = {28},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
 }
 
 @Article{Hauschild2011,
@@ -247,14 +1468,115 @@
   Publisher                = {Elsevier}
 }
 
+@Book{Hoel2005,
+  Title                    = {Introduction to mathematical statistics},
+  Author                   = {P. G. Hoel},
+  Publisher                = {Wiley, New York},
+  Year                     = {2005},
+  Edition                  = {Sixth},
+
+  Owner                    = {TEIL-631},
+  Timestamp                = {2010.02.04}
+}
+
+@Book{Holland:1995,
+  Title                    = {Hidden Order How Adaptation Builds Complexity},
+  Author                   = {John H. Holland},
+  Publisher                = {Perseus Books},
+  Year                     = {1995},
+
+  Address                  = {Reading, MA},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Holland:1975,
+  Title                    = {Adaptation in natural and artificial systems},
+  Author                   = {Holland, J. H.},
+  Publisher                = {University of Michigan Press},
+  Year                     = {1975},
+
+  Address                  = {Ann Arbor, MI},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Holland1975,
+  Title                    = {Adaptation in natural and artificial systems},
+  Author                   = {J. H. Holland},
+  Publisher                = {Ann Arbor, MI: University of Michigan Press},
+  Year                     = {1975},
+
+  Owner                    = {zyxwing},
+  Timestamp                = {2010.12.27}
+}
+
+@MastersThesis{riohsu2014,
+  Title                    = {Multi-armed Bandit Based Evolutionary Model Adaptation for Permutation Problems},
+  Author                   = {Chu-Yu Hsu},
+  School                   = {National Taiwan University},
+  Year                     = {2014},
+
+  Address                  = {Taiwan, TW},
+  Type                     = {Master Thesis},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
 @Article{hunter2004mm,
   Title                    = {MM algorithms for generalized Bradley-Terry models},
   Author                   = {Hunter, David R},
   Journal                  = {Annals of Statistics},
   Year                     = {2004},
   Pages                    = {384--406},
+  Volume                   = {32},
 
   Publisher                = {JSTOR}
+}
+
+@Article{Hutter:2005:mi,
+  Title                    = {Distribution of mutual information from complete and incomplete data},
+  Author                   = {M. Hutter and M. Zaffalon},
+  Journal                  = {{Computational Statistics and Data Analysis}},
+  Year                     = {2005},
+  Number                   = {3},
+  Pages                    = {633--657},
+  Volume                   = {48},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Iclanzan:2007,
+  Title                    = {Overcoming Hierarchical Difficulty by Hill-Climbing the Building Block Structure.},
+  Author                   = {David Icl{\u{a}}nzan and Dan Dumitrescu},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2007)},
+  Year                     = {2007},
+  Pages                    = {1380--1387},
+
+  Date                     = {2007-08-21},
+  Description              = {dblp},
+  Editor                   = {Lipson, Hod},
+  ISBN                     = {978-1-59593-697-4},
+  Keywords                 = {dblp},
+  Publisher                = {ACM},
+  Timestamp                = {2007-08-21T00:00:00.000+0200}
+}
+
+@Article{Jian:1999,
+  Title                    = {Data Clustering: {A} Review},
+  Author                   = {Jian, A. and Murty, M. and Flynn, P.},
+  Journal                  = {{ACM} Computing Survey},
+  Year                     = {1999},
+  Number                   = {3},
+  Pages                    = {264--323},
+  Volume                   = {31},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
 }
 
 @Article{jiang2006estimation,
@@ -281,6 +1603,14 @@
   Publisher                = {Wiley Online Library}
 }
 
+@Article{Jong2005,
+  Title                    = {On the complexity of hierarchical problem solving},
+  Author                   = {Edwin D. de Jong and Richard A. Watson and Dirk Thierens},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2005)},
+  Year                     = {2005},
+  Pages                    = {1201-1208}
+}
+
 @InProceedings{Julstrom:1995:YDM:645514.657934,
   Title                    = {What Have You Done for Me Lately? {A}dapting Operator Probabilities in a Steady-State Genetic Algorithm},
   Author                   = {Julstrom, Bryant A.},
@@ -295,6 +1625,80 @@
   ISBN                     = {1-55860-370-0},
   Numpages                 = {7},
   Url                      = {http://dl.acm.org/citation.cfm?id=645514.657934}
+}
+
+@Article{Kargupta:1996:gemga,
+  Title                    = {The performance of the gene expression messy genetic algorithm on real test functions},
+  Author                   = {Kargupta, H.},
+  Journal                  = {Proceedings of 1996 {IEEE} International Conference on Evolutionary Computation},
+  Year                     = {1996},
+  Pages                    = {631--636},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@InProceedings{Kargupta1996,
+  Title                    = {The Performance of the Gene Expression Messy Genetic Algorithm On Real Test Functions},
+  Author                   = {Hillol Kargupta},
+  Booktitle                = {International Conference on Evolutionary Computation},
+  Year                     = {1996},
+  Pages                    = {631-636},
+
+  Bibsource                = {DBLP, http://dblp.uni-trier.de}
+}
+
+@Article{kemeny1959,
+  Title                    = {Mathematics without Numbers},
+  Author                   = {Kemeny, John G.},
+  Journal                  = {Daedalus},
+  Year                     = {1959},
+  Number                   = {4},
+  Volume                   = {88},
+
+  Citeulike-article-id     = {7838636},
+  Citeulike-linkout-0      = {http://dx.doi.org/10.2307/20026529},
+  Citeulike-linkout-1      = {http://www.jstor.org/stable/20026529},
+  Doi                      = {10.2307/20026529},
+  ISSN                     = {00115266},
+  Keywords                 = {mathematics, rank\_aggregation, ranking},
+  Posted-at                = {2010-09-15 04:01:02},
+  Priority                 = {5},
+  Publisher                = {The MIT Press on behalf of American Academy of Arts \& Sciences},
+  Url                      = {http://dx.doi.org/10.2307/20026529}
+}
+
+@Article{Kirkpatric:1983,
+  Title                    = {Optimization by Simulated Annealing},
+  Author                   = {Kirkpatric, S. and Gelatt, C. and Vecchi, M.},
+  Journal                  = {Science},
+  Year                     = {1983},
+  Number                   = {4598},
+  Pages                    = {671--680},
+  Volume                   = {220},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Kleiter:1999:mi,
+  Title                    = {The posterior probability of Bayes nets with strong dependences},
+  Author                   = {G. D. Kleiter},
+  Journal                  = {Soft Computing},
+  Year                     = {1999},
+  Pages                    = {162--173},
+  Volume                   = {3},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Knjazew2000,
+  Title                    = {OMEGA - Ordering Messy GA: Solving Permutation Problems with the Fast Genetic Algorithm and Random Keys},
+  Author                   = {Dimitri Knjazew and David E. Goldberg},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2000)},
+  Year                     = {2000},
+  Pages                    = {181-188}
 }
 
 @Book{Kocsis2006,
@@ -312,24 +1716,62 @@
 @Article{koopmans1957assignment,
   Title                    = {Assignment problems and the location of economic activities},
   Author                   = {Koopmans, Tjalling C and Beckmann, Martin},
-  Journal                  = {Econometrica: journal of the Econometric Society},
+  Journal                  = {Econometrica},
   Year                     = {1957},
   Pages                    = {53--76},
-
-  Publisher                = {JSTOR}
+  Volume                   = {25}
 }
 
 @Article{Kuleshov2000,
   Title                    = {Algorithms for multi-armed bandit problems},
-  Author                   = {Kuleshov, Volodymyr and Precup, Doina},
-  Journal                  = {arXiv preprint arXiv:1402.6028},
-  Year                     = {2014}
+  Author                   = {Kuleshov, Volodymyr and Doina, Precup},
+  Journal                  = {Journal of Machine Learning Research},
+  Year                     = {2000},
+  Pages                    = {1--48},
+  Volume                   = {1}
+}
+
+@Article{Kullback1951,
+  Title                    = {On information and sufficiency},
+  Author                   = {A. Kullback and R. A. Leibler},
+  Journal                  = {Annual Mathematical Statistics},
+  Year                     = {1951},
+  Pages                    = {79--86},
+  Volume                   = {vol. 22},
+
+  Owner                    = {tsung},
+  Timestamp                = {2010.02.06}
+}
+
+@Article{Kullback:1951,
+  Title                    = {On information and sufficiency},
+  Author                   = {S. Kullback and R. A. Leibler},
+  Journal                  = {{Annual Mathematical Statistics}},
+  Year                     = {1951},
+  Pages                    = {79--86},
+  Volume                   = {22},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Kusiak:1996,
+  Title                    = {Development of Modular Products},
+  Author                   = {Kusiak, A. and Huang, C.},
+  Journal                  = {IEEE Transactions on Components, Packaging and Manufacturing Technology---Part A},
+  Year                     = {1996},
+  Number                   = {4},
+  Pages                    = {523--538},
+  Volume                   = {19},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
 }
 
 @Article{lai1985asymptotically,
   Title                    = {Asymptotically efficient adaptive allocation rules},
   Author                   = {Lai, Tze Leung and Robbins, Herbert},
-  Journal                  = {Advances in applied mathematics},
+  Journal                  = {Advances in Applied Mathematics},
   Year                     = {1985},
   Number                   = {1},
   Pages                    = {4--22},
@@ -346,6 +1788,27 @@
   Volume                   = {2}
 }
 
+@Article{Lee:2012:offline,
+  Title                    = {Off-Line Building Block Identification: Detecting Building Blocks Directly from Fitness without Genetic Algorithms},
+  Author                   = {Hsuan Lee and Tian-Li Yu},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2012)},
+  Year                     = {2012},
+
+  Owner                    = {singerlibra},
+  Timestamp                = {2012.04.10}
+}
+
+@Article{LeeFebruary2011,
+  Title                    = {The essence of Real-valued Characteristic Function for Pairwise Relation in Linkage Learning for EDAs},
+  Author                   = {Jui-Ting Lee and Kai-Chun Fan and Tian-Li Yu},
+  Journal                  = {TEIL Report No. 2011002},
+  Year                     = {February 2011},
+  Volume                   = {National Taiwan University, Taipei, Taiwan},
+
+  Owner                    = {zyxwing},
+  Timestamp                = {2010.01.25}
+}
+
 @Book{lee2012bayesian,
   Title                    = {Bayesian statistics: an introduction},
   Author                   = {Lee, Peter M},
@@ -353,6 +1816,27 @@
   Year                     = {2012},
 
   Address                  = {New York, NY}
+}
+
+@Article{Lima:2009,
+  Title                    = {Loopy Substructural Local Search for the Bayesian Optimization Algorithm},
+  Author                   = {Lima, Claudio F. and Pelikan, Martin and Lobo, Fernando G. and Goldberg, David E.},
+  Journal                  = {Proceedings of the Second International Workshop on Engineering Stochastic Local Search Algorithms. Designing, Implementing and Analyzing Effective Heuristics (SLS '09)},
+  Year                     = {2009},
+  Pages                    = {61--75},
+
+  Numpages                 = {15}
+}
+
+@Article{Lipinski:2007,
+  Title                    = {ECGA vs. BOA in discovering stock market trading experts},
+  Author                   = {Lipinski, Piotr},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2007)},
+  Year                     = {2007},
+  Pages                    = {531--538},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013.04.26}
 }
 
 @InProceedings{lobo1997decision,
@@ -383,13 +1867,73 @@
   Address                  = {Mineola, New York}
 }
 
-@InCollection{muhlenbein1996recombination,
-  Title                    = {From recombination of genes to the estimation of distributions II. Continuous parameters},
+@Article{Lutz:2002,
+  Title                    = {Recovering High-Level Structure of Software Systems Using a Minimum Description Length Principle},
+  Author                   = {Lutz, R.},
+  Journal                  = {Proceedings of the 13th Irish International Conference on Artificial Intelligence and Cognitive Science (AICS)},
+  Year                     = {2002},
+  Pages                    = {61--69},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Lutz2002,
+  Title                    = {Recovering high-level structure of software systems using a minimum description length principle},
+  Author                   = {R. Lutz},
+  Journal                  = {Proceedings of the 13th Irish International Conference on Artificial Intelligence and Cognitive Science (AICS)},
+  Year                     = {2002},
+  Pages                    = {61--69},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@Article{Muhlenbein:1993:selection-intensity,
+  Title                    = {Predictive models for the breeder genetic algorithm: {I}. {C}ontinuous parameter optimization},
+  Author                   = {M{\"{u}}hlenbein, H. and Schlierkamp-{V}oosen, D.},
+  Journal                  = {Evolutionary {C}omputation},
+  Year                     = {1993},
+  Number                   = {1},
+  Pages                    = {25--49},
+  Volume                   = {1},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{muhlenbein1996recombination,
+  Title                    = {From recombination of genes to the estimation of distributions {II}. Continuous parameters},
   Author                   = {M{\"u}hlenbein, Heinz and Bendisch, J{\"u}rgen and Voigt, H-M},
-  Booktitle                = {Parallel Problem Solving from Nature?�PPSN IV},
-  Publisher                = {Springer},
+  Journal                  = {Proceedings of the Fourth International Conference on Parallel Problem Solving from Nature},
   Year                     = {1996},
-  Pages                    = {188--197}
+  Pages                    = {188--197},
+
+  Publisher                = {Springer}
+}
+
+@Article{Muhlenbein:1999:fda,
+  Title                    = {{FDA}: A scaleable evolutionary algorithm for the optimisation of additively decomposable problems},
+  Author                   = {M\"{u}hlenbein},
+  Journal                  = {Evolutionary Computation},
+  Year                     = {1999},
+  Pages                    = {353--376},
+  Volume                   = {7},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Muhlenbein:1999,
+  Title                    = {Schemata, Distributions and Graphical Models in Evolutionary Optimization},
+  Author                   = {M\"{u}hlenbein, H. and Mahnig, T. and Rodriguez, A. O.},
+  Journal                  = {Journal of Heuristics},
+  Year                     = {1999},
+  Pages                    = {215--247},
+  Volume                   = {5},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
 }
 
 @Book{marden1996analyzing,
@@ -402,13 +1946,76 @@
 }
 
 @Book{marti2011linear,
-  Title                    = {The linear ordering problem: exact and heuristic methods in combinatorial optimization},
+  Title                    = {The linear ordering problem: Exact and heuristic methods in combinatorial optimization},
   Author                   = {Mart{\'\i}, Rafael and Reinelt, Gerhard},
   Publisher                = {Springer},
   Year                     = {2011},
 
   Address                  = {New York, NY},
   Volume                   = {175}
+}
+
+@Book{marti2011linear,
+  Title                    = {The linear ordering problem: exact and heuristic methods in combinatorial optimization},
+  Author                   = {Mart{\'\i}, Rafael and Reinelt, Gerhard},
+  Publisher                = {Springer},
+  Year                     = {2011},
+
+  Address                  = {New York, NY},
+  Volume                   = {175},
+
+  Owner                    = {User},
+  Timestamp                = {2015.08.09}
+}
+
+@Article{Martin:2002,
+  Title                    = {Design for Variety: Developing Standardized and Modularized Product Platform Architectures},
+  Author                   = {Martin, M. and Ishii, K.},
+  Journal                  = {Research in Engineering Design},
+  Year                     = {2002},
+  Number                   = {4},
+  Pages                    = {213--235},
+  Volume                   = {13},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Matthews:1993,
+  Title                    = {The use of genetic algorithms in cryptanalysis},
+  Author                   = {Matthews, R A. J.},
+  Journal                  = {Cryptologia},
+  Year                     = {1993},
+  Number                   = {2},
+  Pages                    = {187--201},
+  Volume                   = {17},
+
+  Issue_date               = {Jan. 1993},
+  Publisher                = {Taylor \& Francis, Inc.}
+}
+
+@TechReport{McCord:1993,
+  Title                    = {Managing the Integration Problem in Concurrent Engineering},
+  Author                   = {McCord, K. and Eppinger, S. D.},
+  Institution              = {MIT Sloan School of Management},
+  Year                     = {1993},
+
+  Address                  = {Cambridge, MA},
+  Number                   = {3594},
+  Type                     = {Working Paper},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{McCord1993,
+  Title                    = {Managing the integration problem in concurrent engineering},
+  Author                   = {K. McCord and S. D. Eppinger},
+  Publisher                = {Working Paper 3594, Cambridge, MA: MIT Sloan School of Management},
+  Year                     = {1993},
+
+  Owner                    = {TEIL-631},
+  Timestamp                = {2010.02.02}
 }
 
 @Article{mendiburu2006parallel,
@@ -423,13 +2030,193 @@
   Publisher                = {Elsevier}
 }
 
+@Article{Mercer:1978,
+  Title                    = {Adaptive search using a reproductive meta-plan},
+  Author                   = {Mercer, R. E. and Sampson, J. R.},
+  Journal                  = {Kybernetes},
+  Year                     = {1978},
+  Pages                    = {215--228},
+  Volume                   = {7},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Meyer:1997,
+  Title                    = {The Power of Product Platforms},
+  Author                   = {Meyer, M. H. and Lehnerd, A. P.},
+  Publisher                = {The Free Press},
+  Year                     = {1997},
+
+  Address                  = {New York, NY},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@PhdThesis{Miller:1997:thesis,
+  Title                    = {Noise, sampling, and efficient genetic algorithms},
+  Author                   = {Miller, B. L.},
+  School                   = {University of {I}llinois at {U}rbana-{C}hampaign},
+  Year                     = {1997},
+
+  Address                  = {Urbana, IL},
+  Type                     = {Doctoral dissertation},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Miller:1995,
+  Title                    = {Genetic algorithms, tournament selection, and the effects of noise},
+  Author                   = {B. L. Miller and D. E. Goldberg},
+  Journal                  = {Complex System},
+  Year                     = {1995},
+  Pages                    = {193--212},
+  Volume                   = {9},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Mitchell:1992:royal,
+  Title                    = {The Royal Road for Genetic Algorithms: {F}itness Landscapes and {GA} Performance},
+  Author                   = {Melanie Mitchell and Stephanie Forrest and John H. Holland},
+  Journal                  = {Towards a Practice of Autonomous Systems: {P}roceedings of the First European Conference on Artificial Life},
+  Year                     = {1992},
+  Pages                    = {245--254},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
 @Article{Mohri2005,
   Title                    = {{Multi-armed Bandit Algorithms and Empirical Evaluation}},
   Author                   = {Mohri, Mehryar},
+  Journal                  = {Proceedings of the 16th European Conference on Machine Learning},
   Year                     = {2005},
   Pages                    = {437--448},
 
   File                     = {:D$\backslash$:/Dropbox/PAPER ESSAY/LAB/2005 - Multi-armed Bandit Algorithms and Empirical Evaluation.pdf:pdf}
+}
+
+@Article{Monien:1988,
+  Title                    = {{MIN-CUT} is {NP}-complete for edge weighted trees},
+  Author                   = {Monien, B. and Sudborough, I. H.},
+  Journal                  = {Theoretical Computer Science},
+  Year                     = {1988},
+  Number                   = {1--3},
+  Pages                    = {209--229},
+  Volume                   = {58},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Moore:1999,
+  Title                    = {Crossing the Chasm: Marketing and Selling High-tech Products to Mainstream Customers},
+  Author                   = {Moore, G.},
+  Publisher                = {HarperCollins Publishers},
+  Year                     = {1999},
+
+  Address                  = {New York, NY},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@TechReport{Moscato:1989,
+  Title                    = {On Evolution, Search, Optimization, Genetic Algorithms and Martial Arts: Towards Memetic Algorithms},
+  Author                   = {Pablo Moscato},
+  Institution              = {California Institute of Technology},
+  Year                     = {1989},
+
+  Address                  = {Pasadena, CA},
+  Number                   = {C3P Report 826},
+
+  Keywords                 = {imported},
+  Owner                    = {gloompisces},
+  Timestamp                = {2009-06-22T10:05:09.000+0200}
+}
+
+@Article{Munetomo:1999:linc-limd,
+  Title                    = {Identifying linkage groups by nonlinearity/non-monotonicity detection},
+  Author                   = {Munetomo, M. and Goldberg, D. E.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-1999)},
+  Year                     = {1999},
+  Pages                    = {433--440},
+  Volume                   = {1},
+
+  Address                  = {San Francisco, CA},
+  Editor                   = {Banzhaf, W. and Daida, J. and Eiben, A. E. and Garzon, M. H. and Honavar, V. and Jakiela, M. and Smith, R. E.},
+  Owner                    = {Fish},
+  Publisher                = {Morgan Kaufmann Publishers},
+  Tcga                     = {07913},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Munetomo1999,
+  Title                    = {Identifying Linkage Groups by Nonlinearity/Non-monotonicity Detection},
+  Author                   = {M. Munetomo and D. E. Goldberg},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-1999)},
+  Year                     = {1999},
+  Pages                    = {433--440},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@TechReport{Munetomo1998,
+  Title                    = {Designing a Genetic Algorithm Using Linkage Identification by Nonlinearity Check},
+  Author                   = {Masaharu Munetomo and David E. Goldberg},
+  Institution              = {{I}lli{GAL}},
+  Year                     = {1998}
+}
+
+@Misc{Nascimento:2001,
+  Title                    = {Interactive graph clustering based upon user hints},
+
+  Author                   = {Nascimento, H. A. D. and Eades, P.},
+  HowPublished             = {Paper presented at the Proceedings of the Second International Workshop on Soft Computing Applied to Software Engineering},
+  Year                     = {2001},
+
+  Address                  = {Enschede, The Netherlands},
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Naudts:1998,
+  Title                    = {The effect of spin-flip symmetry on the performance of the simple GA},
+  Author                   = {Naudts, B. and Naudts, J.},
+  Journal                  = {Parallel Problem Solving from Nature},
+  Year                     = {1998},
+  Pages                    = {67--76},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Pahl:1996,
+  Title                    = {Engineering Design: A Systematic Approach},
+  Author                   = {Pahl, G. and Beitz, W.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1996},
+
+  Address                  = {New York, NY},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Pardalos94thequadratic,
+  Title                    = {The Quadratic Assignment Problem: A Survey and Recent Developments},
+  Author                   = {Panos M. Pardalos and Franz Rendl and Henry Wolkowicz},
+  Journal                  = {Proceedings of the 16th Center for Discrete Mathematics and Theoretical Computer Science},
+  Year                     = {1994},
+  Pages                    = {1--42},
+  Volume                   = {16},
+
+  Publisher                = {American Mathematical Society}
 }
 
 @Book{pelikan2005hierarchical,
@@ -439,6 +2226,88 @@
   Year                     = {2005},
 
   Address                  = {New York, NY}
+}
+
+@PhdThesis{Pelikan:2002:hboa-thesis,
+  Title                    = {Bayesian Optimization Algorithm: {F}rom Single Level to Hierarchy},
+  Author                   = {Martin Pelikan},
+  School                   = {University of Illinois at Urbana-Champaign},
+  Year                     = {2002},
+  Type                     = {Doctoral Dissertation},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Pelikan2002,
+  Title                    = {Bayesian optimization algorithm: from single level to hierarchy},
+  Author                   = {M. Pelikan},
+  Journal                  = {Doctoral dissertation,},
+  Year                     = {2002},
+  Volume                   = {University of Illinois at Urbana-Champaign, Champaign, IL},
+
+  Owner                    = {TEIL-631},
+  Timestamp                = {2010.02.02}
+}
+
+@Article{Pelikan:2000,
+  Title                    = {Bayesian Optimization Algorithm, Population Sizing, and Time to Convergence},
+  Author                   = {Martin Pelikan and Erick Cant\'{u}-Paz and David E. Goldberg},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2000)},
+  Year                     = {2000},
+  Pages                    = {275--282},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013.01.24}
+}
+
+@Article{Pelikan:2003:spinglass,
+  Title                    = {Hierarchical {BOA} solves {I}sing spin glasses and {MAXSAT}},
+  Author                   = {Martin Pelikan and David E. Goldberg},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2003)},
+  Year                     = {2003},
+  Pages                    = {1271--1282},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Pelikan2001,
+  Title                    = {Escaping hierarchical traps with competent genetic algorithms},
+  Author                   = {M. Pelikan and D. E. Goldberg},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2001)},
+  Year                     = {2001},
+  Pages                    = {511--518},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@Article{Pelikan:1999:boa,
+  Title                    = {{BOA}: The {B}ayesian Optimization Algorithm},
+  Author                   = {Martin Pelikan and David E. Goldberg and Erick Cant{\'{u}}-Paz},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-1999)},
+  Year                     = {1999},
+  Pages                    = {525--532},
+  Volume                   = {I},
+
+  Address                  = {Orlando, FL},
+  Editor                   = {Wolfgang Banzhaf and Jason Daida and Agoston E. Eiben and Max H. Garzon and Vasant Honavar and Mark Jakiela and Robert E. Smith},
+  ISBN                     = {1-55860-611-4},
+  Owner                    = {Fish},
+  Publisher                = {Morgan Kaufmann Publishers, San Fransisco, CA},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Pelikan1999,
+  Title                    = {{BOA}: The Bayesian optimization algorithm},
+  Author                   = {M. Pelikan and D. E. Goldberg and E. Cantu-Paz},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-1999)},
+  Year                     = {1999},
+  Pages                    = {525--532},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
 }
 
 @Article{pelikan2002survey,
@@ -453,6 +2322,117 @@
   Publisher                = {Springer}
 }
 
+@TechReport{Pelikan:2012:EDA,
+  Title                    = {Introduction to Estimation of Distribution Algorithms.},
+  Author                   = {Martin Pelikan and Mark W. Hauschild and Fernando G. Lobo},
+  Institution              = {Missouri Estimation of Distribution Algorithms Laboratory (MEDAL)},
+  Year                     = {2012},
+
+  Address                  = {University of Missouri-St. Loui},
+  Number                   = {2012003},
+  Type                     = {MEDAL Report No.},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Pelikan:2008:SK-spin-glass,
+  Title                    = {Finding ground states of Sherrington-Kirkpatrick spin glasses with hierarchical boa and genetic algorithms.},
+  Author                   = {Pelikan, Martin and Helmut, Katzgraber G. and Kobe, Sigismund},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2008)},
+  Year                     = {2008},
+  Pages                    = {447-454},
+
+  Added-at                 = {2008-12-04T00:00:00.000+0100},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/203fbae4c459fbb90685202ee43cd8fbd/dblp},
+  Booktitle                = {GECCO},
+  Date                     = {2008-12-04},
+  Description              = {dblp},
+  Editor                   = {Ryan, Conor and Keijzer, Maarten},
+  Ee                       = {http://doi.acm.org/10.1145/1389095.1389176},
+  Interhash                = {b79a97d81f27c0fbeea7598f1f7c7337},
+  Intrahash                = {03fbae4c459fbb90685202ee43cd8fbd},
+  ISBN                     = {978-1-60558-130-9},
+  Keywords                 = {dblp},
+  Publisher                = {ACM},
+  Timestamp                = {2008-12-04T00:00:00.000+0100},
+  Url                      = {http://dblp.uni-trier.de/db/conf/gecco/gecco2008.html#PelikanHK08}
+}
+
+@Article{Pelikan1999a,
+  Title                    = {The bivariate marginal distribution algorithm},
+  Author                   = {Martin Pelikan and Heinz M{\"{u}}hlenbein},
+  Journal                  = {Advances in Soft Computing---Engineering Design and Manufacturing},
+  Year                     = {1999},
+  Pages                    = {521--535},
+
+  Publisher                = {Springer-Verlag}
+}
+
+@Article{Pelikan:2004:DHC,
+  Title                    = {Computational complexity and simulation of rare events of Ising spin glasses},
+  Author                   = {Pelikan, Martin and Ocenasek, Jiri and Trebst, Simon and Troyer, Matthias and Alet, Fabien},
+  Journal                  = {CoRR},
+  Year                     = {2004},
+  Volume                   = {cs.NE/0402030},
+
+  Timestamp                = {2011-12-05T00:00:00.000+0100}
+}
+
+@Article{Pelikan:2004:spinglass,
+  Title                    = {Computational complexity and simulation of rare events of Ising spin glasses},
+  Author                   = {Pelikan, M. and Ocenasek, J. and Trebst, S. and Troyer, M. and Alet, F.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2004)},
+  Year                     = {2004},
+  Pages                    = {36--47},
+
+  Owner                    = {Fish},
+  Publisher                = {Springer-Verlag},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Pelikan:2006:sporadic,
+  Title                    = {Sporadic model building for efficiency enhancement of {hBOA}},
+  Author                   = {Pelikan, M. and Sastry, K. and Goldberg, D. E.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2006)},
+  Year                     = {2006},
+  Pages                    = {405--412},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Pelikan:2003:boa-scalibility,
+  Title                    = {Scalability of the {B}ayesian optimization algorithm},
+  Author                   = {Pelikan, M. and Sastry, K. and Goldberg, D. E.},
+  Journal                  = {International Journal of Approximate Reasoning},
+  Year                     = {2003},
+  Number                   = {3},
+  Pages                    = {221--258},
+  Volume                   = {31},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Pelikan:2009:nklandscape,
+  Title                    = {Performance of Evolutionary Algorithms on NK Landscapes with Nearest Neighbor Interactions and Tunable Overlap},
+  Author                   = {Pelikan, Martin and Sastry, Kumara and Goldberg, David E. and Butz, Martin Volker and Hauschild, Mark},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2009)},
+  Year                     = {2009},
+  Pages                    = {851-858},
+
+  Abstract                 = {This paper presents a class of NK landscapes with nearestneighbor interactions and tunable overlap. The considered class of NK landscapes is solvable in polynomial time using dynamic programming; this allows us to generate a large number of random problem instances with known optima. Several genetic and evolutionary algorithms are then applied to the generated problem instances. The results are analyzed and related to scalability theory for genetic algorithms and estimation of distribution algorithms.},
+  Added-at                 = {2009-10-05T22:17:39.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/23f8cf75b1a3909b2b9fe4037ffecd09e/butz},
+  Description              = {own papers},
+  Interhash                = {2d989ecab45287bc44fe937e37fe517b},
+  Intrahash                = {3f8cf75b1a3909b2b9fe4037ffecd09e},
+  Keywords                 = {MVButz MVButzC},
+  Owner                    = {butz},
+  Timestamp                = {2009-10-05T22:17:39.000+0200}
+}
+
 @InProceedings{pelikan2007dependency,
   Title                    = {Dependency trees, permutations, and quadratic assignment problem},
   Author                   = {Pelikan, Martin and Tsutsui, Shigeyoshi and Kalapala, Rajiv},
@@ -463,29 +2443,277 @@
   Volume                   = {7}
 }
 
+@Article{Pimmler:1994,
+  Title                    = {Integration Analysis of Product Decompositions},
+  Author                   = {Pimmler, T. and Eppinger, S. D.},
+  Journal                  = {Proceedings of the {ASME} International Conference on Design Theory and Methodology},
+  Year                     = {1994},
+  Pages                    = {343--351},
+  Volume                   = {DE-68},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Pimmler1994,
+  Title                    = {Integration analysis of product decompositions},
+  Author                   = {T. Pimmler and S. D. Eppinger},
+  Journal                  = {Proceedings of the ASME International Conference on Design Thory and Methodology},
+  Year                     = {1994},
+  Pages                    = {343--351},
+  Volume                   = {DE-68},
+
+  Owner                    = {TEIL-631},
+  Timestamp                = {2010.02.02}
+}
+
 @Article{plackett1975analysis,
   Title                    = {The analysis of permutations},
   Author                   = {Plackett, Robin L},
   Journal                  = {Applied Statistics},
   Year                     = {1975},
   Pages                    = {193--202},
+  Volume                   = {24},
 
   Publisher                = {JSTOR}
 }
 
-@InCollection{robbins1985some,
+@Book{Press:1992,
+  Title                    = {Numerical Recipes in {C}: {T}he Art of Scientific Computing},
+  Author                   = {Press, W. H. and Teukolsky, S. A. and Vetterling, W. T. and Flannery, B. P.},
+  Publisher                = {Cambridge University Press},
+  Year                     = {1992},
+
+  Address                  = {Cambridge, England},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Rabani:1998,
+  Title                    = {A computational view of population genetics},
+  Author                   = {Rabani, Y. and Rabinovich, Y. and Sinclair, A.},
+  Journal                  = {Random Structures and Algorithms},
+  Year                     = {1998},
+  Pages                    = {314--330},
+  Volume                   = {12},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Elizabeth:2009,
+  Title                    = {Effects of a deterministic hill climber on hBOA.},
+  Author                   = {Radetic, Elizabeth and Pelikan, Martin and Goldberg, David E.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2009)},
+  Year                     = {2009},
+  Pages                    = {437--444},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2009-07-27T00:00:00.000+0200}
+}
+
+@Article{Rattray:1997,
+  Title                    = {Noisy fitness evaluations in genetic algorithms and the dynamics of learning},
+  Author                   = {M. Rattray and J. L. Shapiro},
+  Journal                  = {Foundations of Genetic Algorithms},
+  Year                     = {1997},
+  Pages                    = {117--139},
+  Volume                   = {4},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Rechtin:1997,
+  Title                    = {The Art of Systems Architecting},
+  Author                   = {Rechtin, E. and Maier, M.},
+  Publisher                = {CRC Press},
+  Year                     = {1997},
+
+  Address                  = {Boca Raton, FL},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Reeves:1993:popsize,
+  Title                    = {Using genetic algorithms with small populations},
+  Author                   = {C.R. Reeves},
+  Journal                  = {Proceedings of the Fifth International Conference on Genetic Algorithms},
+  Year                     = {1993},
+  Pages                    = {92--99},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Reeves2002,
+  Title                    = {Genetic Algorithms: Principles and Perspectives: A Guide to GA Theory},
+  Author                   = {Reeves, Colin R. and Rowe, Jonathan E.},
+  Publisher                = {Kluwer Academic Publishers},
+  Year                     = {2002},
+
+  Address                  = {Norwell, MA, USA},
+
+  ISBN                     = {1402072406}
+}
+
+@Misc{tsplib,
+  Title                    = {TSPLIB},
+
+  Author                   = {Reinelt, Gerhard},
+  HowPublished             = {\url{http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/index.html}},
+  Month                    = {January},
+  Year                     = {1995}
+}
+
+@Article{Rissanen:1999,
+  Title                    = {Hypothesis Selection and Testing by the {MDL} Principle},
+  Author                   = {Rissanen, J.},
+  Journal                  = {Computer Journal},
+  Year                     = {1999},
+  Pages                    = {260--269},
+  Volume                   = {42},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Rissanen1998,
+  Title                    = {Hypothesis Selection and Testing by the {MDL} Principle},
+  Author                   = {J. Rissanen},
+  Journal                  = {The Computer Journal},
+  Year                     = {1998},
+  Volume                   = {vol. 42, pp. 260--269},
+
+  Owner                    = {zyxwing},
+  Timestamp                = {2010.12.27}
+}
+
+@Article{Sanchez:1996,
+  Title                    = {Modularity, Flexibility, and Knowledge Management in Product and Organization Design},
+  Author                   = {Rissanen, J.},
+  Journal                  = {Strategic Management Journal},
+  Year                     = {1996},
+  Pages                    = {63--76},
+  Volume                   = {17},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Rissanen:1978,
+  Title                    = {Modeling by Shortest Data Description},
+  Author                   = {Rissanen, J.},
+  Journal                  = {Automatica},
+  Year                     = {1978},
+  Pages                    = {465--471},
+  Volume                   = {14},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Rissanen1978,
+  Title                    = {Modeling by shortest data description},
+  Author                   = {J. Rissanen},
+  Journal                  = {Automatica},
+  Year                     = {1978},
+  Volume                   = {vol.14, pp. 465--471},
+
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@Article{robbins1985some,
   Title                    = {Some aspects of the sequential design of experiments},
   Author                   = {Robbins, Herbert},
-  Booktitle                = {Herbert Robbins Selected Papers},
-  Publisher                = {Springer},
-  Year                     = {1985},
-  Pages                    = {169--177}
+  Journal                  = {Bulletin of the American Mathematical Society},
+  Year                     = {1952},
+  Number                   = {5},
+  Pages                    = {527--535},
+  Volume                   = {58},
+
+  Publisher                = {Springer}
+}
+
+@Article{Robertson:1998,
+  Title                    = {Planning for Product Platforms},
+  Author                   = {Robertson, D. and Ulrich, K.},
+  Journal                  = {Sloan Management Review},
+  Year                     = {1998},
+  Number                   = {4},
+  Pages                    = {19--31},
+  Volume                   = {39},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Rota1964,
+  Title                    = {The Number of Partitions of a Set},
+  Author                   = {Gian-Carlo Rota},
+  Journal                  = {The American Mathematical Monthly},
+  Year                     = {1964},
+
+  Month                    = {May},
+  Number                   = {5},
+  Pages                    = {498-504},
+  Volume                   = {71},
+
+  Owner                    = {zyxwing},
+  Timestamp                = {2011.01.11}
+}
+
+@MastersThesis{Rowles:1999,
+  Title                    = {System Integration Analysis of a Large Commercial Aircraft Engine},
+  Author                   = {Rowles, C.},
+  School                   = {Massachusetts Institute of Technology},
+  Year                     = {1999},
+
+  Address                  = {Cambridge, MA},
+  Type                     = {Master Thesis},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@InCollection{planning:2003,
+  Title                    = {Planning},
+  Author                   = {Stuart Russell and Peter Norvig},
+  Booktitle                = {Artificial Intelligence: {A} Modern Approach},
+  Publisher                = {Prentice Hall},
+  Year                     = {2003},
+
+  Address                  = {Upper Saddle River, NJ},
+  Chapter                  = {11--12},
+  Edition                  = {Second},
+  Pages                    = {375--461},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sahni1976,
+  Title                    = {P-Complete Approximation Problems},
+  Author                   = {Sahni, Sartaj and Gonzalez, Teofilo},
+  Journal                  = {Journal of the ACM},
+  Year                     = {1976},
+  Number                   = {3},
+  Pages                    = {555--565},
+  Volume                   = {23},
+
+  Address                  = {New York, NY, USA},
+  Issue_date               = {July 1976},
+  Numpages                 = {11},
+  Publisher                = {ACM}
 }
 
 @Article{santana2008protein,
   Title                    = {Protein folding in simplified models with estimation of distribution algorithms},
   Author                   = {Santana, Roberto and Larra{\~n}aga, Pedro and Lozano, Jose Antonio},
-  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Journal                  = {IEEE Transactions on Evolutionary Computation},
   Year                     = {2008},
   Number                   = {4},
   Pages                    = {418--438},
@@ -494,9 +2722,104 @@
   Publisher                = {IEEE}
 }
 
-@Article{schiavinotto2004linear,
-  Title                    = {The linear ordering problem: Instances, search space analysis and algorithms},
-  Author                   = {Schiavinotto, Tommaso and St{\"u}tzle, Thomas},
+@Article{Santarelli:2004,
+  Title                    = {Military antenna design using simple and competent genetic algorithms},
+  Author                   = {Santarelli, S. and Yu, T.-L. and Goldberg, D. E. and Altshuler, E. and O'Donnell, T. and Southall, H. and Mailloux, R.},
+  Journal                  = {Mathematical and Computer Modelling},
+  Year                     = {2006},
+  Pages                    = {990--1022},
+  Volume                   = {43},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@MastersThesis{Sastry:2002:thesis,
+  Title                    = {Evaluation-relaxation schemes for genetic and evolutionary algorithms},
+  Author                   = {Sastry, K.},
+  School                   = {University of Illinois at Urbana-Champaign},
+  Year                     = {2002},
+
+  Address                  = {Urbana, IL},
+  Type                     = {Master Thesis},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sastry:2004:bb-niching,
+  Title                    = {Sub-structural niching in non-stationary environments},
+  Author                   = {Sastry, K. and Abbass, H. A. and Goldberg, D. E.},
+  Journal                  = {Proceedings of the Australian Artificial Intelligence Conference},
+  Year                     = {2004},
+  Pages                    = {873--885},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sastry:2007,
+  Title                    = {Let's get ready to rumble redux: crossover versus mutation head to head on exponentially scaled problems.},
+  Author                   = {Kumara Sastry and David E. Goldberg},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2007)},
+  Year                     = {2007},
+  Pages                    = {1380-1387},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013-01-28}
+}
+
+@Article{Sastry:2004,
+  Title                    = {Let's Get Ready to Rumble: Crossover Versus Mutation Head to Head.},
+  Author                   = {Kumara Sastry and David E. Goldberg},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2004)},
+  Year                     = {2004},
+  Pages                    = {126--137},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013-01-28}
+}
+
+@Article{Sastry:2004:eCGAscalability,
+  Title                    = {Designing Competent Mutation Operators Via Probabilistic Model Building of Neighborhoods},
+  Author                   = {Sastry, K. and Goldberg, D. E.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2004)},
+  Year                     = {2004},
+  Pages                    = {114--125},
+  Volume                   = {2},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@TechReport{Sastry:2002:mixing,
+  Title                    = {Analysis of mixing in genetic algorithms: A survey},
+  Author                   = {Sastry, K. and Goldberg, D. E.},
+  Institution              = {{U}niversity of {I}llinois at {U}rbana-{C}hampaign, {I}llinois Genetic Algorithms Laboratory},
+  Year                     = {2002},
+
+  Address                  = {Urbana, IL},
+  Number                   = {2002012},
+  Type                     = {Illi{GAL} Report No.},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sastry:2004:bb-inheritance,
+  Title                    = {Efficiency enhancement of genetic algorithms via building-block-wise fitness estimation},
+  Author                   = {Sastry, K. and Pelikan, M. and Goldberg, D. E.},
+  Journal                  = {Proceedings of the IEEE Conference on Evolutionary Computation},
+  Year                     = {2004},
+  Pages                    = {720--727},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{schiavinotto2004,
+  Title                    = {The linear ordering problem: instances, search space analysis and algorithms},
+  Author                   = {Tommaso Schiavinotto and Thomas St{\"u}tzle},
   Journal                  = {Journal of Mathematical Modelling and Algorithms},
   Year                     = {2004},
   Number                   = {4},
@@ -504,6 +2827,320 @@
   Volume                   = {3},
 
   Publisher                = {Springer}
+}
+
+@Article{Schilling:2000,
+  Title                    = {Towards a General Modular System and its Application to Inter-firm Product Modularity},
+  Author                   = {Schilling, M. A.},
+  Journal                  = {Academy of Management Review},
+  Year                     = {2000},
+  Number                   = {2},
+  Pages                    = {312--334},
+  Volume                   = {25},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Schloegel:1999,
+  Title                    = {A New Algorithm for Multi-objective Graph Partitioning},
+  Author                   = {Schloegel, K. and Karypis, G. and Kumar, V.},
+  Journal                  = {Proceedings of the European Conference on Parallel Processing (EuroPar ’99)},
+  Year                     = {1999},
+  Pages                    = {322--331},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Shannon:1948,
+  Title                    = {A Mathematical Theory of Communication},
+  Author                   = {Shannon, C. E.},
+  Journal                  = {The Bell System Technical Journal},
+  Year                     = {1948},
+  Pages                    = {379--423},
+  Volume                   = {27},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Shannon1948,
+  Title                    = {A Mathematical Theory of Communication},
+  Author                   = {C. E. Shannon},
+  Journal                  = {The Bell System Technical Journal},
+  Year                     = {1948},
+  Pages                    = {379--423},
+  Volume                   = {vol. 27},
+
+  Owner                    = {TEIL-631},
+  Timestamp                = {2010.02.02}
+}
+
+@MastersThesis{Sharman:2002:thesis,
+  Title                    = {Valuing Architecture for Strategic Purposes},
+  Author                   = {Sharman, D.},
+  School                   = {Massachusetts Institute of Technology},
+  Year                     = {2002},
+
+  Address                  = {Cambridge, MA},
+  Type                     = {Master Thesis},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sharman:2004,
+  Title                    = {Characterizing Complex Product Architectures},
+  Author                   = {Sharman, D. and Yassine, A.},
+  Journal                  = {Systems Engineering Journal},
+  Year                     = {2004},
+  Number                   = {1},
+  Pages                    = {35--60},
+  Volume                   = {7},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sharman:2002,
+  Title                    = {Architectural Optimization Using Real Options Theory and Dependency Structure Matrices},
+  Author                   = {Sharman, D. and Yassine, A. and Carlile, P.},
+  Journal                  = {Proceedings of the ASME 28th Design Automation Conference},
+  Year                     = {2002},
+  Pages                    = {DAC-34119},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sharman:2002a,
+  Title                    = {Characterizing Modular Architectures},
+  Author                   = {Sharman, D. and Yassine, A. and Carlile, P.},
+  Journal                  = {{ASME} 14th International Conference},
+  Year                     = {2002},
+
+  Month                    = {Sept.},
+  Pages                    = {DTM-34024},
+
+  Address                  = {Montreal, Canada},
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sherrington:1792,
+  Title                    = {Solvable Model of a Spin-Glass},
+  Author                   = {Sherrington, David and Kirkpatrick, Scott},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {1975},
+  Pages                    = {1792--1796},
+  Volume                   = {35},
+
+  Doi                      = {10.1103/PhysRevLett.35.1792},
+  Issue                    = {26},
+  Owner                    = {singerlibra},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2011.12.19}
+}
+
+@Book{Simon:1968,
+  Title                    = {The science of artifical},
+  Author                   = {Simon, H. A.},
+  Publisher                = {The {MIT} Press},
+  Year                     = {1968},
+
+  Address                  = {Chambridge, MA},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Simpson:2001,
+  Title                    = {Product Platform Design: Method and Application},
+  Author                   = {Simpson, T. and Maier, J. and Mistree, F.},
+  Journal                  = {Research in Engineering Design},
+  Year                     = {2001},
+  Number                   = {1},
+  Pages                    = {2--22},
+  Volume                   = {13},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sinha:2005:hybrid,
+  Title                    = {Designing efficient genetic and evolutionary algorithm hybrids},
+  Author                   = {Sinha, A. and Chen, Y.-p. and Goldberg, David E.},
+  Journal                  = {Recent Advances Memetic Algorithms},
+  Year                     = {2005},
+  Pages                    = {259--288},
+  Volume                   = {166},
+
+  Owner                    = {gloompices},
+  Timestamp                = {2012.11.22}
+}
+
+@TechReport{Sinha:2003:hybrid,
+  Title                    = {A survey of hybrid genetic and evolutionary algorithms},
+  Author                   = {Sinha, A. and Goldberg, D. E.},
+  Institution              = {University of {I}llinois at {U}rbana-{C}hampaign},
+  Year                     = {2003},
+
+  Address                  = {Urbana, {IL}},
+  Month                    = {January},
+  Number                   = {2003004},
+  Type                     = {Illi{GAL} Report No.},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Sinha:2001,
+  Title                    = {Verification and Extension of the Theory of Global-Local Hybrids},
+  Author                   = {Abhishek Sinha and David E. Goldberg},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2001)},
+  Year                     = {2001},
+  Pages                    = {591--597},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013-01-28}
+}
+
+@Article{slater1961,
+  Title                    = {{Inconsistencies in a schedule of paired comparisons}},
+  Author                   = {Slater, Patrick},
+  Journal                  = {Biometrika},
+  Year                     = {1961},
+  Number                   = {3-4},
+  Pages                    = {303--312},
+  Volume                   = {48},
+
+  Abstract                 = {{10.1093/biomet/48.3-4.303}},
+  Citeulike-article-id     = {6721486},
+  Citeulike-linkout-0      = {http://dx.doi.org/10.1093/biomet/48.3-4.303},
+  Citeulike-linkout-1      = {http://biomet.oxfordjournals.org/cgi/content/abstract/48/3-4/303},
+  Day                      = {1},
+  Doi                      = {10.1093/biomet/48.3-4.303},
+  Keywords                 = {bioinformatik, dominanz, hierarchie, inconsistencies},
+  Posted-at                = {2010-02-24 10:13:09},
+  Priority                 = {5},
+  Url                      = {http://dx.doi.org/10.1093/biomet/48.3-4.303}
+}
+
+@Article{Smith:2002:lego,
+  Title                    = {On Appropfriate Adaptation Levels for the Learning of Gene Linkage},
+  Author                   = {Jim Smith},
+  Journal                  = {Journal of Genetic Programming and Evolvable Machines},
+  Year                     = {2002},
+  Number                   = {2},
+  Pages                    = {129--155},
+  Volume                   = {3},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Smith:1996:lego,
+  Title                    = {Recombination strategy adaptation via evolution of gene linkage},
+  Author                   = {Smith, J. and Fogarty, T. C.},
+  Journal                  = {Proceedings of the {1996} {IEEE} {I}nternational {C}onference on {E}volutionary {C}omputation},
+  Year                     = {1996},
+  Pages                    = {826--831},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Smith1996,
+  Title                    = {Recombination strategy adaptation via evolution of gene linkage},
+  Author                   = {J. Smith and T. C. Fogarty},
+  Journal                  = {Proceedings of the IEEE International Conference on Evolutionary Computation},
+  Year                     = {1996},
+  Pages                    = {826--831},
+
+  Owner                    = {tsung},
+  Timestamp                = {2010.01.28}
+}
+
+@Article{Sosa:2004,
+  Title                    = {The Misalignment of Product Architecture and Organizational Structure in Complex Product Development},
+  Author                   = {Sosa, M. and Eppinger, S. and Rowles, C.},
+  Journal                  = {Management Science},
+  Year                     = {2004},
+  Number                   = {12},
+  Pages                    = {1674--1689},
+  Volume                   = {50},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Spillman:1993,
+  Title                    = {Use of a Genetic Algorithm in the Cryptanalysis of Simple Substitution Ciphers},
+  Author                   = {Spillman, Richard and Janssen, Mark and Nelson, Bob and Kepner, Martin},
+  Journal                  = {Cryptologia},
+  Year                     = {1993},
+  Number                   = {1},
+  Pages                    = {31--44},
+  Volume                   = {17},
+
+  Acmid                    = {172251},
+  Address                  = {Bristol, PA, USA},
+  Doi                      = {10.1080/0161-119391867746},
+  ISSN                     = {0161-1194},
+  Issue_date               = {Jan. 1993},
+  Keywords                 = {genetic algorithm, key search, simple substitution cipher},
+  Numpages                 = {14},
+  Publisher                = {Taylor \& Francis, Inc.},
+  Url                      = {http://dx.doi.org/10.1080/0161-119391867746}
+}
+
+@Article{Srivastava:2001:time,
+  Title                    = {Verification of the theory of genetic and evolutionary continuation},
+  Author                   = {Srivastava, R. and Golberg, D. E.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2001)},
+  Year                     = {2001},
+  Pages                    = {551--558},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Steward:1981,
+  Title                    = {The design structure system: {A} method for managing the design of complex systems},
+  Author                   = {Steward, Donald V.},
+  Journal                  = {{IEEE} Transactions on Engineering Managment},
+  Year                     = {1981},
+  Pages                    = {77--74},
+  Volume                   = {28},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Stirling:1730,
+  Title                    = {Methodus differentialis, sive tractatus de summation et interpolation serierum infinitarium},
+  Author                   = {Stirling, J.},
+  Year                     = {1730},
+
+  Address                  = {London},
+  Note                     = {English translation by {H}olliday, {J}., {\textit{The Differential Method: A Treatise of the Summation and Interpolation of Infinite Series}}, 1749},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Stone:2000,
+  Title                    = {A Heuristic Method for Identifying Modules for Product Architectures},
+  Author                   = {Stone, R. and Wood, K. and Crawford, R.},
+  Journal                  = {Design Studies},
+  Year                     = {2000},
+  Number                   = {1},
+  Pages                    = {5--31},
+  Volume                   = {21},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
 }
 
 @Article{taillard1993benchmarks,
@@ -518,30 +3155,125 @@
   Publisher                = {Elsevier}
 }
 
+@MastersThesis{Thebeau:2001,
+  Title                    = {Knowledge Management of System Interfaces and Interactions for Product Development Processes},
+  Author                   = {Thebeau, R.},
+  School                   = {Massachusetts Institute of Technology},
+  Year                     = {2001},
+
+  Address                  = {Cambridge, MA},
+  Type                     = {Master Thesis},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Thierens:1994:convergence-time,
+  Title                    = {Convergence models of genetic algorithm selection schemes},
+  Author                   = {Thierens, D. and Goldberg, D. E.},
+  Journal                  = {Parallel {P}roblem {S}olving fron {N}ature (PPSN III)},
+  Year                     = {1994},
+  Pages                    = {119--129},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@InProceedings{Thierens1994,
+  Title                    = {Convergence Models of Genetic Algorithm Selection Schemes},
+  Author                   = {Dirk Thierens and David E. Goldberg},
+  Year                     = {1994},
+  Pages                    = {119-129},
+
+  Journal                  = {Parallel {P}roblem {S}olving fron {N}ature}
+}
+
+@Article{Thierens:1993:mixing,
+  Title                    = {Mixing in genetic algorithms},
+  Author                   = {Thierens, D. and Goldberg, D. E.},
+  Journal                  = {Proceedings of the {F}ifth {I}nternational {C}onference on {G}enetic {A}lgorithms},
+  Year                     = {1993},
+  Pages                    = {38--45},
+
+  Owner                    = {Fish},
+  Tcga                     = {03348},
+  Timestamp                = {2011.09.01}
+}
+
 @Book{toth2001vehicle,
   Title                    = {The vehicle routing problem},
   Author                   = {Toth, Paolo and Vigo, Daniele},
   Publisher                = {Siam},
-  Year                     = {2001}
+  Year                     = {2001},
+
+  Address                  = {Philadelphia, PA}
 }
 
-@InProceedings{tsutsui2006comparative,
+@Article{Toussaint:2005:compression-eda,
+  Title                    = {Compact genetic codes as a search strategy of evolutionary processes},
+  Author                   = {M. Toussaint},
+  Journal                  = {Foundations of Genetic Algorithms (FOGA 2005)},
+  Year                     = {2005},
+  Pages                    = {75--94},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Tsuji:2006,
+  Title                    = {A crossover for complex building blocks overlapping},
+  Author                   = {Miwako Tsuji and Masaharu Munetomo and Kiyoshi Akama},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2006)},
+  Year                     = {2006},
+  Pages                    = {1337--1344},
+
+  Address                  = {New York, NY},
+  Owner                    = {Fish},
+  Publisher                = {ACM Press},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Tsuji2004,
+  Title                    = {Modeling dependencies of loci with string classification according to fitness differences},
+  Author                   = {M. Tsuji and M. Munetomo and K. Akama},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2004)},
+  Year                     = {2004},
+  Pages                    = {246--257},
+
+  Owner                    = {TEIL-631},
+  Timestamp                = {2010.02.05}
+}
+
+@Article{tsutsui2006comparative,
   Title                    = {A comparative study of sampling methods in node histogram models with probabilistic model-building genetic algorithms},
   Author                   = {Tsutsui, Shigeyoshi},
-  Booktitle                = {Systems, Man and Cybernetics, 2006. SMC'06. IEEE International Conference on},
+  Journal                  = {Proceedings of the Sixth Annual IEEE Systems, Man and Cybernetics},
   Year                     = {2006},
-  Organization             = {IEEE},
   Pages                    = {3132--3137},
-  Volume                   = {4}
+
+  Organization             = {IEEE}
 }
 
-@InCollection{tsutsui2002probabilistic,
+@Article{tsutsui2002probabilistic,
   Title                    = {Probabilistic model-building genetic algorithms in permutation representation domain using edge histogram},
   Author                   = {Tsutsui, Shigeyoshi},
-  Booktitle                = {Parallel Problem Solving from Nature?�PPSN VII},
-  Publisher                = {Springer},
+  Journal                  = {Proceedings of the Seventh International Conference on Parallel Problem Solving from Nature},
   Year                     = {2002},
-  Pages                    = {224--233}
+  Pages                    = {224--233},
+
+  Publisher                = {Springer}
+}
+
+@Article{Tsutsui:2006,
+  Title                    = {Edge histogram based sampling with local search for solving permutation problems},
+  Author                   = {Tsutsui, Shigeyoshi and Pelikan, Martin and Ghosh, Ashish},
+  Journal                  = {International Journal of Hybrid Intelligent Systems},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {11--22},
+  Volume                   = {3},
+
+  Owner                    = {gloompisces}
 }
 
 @Article{tsutsui2006edge,
@@ -557,21 +3289,24 @@
 }
 
 @Article{tsutsui2006node,
-  Title                    = {Node histogram vs. edge histogram: A comparison of pmbgas in permutation domains},
+  Title                    = {Node histogram vs. edge histogram: A comparison of {PMBGA}s in permutation domains},
   Author                   = {Tsutsui, Shigeyoshi and Pelikan, Martin and Goldberg, David E},
-  Journal                  = {MEDAL Report},
+  Journal                  = {Proceedings of the 2006 IEEE Congress on Evolutionary Computation},
   Year                     = {2006},
-  Number                   = {2006009}
+  Number                   = {1939--1946},
+
+  Institution              = {Missouri Estimation of Distribution Algorithms Laboratory (MEDAL)}
 }
 
-@InProceedings{tsutsui2004solving,
+@Article{tsutsui2004solving,
   Title                    = {Solving capacitated vehicle routing problems using edge histogram based sampling algorithms},
   Author                   = {Tsutsui, Shigeyoshi and Wilson, Gordon},
-  Booktitle                = {IEEE Congress on Evolutionary Computation(CEC), 2004.},
+  Journal                  = {Proceedings of the 2004 IEEE Congress on Evolutionary Computation},
   Year                     = {2004},
-  Organization             = {IEEE},
   Pages                    = {1150--1157},
-  Volume                   = {1}
+  Volume                   = {1},
+
+  Organization             = {IEEE}
 }
 
 @Article{tuson1998adapting,
@@ -586,22 +3321,338 @@
   Publisher                = {MIT Press}
 }
 
-@Article{Yu2009,
-  Title                    = {{Dependency structure matrix, genetic algorithms, and effective recombination.}},
-  Author                   = {Yu, Tian-Li and Goldberg, David E and Sastry, Kumara and Lima, Claudio F and Pelikan, Martin},
-  Journal                  = {Evolutionary computation},
-  Year                     = {2009},
+@Article{Ulrich:1995,
+  Title                    = {The Role of Product Architecture in the Manufacturing Firm},
+  Author                   = {Ulrich, K.},
+  Journal                  = {Research Policy},
+  Year                     = {1995},
+  Number                   = {3},
+  Pages                    = {419--440},
+  Volume                   = {24},
 
-  Month                    = jan,
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Book{Ulrich:2000,
+  Title                    = {Product Design and Development},
+  Author                   = {Ulrich, K. and Eppinger, S.},
+  Publisher                = {McGraw Hill},
+  Year                     = {2000},
+
+  Address                  = {New York, NY},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@InCollection{vanHoyweghen:2001,
+  Title                    = {Detecting spin-flip symmetry in optimization problems},
+  Author                   = {{van Hoyweghen}, C.},
+  Booktitle                = {Theoretical aspects of evolutionary computing},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2001},
+
+  Address                  = {New York, NY},
+  Pages                    = {423--437},
+
+  Editors                  = {Kallel, L. amd Naudts, B. and Rogers, A.},
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{vanHoyweghen:2002,
+  Title                    = {From {T}wo{M}ax to the Ising model: {E}asy and hard symmetrical problems},
+  Author                   = {{van Hoyweghen}, C. and Goldberg, D. E. and Naudts, B.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2002)},
+  Year                     = {2002},
+  Pages                    = {626--633},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Wang:2004,
+  Title                    = {Information Measure for Modularity in Engineering Design},
+  Author                   = {Wang, B. and Antonsson, E.},
+  Journal                  = {Proceedings of the {ASME} 2004 International Design Engineering Technical Conferences},
+  Year                     = {2004},
+  Pages                    = {DETC-57515},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Watson:1998:hiff,
+  Title                    = {Modeling building-block interdependency},
+  Author                   = {Watson, R. A. and Hornby, G. S. and Pollack, J. B.},
+  Journal                  = {Parallel {P}roblem {S}olving from {N}ature (PPSN-V)},
+  Year                     = {1998},
+  Pages                    = {97--106},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Watson:2005,
+  Title                    = {Modular interdependency in complex dynamical systems},
+  Author                   = {Watson, R. A. and Pollack, J. B.},
+  Journal                  = {Artificial Life},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {445--457},
+  Volume                   = {11},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Watson:1999:hxor,
+  Title                    = {Hierarchically consistent test problems for genetic algorithms: {S}ummary and additional results},
+  Author                   = {Watson, R. A. and Pollack, J. B.},
+  Journal                  = {{Late breaking papers at the Genetic and Evolutionary Computation Conference}},
+  Year                     = {1999},
+  Pages                    = {292--297},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Whitfield:2002,
+  Title                    = {Identifying Component Modules},
+  Author                   = {Whitfield, R. and Smith, J. and Duffy, A.},
+  Journal                  = {Proceedings of the Seventh International Conference on Artificial Intelligence in Design AID’02},
+  Year                     = {2002},
+  Pages                    = {571-592},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Widrow:1960,
+  Title                    = {Adaptive Switching Circuits},
+  Author                   = {Widrow, B. and Hoff, M. E.},
+  Journal                  = {IRE WESCON Convention Record},
+  Year                     = {1960},
+  Pages                    = {96--104},
+  Volume                   = {4},
+
+  Address                  = {New York, NY},
+  Owner                    = {Fish},
+  Publisher                = {IRE},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Wolpert1997,
+  Title                    = {No free lunch theorems for optimization},
+  Author                   = {David Wolpert and William G. Macready},
+  Journal                  = {IEEE Trans. Evolutionary Computation},
+  Year                     = {1997},
+  Number                   = {1},
+  Pages                    = {67-82},
+  Volume                   = {1},
+
+  Bibsource                = {DBLP, http://dblp.uni-trier.de}
+}
+
+@Article{Wright:2004,
+  Title                    = {An Estimation of Distribution Algorithm Based On Maximum Entropy},
+  Author                   = {Alden Wright and Riccardo Poli and Chris Stephens and W. B. Landgon and Sandeep Pulavarty},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2004)},
+  Year                     = {2004},
+  Pages                    = {343--354},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Yassine:2003a,
+  Title                    = {Four Complex Problems in Concurrent Engineering and the Design Structure Matrix Method},
+  Author                   = {Yassine, A. and Braha, D.},
+  Journal                  = {Concurrent Engineering Research and Applications},
+  Year                     = {2003},
+  Number                   = {3},
+  Pages                    = {165--176},
+  Volume                   = {11},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Yassine:1999,
+  Title                    = {Engineering design Management: An informatoin structure approach},
+  Author                   = {Yassine, A. and Falkenburg, Donald R. and Chelst, Ken},
+  Journal                  = {International Journal of production research},
+  Year                     = {1999},
+  Number                   = {13},
+  Pages                    = {2957--2975},
+  Volume                   = {37},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Yassine:2003,
+  Title                    = {Information Hiding in Product Development: {T}he Design Churn Effect},
+  Author                   = {Yassine, A. and Jogleker, N. and Braha, D. and Eppingher, S. and Whitney, D.},
+  Journal                  = {Research in Engineering Design},
+  Year                     = {2003},
+  Number                   = {3},
+  Pages                    = {145--161},
+  Volume                   = {14},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Yu:2006:dsmga++,
+  Title                    = {Conquering hierarchical difficulty by explicit chunking: {S}ubstructural chromosome compression},
+  Author                   = {Yu, Tian-Li and Goldberg, David E.},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2006)},
+  Year                     = {2006},
+  Pages                    = {1385--1392},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Yu:2004:dsmga,
+  Title                    = {Dependency Structure Matrix Analysis: Offline Utility of the Dependency Structure Matrix Genetic Algorithm},
+  Author                   = {Tian-Li Yu and David E. Goldberg},
+  Journal                  = {Proceedings of the {G}enetic and {E}volutionary {C}omputation {C}onference (GECCO-2004)},
+  Year                     = {2004},
+  Pages                    = {355-366},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2012.11.30}
+}
+
+@Article{Yu:2004:model-q-e,
+  Title                    = {Quality and efficiency of model building for genetic algorithms},
+  Author                   = {Tian-Li Yu and David E. Goldberg},
+  Journal                  = {Proceedings of the {G}enetic and {E}volutionary {C}omputation {C}onference (GECCO-2000)},
+  Year                     = {2004},
+  Pages                    = {367-378},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Yu2009,
+  Title                    = {Dependency structure matrix, genetic algorithms, and effective recombination},
+  Author                   = {Tian-Li Yu and D. E. Goldberg and K. Sastry and C. F. Lima and M. Pelikan},
+  Journal                  = {Evolutionary Computation},
+  Year                     = {2009},
   Number                   = {4},
   Pages                    = {595--626},
   Volume                   = {17},
 
-  Doi                      = {10.1162/evco.2009.17.4.17409},
-  File                     = {:C$\backslash$:/Users/Riohsu/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Yu et al. - 2009 - Dependency structure matrix, genetic algorithms, and effective recombination.pdf:pdf},
-  ISSN                     = {1530-9304},
-  Keywords                 = {Algorithms,Problem Solving},
-  Pmid                     = {19916779},
-  Url                      = {http://www.ncbi.nlm.nih.gov/pubmed/19916779}
+  Owner                    = {Tsung},
+  Timestamp                = {2010.01.25}
+}
+
+@Article{Yu:2003:dsmga,
+  Title                    = {Genetic algorithm design inspired by organizational theory: {P}ilot study of a dependency structure matrix driven genetic algorithm},
+  Author                   = {Yu, T.-L. and Goldberg, D. E. and Yassine, A. and Chen, Y.-p.},
+  Journal                  = {Proceedings of Artificial Neural Networks in Engineering ({ANNIE} 2003)},
+  Year                     = {2003},
+  Pages                    = {327--332},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Yu2003,
+  Title                    = {Genetic Algorithm Design Inspired by Organizational Theory: Pilot Study of a Dependency Structure Matrix Driven Genetic Algorithm},
+  Author                   = {Tian-Li Yu and David E. Goldberg and Ali Yassine and Ying-Ping Chen},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2003)},
+  Year                     = {2003},
+  Pages                    = {1620-1621}
+}
+
+@Article{Yu:2005:online-popsize-adjustment,
+  Title                    = {Online population size adjusting using noise and substructural measurements},
+  Author                   = {Yu, T.-L. and Sastry, K. and Goldberg, D. E.},
+  Journal                  = {Proceedings of the 2005 Congress on Evolutionary Computation Conference},
+  Year                     = {2005},
+  Pages                    = {2491--2498},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01},
+  Volumne                  = {3}
+}
+
+@Article{Yu:2005:overlapping-bb,
+  Title                    = {Linkage learning, overlapping building blocks, and systematic strategy for scalable recombination},
+  Author                   = {Tian-Li Yu and Kumara Sastry and David E. Goldberg},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2005)},
+  Year                     = {2005},
+  Pages                    = {1217--1224},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Yu2007,
+  Title                    = {Population sizing for entropy-based model building in discrete estimation of distribution algorithms},
+  Author                   = {Tian-Li Yu and Kumara Sastry and David E. Goldberg and Martin Pelikan},
+  Journal                  = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2007)},
+  Year                     = {2007},
+  Pages                    = {601--608},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013.01.28}
+}
+
+@TechReport{Yu:2005:dsm-clustering,
+  Title                    = {An information theoretic method for developing modular architectures using genetic algorithms},
+  Author                   = {Yu, T.-L. and Yassine, A. and Goldberg, D. E.},
+  Institution              = {University of {I}llinois at {U}rbana-{C}hampaign},
+  Year                     = {2005},
+
+  Address                  = {Urbana, {IL}},
+  Note                     = {Paper submitted to {\textit{Research in Engineering Design}}},
+  Number                   = {2005014},
+  Type                     = {Illi{GAL} {R}eport {N}o.},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Zakarian:2001,
+  Title                    = {Development of Modular Electrical Systems},
+  Author                   = {Zakarian, A. and Rushton, G.},
+  Journal                  = {IEEE Transactions on Mechatronic},
+  Year                     = {2001},
+  Number                   = {4},
+  Pages                    = {507--520},
+  Volume                   = {6},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
+}
+
+@Article{Zhang:2006,
+  Title                    = {Estimation of distribution algorithm with 2-opt local search for the quadratic assignment problem},
+  Author                   = {Qingfu Zhang and Jianyong Sun and Edward Tsang and John Ford},
+  Journal                  = {Towards a New Evolutionary Computation},
+  Year                     = {2006},
+  Pages                    = {281--292},
+  Volume                   = {192},
+
+  Owner                    = {gloompisces},
+  Timestamp                = {2013.01.28}
+}
+
+@Book{Larranaga:2002:eda,
+  Title                    = {Estimation of Distribution Algorithms},
+  Editor                   = {Larra{\~{n}}aga, P. and Lozano, J.A.},
+  Publisher                = {Kluwer Academic Publishers},
+  Year                     = {2002},
+
+  Address                  = {Boston, MA},
+
+  Owner                    = {Fish},
+  Timestamp                = {2011.09.01}
 }
 
