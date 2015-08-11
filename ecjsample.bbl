@@ -1,10 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Allahverdi et~al., 2008]{allahverdi2008survey}
-Allahverdi, A., Ng, C.~T., Cheng, T. C.~E., and Kovalyov, M.~Y. (2008).
-\newblock A survey of scheduling problems with setup times or costs.
-\newblock {\em European Journal of Operational Research}, 187(3):985--1032.
-
 \bibitem[Audibert et~al., 2009]{audibert2009exploration}
 Audibert, J.-Y., Munos, R., and Szepesv{\'a}ri, C. (2009).
 \newblock Exploration--exploitation tradeoff using variance estimates in
@@ -91,12 +86,6 @@ Fialho, {\'A}., Schoenauer, M., and Sebag, M. (2009).
 \newblock In {\em Proceedings of the 11th Annual conference on Genetic and
   evolutionary computation}, pages 779--786. ACM.
 
-\bibitem[French, 1982]{french1982sequencing}
-French, S. (1982).
-\newblock {\em Sequencing and scheduling: An introduction to the mathematics of
-  the job-shop}.
-\newblock Ellis Horwood Chichester, Chichester, England.
-
 \bibitem[Gelly et~al., 2008]{Gelly2008}
 Gelly, S., Hoock, J.-B., Rimmel, A., Teytaud, O., and Kalemkarian, Y. (2008).
 \newblock On the parallelization of monte-carlo planning.
@@ -115,11 +104,6 @@ Goldberg, D.~E. and Lingle, R. (1985).
 \newblock Alleles, loci, and the traveling salesman problem.
 \newblock {\em Proceedings of the First International Conference on Genetic
   Algorithms}, pages 154--159.
-
-\bibitem[Gupta and Stafford~Jr, 2006]{gupta2006flowshop}
-Gupta, J.~N. and Stafford~Jr, E.~F. (2006).
-\newblock Flowshop scheduling research after five decades.
-\newblock {\em European Journal of Operational Research}, 169(3):699--711.
 
 \bibitem[Harik, 1995]{Harik1995}
 Harik, G.~R. (1995).

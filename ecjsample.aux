@@ -14,7 +14,7 @@
 \newlabel{section:cvrp}{{2.2}{2}}
 \citation{toth2001vehicle}
 \citation{toth2001vehicle}
-\citation{gupta2006flowshop,french1982sequencing,allahverdi2008survey}
+\citation{gupta2006flowshop french1982sequencing,allahverdi2008survey}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Permutation Flow-Shop Scheduling Problem}{3}}
 \citation{marti2011linear}
 \citation{schiavinotto2004}
@@ -53,15 +53,15 @@
 \citation{ceberio2012review}
 \citation{tsutsui2006comparative}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Verification by sweeping}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}The Enumeration Method}{8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Difference of average of each probability $p$ on LOP\relax }}{9}}
 \newlabel{fig:sweep_lop}{{2}{9}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}The Enumeration Method}{9}}
-\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces The Enumeration Model\relax }}{10}}
-\newlabel{alg:enumeration_method}{{1}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}The Bayesian Method}{10}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces The Enumeration Model\relax }}{9}}
+\newlabel{alg:enumeration_method}{{1}{9}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Rank of algorithms, comparison for the 2-model enumeration method\relax }}{10}}
+\newlabel{tb:enumeration_case1}{{2}{10}}
 \citation{lee2012bayesian}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Rank of algorithms, comparison for the 2-model enumeration method\relax }}{11}}
-\newlabel{tb:enumeration_case1}{{2}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}The Bayesian Method}{11}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1}The Bayesian Posterior Probability}{11}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Model Adaptation}{11}}
 \@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces The Bayesian Method\relax }}{12}}
@@ -69,6 +69,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Empirical Study}{12}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces (Temp)The posterior of the semantic model, tournament selection $S=2$ \relax }}{13}}
 \newlabel{fig:bayesian_quality}{{3}{13}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Multi-armed Bandit Based Model Adaptation}{13}}
 \citation{Mohri2005,Kuleshov2000}
 \citation{lai1985asymptotically}
 \citation{Auer2002,Auer2002ucb}
@@ -76,16 +77,15 @@
 \citation{Kocsis2006}
 \citation{Kocsis2006,Gelly2007,Gelly2008}
 \citation{Auer2002}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Multi-armed Bandit Based Model Adaptation}{14}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Multi-armed Bandit Problem}{14}}
 \citation{audibert2009exploration}
 \citation{Kuleshov2000}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}The Proposed Framework}{15}}
 \citation{fialho2010analyzing}
 \citation{barbosa2000adaptive,fialho2008extreme,fialho2009analysis,lobo1997decision,tuson1998adapting}
 \citation{Davis:1989:AOP:93126.93146}
 \citation{Julstrom:1995:YDM:645514.657934}
 \citation{Auer2002}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}The Proposed Framework}{15}}
 \citation{DeRainville:2013:SCC:2463372.2463556}
 \citation{toth2001vehicle}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The Model Adaptation Flow\relax }}{16}}
@@ -116,10 +116,12 @@
 \newlabel{fig:essence2}{{8}{22}}
 \@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces  Success rates of EHM+NHM with the sweeping probability choosing the node distance. \relax }}{22}}
 \newlabel{fig:sweep_imp}{{9}{22}}
+\citation{ceberio2012review}
 \@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Semantic models and their corresponding distance measures\relax }}{23}}
 \newlabel{tb:model_distance}{{5}{23}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces  Improvements in NFE of RTR with the model-associated method on LOP \relax }}{23}}
 \newlabel{fig:enum2_model}{{10}{23}}
+\citation{ceberio2012review}
 \@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces The result of comparing between the original reward and the modified reward on TSP\relax }}{24}}
 \newlabel{tb:reward}{{6}{24}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces  Rank results of EHM, NHM and PL with different window sizes \relax }}{25}}
@@ -129,48 +131,45 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Empirical Study}{26}}
 \bibstyle{apalike}
 \bibdata{thesis}
-\bibcite{allahverdi2008survey}{{1}{2008}{{Allahverdi et~al.}}{{}}}
-\bibcite{audibert2009exploration}{{2}{2009}{{Audibert et~al.}}{{}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces  ARPD results of MABMA and MABMA with the model-associated method on TSP, QAP, LOP, CVRP and FSSP. \relax }}{27}}
-\newlabel{fig:arpdi}{{13}{27}}
+\bibcite{audibert2009exploration}{{1}{2009}{{Audibert et~al.}}{{}}}
+\bibcite{Auer2002ucb}{{2}{2003}{{Auer}}{{}}}
+\bibcite{Auer2002}{{3}{2002}{{Auer et~al.}}{{}}}
+\bibcite{barbosa2000adaptive}{{4}{2000}{{Barbosa and S{\'a}}}{{}}}
+\bibcite{bosman2001crossing}{{5}{2001}{{Bosman and Thierens}}{{}}}
+\bibcite{ceberio2012review}{{6}{2012}{{Ceberio et~al.}}{{}}}
+\bibcite{ceberio2011introducing}{{7}{2011}{{Ceberio et~al.}}{{}}}
+\bibcite{ceberio2013plackett}{{8}{2013}{{Ceberio et~al.}}{{}}}
 \@writefile{toc}{\contentsline {section}{\numberline {9}Conclusion}{27}}
-\bibcite{Auer2002ucb}{{3}{2003}{{Auer}}{{}}}
-\bibcite{Auer2002}{{4}{2002}{{Auer et~al.}}{{}}}
-\bibcite{barbosa2000adaptive}{{5}{2000}{{Barbosa and S{\'a}}}{{}}}
-\bibcite{bosman2001crossing}{{6}{2001}{{Bosman and Thierens}}{{}}}
-\bibcite{ceberio2012review}{{7}{2012}{{Ceberio et~al.}}{{}}}
-\bibcite{ceberio2011introducing}{{8}{2011}{{Ceberio et~al.}}{{}}}
-\bibcite{ceberio2013plackett}{{9}{2013}{{Ceberio et~al.}}{{}}}
-\bibcite{dantzig1959}{{10}{1959}{{Dantzig and Ramser}}{{}}}
-\bibcite{Davis:1989:AOP:93126.93146}{{11}{1989}{{Davis}}{{}}}
-\bibcite{DeRainville:2013:SCC:2463372.2463556}{{12}{2013}{{De~Rainville et~al.}}{{}}}
-\bibcite{fialho2008extreme}{{13}{2008}{{Fialho et~al.}}{{}}}
-\bibcite{fialho2010analyzing}{{14}{2010}{{Fialho et~al.}}{{}}}
-\bibcite{fialho2009analysis}{{15}{2009}{{Fialho et~al.}}{{}}}
-\bibcite{french1982sequencing}{{16}{1982}{{French}}{{}}}
-\bibcite{Gelly2008}{{17}{2008}{{Gelly et~al.}}{{}}}
-\bibcite{Gelly2007}{{18}{2007}{{Gelly and Silver}}{{}}}
-\bibcite{goldberg1985alleles}{{19}{1985}{{Goldberg and Lingle}}{{}}}
-\bibcite{gupta2006flowshop}{{20}{2006}{{Gupta and Stafford~Jr}}{{}}}
-\bibcite{Harik1995}{{21}{1995}{{Harik}}{{}}}
-\bibcite{hunter2004mm}{{22}{2004}{{Hunter}}{{}}}
-\bibcite{Julstrom:1995:YDM:645514.657934}{{23}{1995}{{Julstrom}}{{}}}
-\bibcite{Kocsis2006}{{24}{2006}{{Kocsis and Szepesv{\'a}ri}}{{}}}
-\bibcite{koopmans1957assignment}{{25}{1957}{{Koopmans and Beckmann}}{{}}}
-\bibcite{Kuleshov2000}{{26}{2000}{{Kuleshov and Doina}}{{}}}
-\bibcite{lai1985asymptotically}{{27}{1985}{{Lai and Robbins}}{{}}}
-\bibcite{lee2012bayesian}{{28}{2012}{{Lee}}{{}}}
-\bibcite{lobo1997decision}{{29}{1997}{{Lobo and Goldberg}}{{}}}
-\bibcite{luce2005individual}{{30}{2005}{{Luce}}{{}}}
-\bibcite{marden1996analyzing}{{31}{1996}{{Marden}}{{}}}
-\bibcite{marti2011linear}{{32}{2011}{{Mart{\'\i } and Reinelt}}{{}}}
-\bibcite{Mohri2005}{{33}{2005}{{Mohri}}{{}}}
-\bibcite{pelikan2007dependency}{{34}{2007}{{Pelikan et~al.}}{{}}}
-\bibcite{plackett1975analysis}{{35}{1975}{{Plackett}}{{}}}
-\bibcite{schiavinotto2004}{{36}{2004}{{Schiavinotto and St{\"u}tzle}}{{}}}
-\bibcite{toth2001vehicle}{{37}{2001}{{Toth and Vigo}}{{}}}
-\bibcite{tsutsui2002probabilistic}{{38}{2002}{{Tsutsui}}{{}}}
-\bibcite{tsutsui2006comparative}{{39}{2006}{{Tsutsui}}{{}}}
-\bibcite{tsutsui2006node}{{40}{2006}{{Tsutsui et~al.}}{{}}}
-\bibcite{tsutsui2004solving}{{41}{2004}{{Tsutsui and Wilson}}{{}}}
-\bibcite{tuson1998adapting}{{42}{1998}{{Tuson and Ross}}{{}}}
+\bibcite{dantzig1959}{{9}{1959}{{Dantzig and Ramser}}{{}}}
+\bibcite{Davis:1989:AOP:93126.93146}{{10}{1989}{{Davis}}{{}}}
+\bibcite{DeRainville:2013:SCC:2463372.2463556}{{11}{2013}{{De~Rainville et~al.}}{{}}}
+\bibcite{fialho2008extreme}{{12}{2008}{{Fialho et~al.}}{{}}}
+\bibcite{fialho2010analyzing}{{13}{2010}{{Fialho et~al.}}{{}}}
+\bibcite{fialho2009analysis}{{14}{2009}{{Fialho et~al.}}{{}}}
+\bibcite{Gelly2008}{{15}{2008}{{Gelly et~al.}}{{}}}
+\bibcite{Gelly2007}{{16}{2007}{{Gelly and Silver}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces  ARPD results of MABMA and MABMA with the model-associated method on TSP, QAP, LOP, CVRP and FSSP. \relax }}{28}}
+\newlabel{fig:arpdi}{{13}{28}}
+\bibcite{goldberg1985alleles}{{17}{1985}{{Goldberg and Lingle}}{{}}}
+\bibcite{Harik1995}{{18}{1995}{{Harik}}{{}}}
+\bibcite{hunter2004mm}{{19}{2004}{{Hunter}}{{}}}
+\bibcite{Julstrom:1995:YDM:645514.657934}{{20}{1995}{{Julstrom}}{{}}}
+\bibcite{Kocsis2006}{{21}{2006}{{Kocsis and Szepesv{\'a}ri}}{{}}}
+\bibcite{koopmans1957assignment}{{22}{1957}{{Koopmans and Beckmann}}{{}}}
+\bibcite{Kuleshov2000}{{23}{2000}{{Kuleshov and Doina}}{{}}}
+\bibcite{lai1985asymptotically}{{24}{1985}{{Lai and Robbins}}{{}}}
+\bibcite{lee2012bayesian}{{25}{2012}{{Lee}}{{}}}
+\bibcite{lobo1997decision}{{26}{1997}{{Lobo and Goldberg}}{{}}}
+\bibcite{luce2005individual}{{27}{2005}{{Luce}}{{}}}
+\bibcite{marden1996analyzing}{{28}{1996}{{Marden}}{{}}}
+\bibcite{marti2011linear}{{29}{2011}{{Mart{\'\i } and Reinelt}}{{}}}
+\bibcite{Mohri2005}{{30}{2005}{{Mohri}}{{}}}
+\bibcite{pelikan2007dependency}{{31}{2007}{{Pelikan et~al.}}{{}}}
+\bibcite{plackett1975analysis}{{32}{1975}{{Plackett}}{{}}}
+\bibcite{schiavinotto2004}{{33}{2004}{{Schiavinotto and St{\"u}tzle}}{{}}}
+\bibcite{toth2001vehicle}{{34}{2001}{{Toth and Vigo}}{{}}}
+\bibcite{tsutsui2002probabilistic}{{35}{2002}{{Tsutsui}}{{}}}
+\bibcite{tsutsui2006comparative}{{36}{2006}{{Tsutsui}}{{}}}
+\bibcite{tsutsui2006node}{{37}{2006}{{Tsutsui et~al.}}{{}}}
+\bibcite{tsutsui2004solving}{{38}{2004}{{Tsutsui and Wilson}}{{}}}
+\bibcite{tuson1998adapting}{{39}{1998}{{Tuson and Ross}}{{}}}

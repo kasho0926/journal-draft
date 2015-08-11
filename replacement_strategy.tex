@@ -166,7 +166,13 @@ Based on the assumption that the successes of the replacements with RTR keeps mo
 0, & \mbox{otherwise.}
 \end{cases}
 \]
-To investigate the performance of the new reward policy, we test MABMA with the model-associated method using the original reward policy and the new reward policy respectively. In this experiment, EHM and NHM are used, the instances of TSP are used: $bays29$, $eil51$, the population size $N$ is $\ell$ and maximum NFE $E_{max}$ is $\ell\times 40000$. We compare the usage of the correct semantic model--EHM at $3000$-th generation and the fitness on termination.  The results are shown in Table \ref{tb:reward}.  This experiment indicates that the new reward policy outperform the original reward policy.  As we can see, the usage of EHM with the new reward policy is higher than with the original reward policy at $3000$-th generation. EHM would keep higher usage for a long time until the successful replacement is hard for both semantic models. This is means that the semantic RTR is helpful for the model adaptation.
+To investigate the performance of the new reward policy, we test MABMA with the model-associated method using the original reward policy and the new reward policy respectively. In this experiment, EHM and NHM are used, the population size $N$ is $\ell$ and maximum NFE $E_{max}$ is $\ell\times 40000$. We select 50 instances of TSP for testing which can be divided into two parts. One part consists of 24 instances which were used in~\cite{ceberio2012review} : $bays29$, $berlin52$, $burma14$, $ch130$, $dantzig42$, $eil51$, $eil76$, $eil101$, $fri26$, $gr17$, $gr24$, $gr48$, $gr96$, $gr137$, $hk48$, $pr76$, $pr107$, $pr124$, $pr136$, $rat99$, $st70$, $swiss42$, $ulysses16$, $ulysses22$. The remaining instances are chosen by considering small, medium and large problem size as follows:
+\begin{itemize}
+    \item Small: $br17$, $gr21$, $bayg29$, $ftv33$, $ftv35$, $ftv38$, $p43$, $ftv47$, $att48$, $ry48p$,
+    \item Medium: $ft53$, $ftv55$, $brazil58$, $ftv64$, $ft70$, $ftv70$ and
+    \item Large: $kroA100$,	$kroB100$,	$kroC100$,	$kroD100$,	$kroE100$,	$gr120$,	$bier127$,	$pr144$,	$ch150$.
+\end{itemize}
+We compare the usage of the correct semantic model--EHM at $3000$-th generation and the fitness on termination. The results are shown in Table \ref{tb:reward}. This experiment indicates that the new reward policy outperform the original reward policy. As we can see, the usage of EHM with the new reward policy is higher than with the original reward policy at $3000$-th generation. EHM would keep higher usage for a long time until the successful replacement is hard for both semantic models. This is means that the semantic RTR is helpful for the model adaptation.
 
 \begin{table}[htbp]
     \centering
@@ -181,13 +187,13 @@ To investigate the performance of the new reward policy, we test MABMA with the 
 \end{table}
 \subsection*{Window Size}
 
-In this subsection, we investigate the window size of RTR on permutation problems. For this purpose, we test EHM with the edge distance, NHM with the node distance and PL with the order distance on the following instances:
+In this section, we investigate the window size of RTR on permutation problems. For this purpose, we test EHM with the edge distance, NHM with the node distance and PL with the order distance on TSP, QAP and LOP respectively. The different window sizes and the corresponding distance measures are used, the population size $N$ is $\ell$, maximum NFE $E_{max}$ is $\ell\times 5000$, and each algorithm repeats three times. We select 20 instances which were used in~\cite{ceberio2012review} for each problem type:
 \begin{itemize}
-    \item TSP:$bays29$, $ berlin52$, $ ch130$, $ dantzig42$, $eil51$, $ eil76$, $eil101$, $ fri26$, $ gr17$, $gr24$, $ gr48$, $ gr96$, $ gr137$, $ hk48$, $ pr76$, $ pr107$, $pr124$, $ pr136$, $rat99$, $st70$, $swiss42$, 
-    \item QAP:$bur26a$, $ bur26b$, $ bur26c$, $bur26d$, $ nug17$, $nug18$, $ nug20$, $ nug21$, $tai10a$, $tai10b$, $tai12a$, $tai12b$, $tai15a$, $tai15b$, $tai20a$, $tai25a$, $tai30a$, $tai35a$, $tai35b$, $tai40a$ and
-    \item LOP:$t75i11xx$, $t65f11xx$, $ t65b11xx$, $ t65d11xx$, $ t65i11xx$, $t65l11xx$, $ t65n11xx$, $ t65w11xx$, $ t69r11xx$, $t70b11xx$, $ t70d11xx$, $ t70d11xxb$, $be75eec$, $ be75np$, $ be75oi$, $ tiw56n54$, $tiw56n58$, $ tiw56n66$, $stabu70$, $ stabu74$, $ usa70$
+    \item TSP: $bays29$, $ berlin52$, $ ch130$, $ dantzig42$, $eil51$, $ eil76$, $eil101$, $ fri26$, $ gr17$, $gr24$, $ gr48$, $ gr96$, $ gr137$, $ hk48$, $ pr76$, $ pr107$, $pr124$, $ pr136$, $rat99$, $st70$, $swiss42$, 
+    \item QAP: $bur26a$, $ bur26b$, $ bur26c$, $bur26d$, $ nug17$, $nug18$, $ nug20$, $ nug21$, $tai10a$, $tai10b$, $tai12a$, $tai12b$, $tai15a$, $tai15b$, $tai20a$, $tai25a$, $tai30a$, $tai35a$, $tai35b$, $tai40a$ and
+    \item LOP: $t75i11xx$, $t65f11xx$, $ t65b11xx$, $ t65d11xx$, $ t65i11xx$, $t65l11xx$, $ t65n11xx$, $ t65w11xx$, $ t69r11xx$, $t70b11xx$, $ t70d11xx$, $ t70d11xxb$, $be75eec$, $ be75np$, $ be75oi$, $ tiw56n54$, $tiw56n58$, $ tiw56n66$, $stabu70$, $ stabu74$, $ usa70$.
 \end{itemize} 
-, with the different window sizes, the population size $N=\ell$ and maximum NFE $E_{max}=\ell\times 5000$, the corresponding distance measures, and repeat three times respectively. In the experiments, we keep the template in the window of RTR at each generation. The performance measure employed in our study is the number of best rank which mean that the algorithm with the size has best performance of NFE and fitness.
+ In the experiments, we keep the template in the window of RTR at each generation. The performance measure employed in our study is the number of best rank which means that the algorithm with the size has best performance of NFE and fitness.
 
 \begin{figure}[htbp] 
         \centering

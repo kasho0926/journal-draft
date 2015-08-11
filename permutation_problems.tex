@@ -55,9 +55,9 @@ The objective function of the fvVRPTW is like the one defined in Section \ref{se
 where $D_i$ is the delay penalty of vehicle $i$. The delay penalty $D_i$ defined as the difference of the arrival time and the location closing time. For more specific definition, please refer to~\citep{toth2001vehicle}.
 
 \subsection{Permutation Flow-Shop Scheduling Problem}
-In the permutation flow-shop scheduling problem (PFSP)~\citep{gupta2006flowshop, french1982sequencing, allahverdi2008survey}, $n$ jobs $(i = 1,2,...,n)$ have to be scheduled on $m$ machines $(j = 1,2,...,m)$ in such a way that a given criterion is minimized. A job consists of $m$ operations and the $j$-th operation of each job must be processed on machine $j$ for a given specific processing time without interruption. The processing times are fixed, non-negative values and every job is available at time zero. At a given time, a job can start on the $j$-th machine when its $(j-1)$-th operation has finished on machine $(j-1)$, and machine $j$ is free. 
+The permutation flow-shop scheduling problem (PFSP)~\citep{gupta2006flowshop french1982sequencing, allahverdi2008survey}is an NP-hard combinatorial optimization problem which schedules $n$ jobs $(i = 1,2,...,n)$ on $m$ machines $(j = 1,2,...,m)$ in such a way that a given criterion is minimized. Each job consists of $m$ operations. A job can start on the $j$-th machine only if its $(j-1)$-th operation has finished, and no job on the machine $j$. No two operations of a job are processed at the same time and a machine can process at most one job at a time.  
 
-The goal of the optimization is to minimize the processing time of all the jobs, or in other words, to minimize the processing time of the last job. The solution is encoded as a permutation of length $n$ that represents the ordering in which the jobs are going to be processed. This means that for each machine the order of the jobs is the same and it is given as a permutation. For instance, in a problem of 4 jobs and 3 machines, the solution $(1,2,3,4)$ represents that job 1 is processed first, next job 2 and so on.
+The job sequence is same on all the machines. The common objectives are to minimize the makespan or the sum of the completion times of the jobs. The solution can be encoded as a permutation that represents the sequence of the jobs which are going to be processed. For instance, in a problem of 4 jobs and 3 machines, the solution $(1,2,3,4)$ represents that job 1 is processed first, next job 2 and so on.
 
 Let $p_{i,j}$ denote the processing time for job $i$ on machine $j$,and $c_{i,j}$ denote the
 completion time of job $i$ on machine $j$. Then $c_{\pi_{i},j}$ is the completion time of the job scheduled in the $i$-th position in the sequence on machine $j$. $c_{\pi_{i},j}$ is computed as $c_{\pi_{i},j} = p_{\pi_i,j} + \max{ (c_{\pi_{i},j-1},c_{\pi_{i-1},j}) }$. Therefore, the objective function $F$ is defined as follows:
@@ -69,9 +69,9 @@ As can be seen, the quality of a solution of the problem is given by the process
 
 
 \subsection{Linear Ordering Problem}
-The linear ordering problem (LOP)~\citep{marti2011linear} arises in a large number of applications in a number of fields such as economy, sociology, graph theory, archaeology, and task scheduling~\citep{schiavinotto2004}. Two well known examples of LOP are the triangularization of input–output matrices of an economy, where the optimal ordering allows economists to extract some information about the stability of the economy, and the stratification problem in archaeology, where LOP is used to find the most probable chronological order
+The linear ordering problem (LOP)~\citep{marti2011linear} arises in a large number of applications in a number of fields such as economy, sociology, graph theory, archaeology, and task scheduling~\citep{schiavinotto2004}. Two well known examples of LOP are the triangularization of input–output matrices of an economy, where the optimal ordering allows economists to extract some information about the stability of the economy, and the stratification problem in archaeology, where LOP is used to find the most probable chronological order.
 
-In LOP, for an given $n\times n$ matrix $C=[c_{ij}]$, and the goal is to determine a simultaneous permutation of the rows and columns of $C$ such that the sum of the superdiagonal entries is as large as possible (or equivalently, the sum of the subdiagonal entries is as small as possible). The solution of LOP is encoded as permutation of length $n$ where each index $\pi_i$ $(i=1,...,n)$ means that the values of the $\pi_i$-th row and column of the matrix are reallocated to the $i$-th position. The objective function is defined as follows:
+In LOP, for an given $n\times n$ matrix $C=[c_{ij}]$, the goal is to find a permutation of the rows and columns of $C$ such that the sum of the superdiagonal entries is as large as possible . The solution of LOP can be encoded as a permutation where each index $\pi_i$ $(i=1,...,n)$ represents that the values of the $\pi_i$-th row and column of the matrix are reallocated to the $i$-th position. The objective function is defined as follows:
 \begin{equation*}
 	F(\pi_1, \pi_2, ... , \pi_n) = \sum^{n}_{i=1}\sum^{n}_{j=i}{ c_{\pi_i\pi_j} } \text{.}
 \end{equation*}
@@ -86,7 +86,7 @@ Specifically, for the two given $n\times n$ input matrices with real elements $H
 	F(\pi_1, \pi_2, ... , \pi_n) = \sum^{n}_{i=1}\sum^{n}_{j=1}{ h_{ij}d_{\pi_i\pi_j} } \text{.}
 \end{equation*}
 
-In the solution of QAP, the absolute position of a facility (node) effects the cost between 
+In the solution of QAP, the absolute position of a facility effects the cost between 
 The quality of the solution is determined by the absolute position of each index (facility) in the permutation as regards the absolute position of the remaining indices.
 
 
